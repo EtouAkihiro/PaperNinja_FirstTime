@@ -1,0 +1,623 @@
+﻿Log file open, 05/06/21 13:13:06
+LogInit:Display: Running engine for game: PaperNinja
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2021.05.06-04.13.06:750][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2021.05.06-04.13.06:847][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2021.05.06-04.13.06:902][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2021.05.06-04.13.07:018][  0]LogInit: Object subsystem initialized
+[2021.05.06-04.13.07:076][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2021.05.06-04.13.07:076][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.05.06-04.13.07:076][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2021.05.06-04.13.07:076][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.05.06-04.13.07:076][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2021.05.06-04.13.07:076][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.05.06-04.13.07:104][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.06-04.13.07:104][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.06-04.13.07:171][  0]LogInit: Computer: DESKTOP-1JEPUCH
+[2021.05.06-04.13.07:171][  0]LogInit: User: magi1
+[2021.05.06-04.13.07:171][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.05.06-04.13.07:171][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.06-04.13.07:171][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx) Virtual=131072.0GB
+[2021.05.06-04.13.07:171][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.06-04.13.07:171][  0]LogMemory: Process Physical Memory: 50.70 MB used, 50.71 MB peak
+[2021.05.06-04.13.07:171][  0]LogMemory: Process Virtual Memory: 27.02 MB used, 27.02 MB peak
+[2021.05.06-04.13.07:171][  0]LogMemory: Physical Memory: 7600.39 MB used, 16190.91 MB total
+[2021.05.06-04.13.07:171][  0]LogMemory: Virtual Memory: 4432.88 MB used, 134217728.00 MB total
+[2021.05.06-04.13.07:337][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 1030 (Feature Level 11_0)
+[2021.05.06-04.13.07:337][  0]LogD3D11RHI: Adapter has 1982MB of dedicated video memory, 0MB of dedicated system memory, and 8095MB of shared system memory, 1 output[s]
+[2021.05.06-04.13.07:364][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) UHD Graphics 630 (Feature Level 11_0)
+[2021.05.06-04.13.07:364][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8095MB of shared system memory, 1 output[s]
+[2021.05.06-04.13.07:366][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2021.05.06-04.13.07:366][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8095MB of shared system memory, 0 output[s]
+[2021.05.06-04.13.07:366][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2021.05.06-04.13.07:372][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.05.06-04.13.07:446][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.06-04.13.09:229][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (-29098895) String: (現行レベルをディスクに保存)
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Engine/ja/Engine.locres) Hash: (-1280300587) String: (選択データをvlogファイルに保存)
+[2021.05.06-04.13.09:230][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (-630476809) String: ({0} にインポート...)
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (1271782899) String: (このフォルダへファイルからアセットをインポート)
+[2021.05.06-04.13.09:301][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2021.05.06-04.13.14:770][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.05.06-04.13.15:539][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.05.06-04.13.15:683][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2021.05.06-04.13.16:090][  0]LogDerivedDataCache: Loaded boot cache 0.40s 39MB C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2021.05.06-04.13.16:090][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2021.05.06-04.13.16:090][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.06-04.13.16:090][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.06-04.13.16:247][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.06-04.13.16:279][  0]LogDerivedDataCache: Using Local data cache path C:/Users/magi1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.06-04.13.21:496][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2021.05.06-04.13.21:496][  0]LogMeshUtilities: No automatic mesh merging module available
+[2021.05.06-04.13.25:285][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.05.06-04.13.25:672][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2021.05.06-04.13.45:011][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.06-04.13.46:104][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.06-04.13.46:104][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.06-04.13.46:104][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.06-04.13.46:104][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2021.05.06-04.13.46:104][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2021.05.06-04.13.46:113][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.06-04.13.47:503][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2021.05.06-04.13.47:503][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2021.05.06-04.13.47:915][  0]LogEngine: Initializing Engine...
+[2021.05.06-04.13.50:816][  0]LogInit: XAudio2 using 'LCD-MF211X (インテル(R) ディスプレイ用オーディオ)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.05.06-04.13.50:906][  0]LogInit: FAudioDevice initialized.
+[2021.05.06-04.13.51:320][  0]LogAIModule: Creating AISystem for world NewWorld
+[2021.05.06-04.13.51:410][  0]LogDerivedDataCache: Saved boot cache 0.01s 39MB C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2021.05.06-04.13.51:412][  0]LogInit: Texture streaming: Enabled
+[2021.05.06-04.13.52:190][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2021.05.06-04.13.52:190][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2021.05.06-04.13.52:190][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2021.05.06-04.13.52:190][  0]LogAnalytics: SetUserId 4ca6cdb54b49a3828a3729827b452fbf|26e104a70cca4c039c47e7f62a1294d8|c0658f8d-0b33-4962-a1a3-653c16369ce8
+[2021.05.06-04.13.52:190][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2021.05.06-04.13.52:333][  0]LogInit: Transaction tracking system initialized
+[2021.05.06-04.13.53:193][  0]BlueprintLog: New page: エディタの読み込み
+[2021.05.06-04.13.53:356][  0]LogAssetRegistry: FAssetRegistry took 0.0549 seconds to start up
+[2021.05.06-04.13.53:357][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2021.05.06-04.13.55:428][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.05.06-04.13.55:777][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.05.06-04.13.56:528][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2021.05.06-04.13.56:529][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2021.05.06-04.13.56:623][  0]LogConsoleResponse:Display: 
+[2021.05.06-04.13.58:463][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2021.05.06-04.13.59:178][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.06-04.13.59:202][  0]Cmd: MAP LOAD FILE="../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.06-04.13.59:235][  0]LightingResults: New page: ライティングのビルド
+[2021.05.06-04.13.59:398][  0]MapCheck: New page: マップをチェック
+[2021.05.06-04.13.59:398][  0]LightingResults: New page: <何も選択されていません>
+[2021.05.06-04.13.59:569][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFA191CEA0
+[2021.05.06-04.14.05:454][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.06-04.14.05:484][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.06-04.14.05:501][  0]Cmd: MAP CHECKDEP
+[2021.05.06-04.14.05:502][  0]MapCheck: New page: Minimal_Default - 2021/05/06 22:14:05
+[2021.05.06-04.14.05:601][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 99.671ミリ秒かかりました。
+[2021.05.06-04.14.05:601][  0]LogFileHelpers: Loading map 'Minimal_Default' took 6.409
+[2021.05.06-04.14.06:741][  0]LogCollectionManager: Loaded 0 collections in 0.000971 seconds
+[2021.05.06-04.14.06:777][  0]LogContentBrowser: Native class hierarchy populated in 0.0253 seconds. Added 1696 classes and 261 folders.
+[2021.05.06-04.14.06:978][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2021.05.06-04.14.07:112][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0021 seconds. Added 1 classes and 3 folders.
+[2021.05.06-04.14.07:850][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2021.05.06-04.14.07:880][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2021.05.06-04.14.07:906][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2021.05.06-04.14.07:974][  0]LogLoad: Full Startup: 64.75 seconds (BP compile: 0.30 seconds)
+[2021.05.06-04.14.08:441][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2021.05.06-04.14.08:950][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2021.05.06-04.14.09:687][  0]LogRenderer:Warning: Reallocating scene render targets to support 1200x576 (Frame:3).
+[2021.05.06-04.14.10:738][  4]LogAssetRegistry: Asset discovery search completed in 17.4371 seconds
+[2021.05.06-04.30.26:719][177]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Stage01'
+[2021.05.06-04.30.27:422][238]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Test'
+[2021.05.06-04.30.28:854][337]Cmd: MAP LOAD FILE="../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_BasicBlueprint.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.06-04.30.28:854][337]LightingResults: New page: ライティングのビルド
+[2021.05.06-04.30.28:896][337]LoadErrors: New page: マップをロード中: Test_BasicBlueprint.umap
+[2021.05.06-04.30.28:913][337]MapCheck: New page: マップをチェック
+[2021.05.06-04.30.28:913][337]LightingResults: New page: <何も選択されていません>
+[2021.05.06-04.30.28:932][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CF98053E20
+[2021.05.06-04.30.28:996][337]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.06-04.30.28:998][337]LogAIModule: Creating AISystem for world Test_BasicBlueprint
+[2021.05.06-04.30.29:021][337]Cmd: MAP CHECKDEP
+[2021.05.06-04.30.29:021][337]MapCheck: New page: Test_BasicBlueprint - 2021/05/06 22:30:29
+[2021.05.06-04.30.29:110][337]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 88.606ミリ秒かかりました。
+[2021.05.06-04.30.29:110][337]LogFileHelpers: Loading map 'Test_BasicBlueprint' took 0.257
+[2021.05.06-04.30.52:095][ 51]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Test'
+[2021.05.06-04.31.01:564][  3]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFA8551440
+[2021.05.06-04.31.10:441][843]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.06-04.31.10:519][843]LightingResults: New page: ライティングのビルド
+[2021.05.06-04.31.10:572][843]LoadErrors: New page: マップをロード中: Template_Default.umap
+[2021.05.06-04.31.10:573][843]MapCheck: New page: マップをチェック
+[2021.05.06-04.31.10:573][843]LightingResults: New page: <何も選択されていません>
+[2021.05.06-04.31.10:577][843]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFC0F92E80
+[2021.05.06-04.31.10:651][843]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.06-04.31.10:655][843]LogAIModule: Creating AISystem for world Untitled_1
+[2021.05.06-04.31.10:662][843]Cmd: MAP CHECKDEP
+[2021.05.06-04.31.10:662][843]MapCheck: New page: Untitled_1 - 2021/05/06 22:31:10
+[2021.05.06-04.31.10:751][843]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 88.978ミリ秒かかりました。
+[2021.05.06-04.31.10:751][843]LogFileHelpers: Loading map 'Template_Default' took 0.312
+[2021.05.06-04.32.23:018][435]LogSavePackage: Save=17.208599ms
+[2021.05.06-04.32.23:018][435]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/Test_Actor_MovementF01DFC2E498F99C42CBB7C901A355E47.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Actor_Movement.umap'
+[2021.05.06-04.32.23:044][435]LogFileHelpers: Saving map 'Test_Actor_Movement' took 1.172
+[2021.05.06-04.32.24:911][651]Cmd: MAP LOAD FILE="../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Actor_Movement.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.06-04.32.24:911][651]LightingResults: New page: ライティングのビルド
+[2021.05.06-04.32.24:947][651]LoadErrors: New page: マップをロード中: Test_Actor_Movement.umap
+[2021.05.06-04.32.24:947][651]MapCheck: New page: マップをチェック
+[2021.05.06-04.32.24:947][651]LightingResults: New page: <何も選択されていません>
+[2021.05.06-04.32.24:968][651]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CF98F3EA20
+[2021.05.06-04.32.25:003][651]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.06-04.32.25:005][651]LogAIModule: Creating AISystem for world Test_Actor_Movement
+[2021.05.06-04.32.25:029][651]Cmd: MAP CHECKDEP
+[2021.05.06-04.32.25:029][651]MapCheck: New page: Test_Actor_Movement - 2021/05/06 22:32:25
+[2021.05.06-04.32.25:118][651]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 89.857ミリ秒かかりました。
+[2021.05.06-04.32.25:122][651]LogFileHelpers: Loading map 'Test_Actor_Movement' took 0.213
+[2021.05.06-04.34.31:275][459]BlueprintLog: New page: Test_Actor_Movement をコンパイル
+[2021.05.06-04.34.31:356][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-04.34.31:368][459]BlueprintEditorCompileResults: 情報 [1288.14] Test_Actor_Movement のコンパイルに成功しました！  [ 93 ミリ秒]
+[2021.05.06-04.34.34:107][749]LogSavePackage: Save=59.290401ms
+[2021.05.06-04.34.34:107][749]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/Test_Actor_MovementEEAED4804308A3AC499345AF78C1BD6C.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Actor_Movement.umap'
+[2021.05.06-04.34.37:052][ 88]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.06-04.34.37:055][ 88]LogPlayLevel: [PIE] Compiling Test_Actor_Movement before PIE...
+[2021.05.06-04.34.37:094][ 88]LogPlayLevel: PIE:  Blueprint regeneration took 41 ms (1 blueprints)
+[2021.05.06-04.34.37:094][ 88]PIE: New page: PIEセッション: Test_Actor_Movement (2021/05/06 22:34:37)
+[2021.05.06-04.34.37:097][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002487s)
+[2021.05.06-04.34.37:097][ 88]LogPlayLevel: PIE: World Init took: (0.000371s)
+[2021.05.06-04.34.37:097][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Actor_Movement.Test_Actor_Movement to /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement.Test_Actor_Movement (0.002966s)
+[2021.05.06-04.34.37:173][ 88]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.06-04.34.37:252][ 88]LogAIModule: Creating AISystem for world Test_Actor_Movement
+[2021.05.06-04.34.37:254][ 88]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement.Test_Actor_Movement up for play (max tick rate 0) at 2021.05.06-13.34.37
+[2021.05.06-04.34.37:255][ 88]LogWorld: Bringing up level for play took: 0.002427
+[2021.05.06-04.34.37:319][ 88]LogBlueprintUserMessages: Hello
+[2021.05.06-04.34.37:350][ 88]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement -0.633のPIE開始時間
+[2021.05.06-04.34.37:375][ 88]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:27073).
+[2021.05.06-04.34.37:403][ 89]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.065545 > MaxSimulationTimeStep (0.050) for 'PNPlayerPawn_C_0'
+[2021.05.06-04.34.39:144][283]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFA14F4720
+[2021.05.06-04.35.23:845][644]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.06-04.35.23:848][644]LogPlayLevel: [PIE] Compiling Test_Actor_Movement before PIE...
+[2021.05.06-04.35.23:887][644]LogPlayLevel: PIE:  Blueprint regeneration took 42 ms (1 blueprints)
+[2021.05.06-04.35.23:887][644]PIE: New page: PIEセッション: Test_Actor_Movement (2021/05/06 22:35:23)
+[2021.05.06-04.35.23:890][644]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002371s)
+[2021.05.06-04.35.23:890][644]LogPlayLevel: PIE: World Init took: (0.000350s)
+[2021.05.06-04.35.23:890][644]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Actor_Movement.Test_Actor_Movement to /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement.Test_Actor_Movement (0.002820s)
+[2021.05.06-04.35.23:928][644]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.06-04.35.23:929][644]LogAIModule: Creating AISystem for world Test_Actor_Movement
+[2021.05.06-04.35.23:932][644]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement.Test_Actor_Movement up for play (max tick rate 0) at 2021.05.06-13.35.23
+[2021.05.06-04.35.23:932][644]LogWorld: Bringing up level for play took: 0.002297
+[2021.05.06-04.35.23:934][644]LogBlueprintUserMessages: Hello
+[2021.05.06-04.35.23:939][644]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement -0.045のPIE開始時間
+[2021.05.06-04.35.26:659][930]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFC9CD2160
+[2021.05.06-04.35.29:780][298]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.06-04.35.29:783][298]LogPlayLevel: [PIE] Compiling Test_Actor_Movement before PIE...
+[2021.05.06-04.35.29:823][298]LogPlayLevel: PIE:  Blueprint regeneration took 43 ms (1 blueprints)
+[2021.05.06-04.35.29:823][298]PIE: New page: PIEセッション: Test_Actor_Movement (2021/05/06 22:35:29)
+[2021.05.06-04.35.29:826][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002517s)
+[2021.05.06-04.35.29:826][298]LogPlayLevel: PIE: World Init took: (0.000339s)
+[2021.05.06-04.35.29:826][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Actor_Movement.Test_Actor_Movement to /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement.Test_Actor_Movement (0.002959s)
+[2021.05.06-04.35.29:942][298]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.06-04.35.29:944][298]LogAIModule: Creating AISystem for world Test_Actor_Movement
+[2021.05.06-04.35.29:946][298]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement.Test_Actor_Movement up for play (max tick rate 0) at 2021.05.06-13.35.29
+[2021.05.06-04.35.29:946][298]LogWorld: Bringing up level for play took: 0.002132
+[2021.05.06-04.35.29:948][298]LogBlueprintUserMessages: Hello
+[2021.05.06-04.35.29:948][298]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement -0.035のPIE開始時間
+[2021.05.06-04.35.33:815][728]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFD2BB91C0
+[2021.05.06-04.37.22:566][737]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2021.05.06-04.37.24:113][873]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Materials'
+[2021.05.06-04.37.24:657][934]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Textures'
+[2021.05.06-04.37.26:772][ 58]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2021.05.06-04.37.43:434][  9]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Materials'
+[2021.05.06-04.37.44:319][115]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Textures'
+[2021.05.06-04.37.57:268][586]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Textures'
+[2021.05.06-04.38.24:814][868]LogMaterial: Missing cached shader map for material M_Shuriken, compiling. 
+[2021.05.06-04.38.30:336][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Materials/M_Shuriken" FILE="../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Props/Materials/M_Shuriken.uasset" SILENT=true
+[2021.05.06-04.38.30:473][413]LogSavePackage: Save=135.019608ms
+[2021.05.06-04.38.30:473][413]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/M_Shuriken69EAFABC460C36D14389DE874ECB928C.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Props/Materials/M_Shuriken.uasset'
+[2021.05.06-04.38.31:213][486]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Materials'
+[2021.05.06-04.38.34:226][741]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2021.05.06-04.38.34:734][802]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2021.05.06-04.38.36:534][977]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Materials'
+[2021.05.06-04.38.36:635][977]LogRenderer:Warning: Reallocating scene render targets to support 1432x760 (Frame:39895).
+[2021.05.06-04.38.44:240][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/M_Shuriken" FILE="../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Props/Textures/M_Shuriken.uasset" SILENT=true
+[2021.05.06-04.38.44:244][813]LogSavePackage: Save=1.675000ms
+[2021.05.06-04.38.44:244][813]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/M_Shuriken499DF4E1479422A95E43AC864601A81D.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Props/Textures/M_Shuriken.uasset'
+[2021.05.06-04.38.44:263][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Shuriken" FILE="../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Props/SM_Shuriken.uasset" SILENT=true
+[2021.05.06-04.38.44:521][813]LogSavePackage: Save=245.605392ms
+[2021.05.06-04.38.44:521][813]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/SM_Shuriken5B910CF340BD5E17845C1E89427D2DC8.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Props/SM_Shuriken.uasset'
+[2021.05.06-04.40.18:016][459]LogActorFactory: Actor Factory created SM_Shuriken
+[2021.05.06-04.40.18:928][559]LogActorFactory: Actor Factory created SM_Shuriken
+[2021.05.06-04.40.59:700][955]LogSavePackage: Save=57.919701ms
+[2021.05.06-04.40.59:700][955]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/Test_Actor_Movement88D18FE544FF13734A06539B8280B39A.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Actor_Movement.umap'
+[2021.05.06-04.40.59:726][955]LogFileHelpers: Saving map 'Test_Actor_Movement' took 0.204
+[2021.05.06-04.47.44:449][187]BlueprintLog: New page: Test_Actor_Movement をコンパイル
+[2021.05.06-04.47.44:496][187]BlueprintEditorCompileResults: 情報 [2081.27] Test_Actor_Movement のコンパイルに成功しました！  [ 46 ミリ秒]
+[2021.05.06-04.47.51:842][ 40]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.06-04.47.51:846][ 40]LogPlayLevel: [PIE] Compiling Test_Actor_Movement before PIE...
+[2021.05.06-04.47.51:891][ 40]LogPlayLevel: PIE:  Blueprint regeneration took 48 ms (1 blueprints)
+[2021.05.06-04.47.51:891][ 40]PIE: New page: PIEセッション: Test_Actor_Movement (2021/05/06 22:47:51)
+[2021.05.06-04.47.51:895][ 40]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2021.05.06-04.47.51:895][ 40]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2021.05.06-04.47.51:895][ 40]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2021.05.06-04.47.51:895][ 40]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2021.05.06-04.47.51:895][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003725s)
+[2021.05.06-04.47.51:896][ 40]LogPlayLevel: PIE: World Init took: (0.000419s)
+[2021.05.06-04.47.51:896][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Actor_Movement.Test_Actor_Movement to /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement.Test_Actor_Movement (0.004275s)
+[2021.05.06-04.47.51:937][ 40]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.06-04.47.51:938][ 40]LogAIModule: Creating AISystem for world Test_Actor_Movement
+[2021.05.06-04.47.51:940][ 40]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement.Test_Actor_Movement up for play (max tick rate 0) at 2021.05.06-13.47.51
+[2021.05.06-04.47.51:941][ 40]LogWorld: Bringing up level for play took: 0.002318
+[2021.05.06-04.47.51:942][ 40]LogBlueprintUserMessages: Hello
+[2021.05.06-04.47.51:943][ 40]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement -0.041のPIE開始時間
+[2021.05.06-04.47.56:335][559]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFEDF1D940
+[2021.05.06-04.48.03:319][378]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.06-04.48.03:322][378]LogPlayLevel: [PIE] Compiling Test_Actor_Movement before PIE...
+[2021.05.06-04.48.03:366][378]LogPlayLevel: PIE:  Blueprint regeneration took 46 ms (1 blueprints)
+[2021.05.06-04.48.03:366][378]PIE: New page: PIEセッション: Test_Actor_Movement (2021/05/06 22:48:03)
+[2021.05.06-04.48.03:370][378]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2021.05.06-04.48.03:370][378]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2021.05.06-04.48.03:370][378]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2021.05.06-04.48.03:370][378]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_SetActorLocation) bSelfContext == true, but no scope supplied!
+[2021.05.06-04.48.03:370][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003648s)
+[2021.05.06-04.48.03:371][378]LogPlayLevel: PIE: World Init took: (0.000324s)
+[2021.05.06-04.48.03:371][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Actor_Movement.Test_Actor_Movement to /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement.Test_Actor_Movement (0.004065s)
+[2021.05.06-04.48.03:415][378]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.06-04.48.03:418][378]LogAIModule: Creating AISystem for world Test_Actor_Movement
+[2021.05.06-04.48.03:422][378]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement.Test_Actor_Movement up for play (max tick rate 0) at 2021.05.06-13.48.03
+[2021.05.06-04.48.03:423][378]LogWorld: Bringing up level for play took: 0.004195
+[2021.05.06-04.48.03:426][378]LogBlueprintUserMessages: Hello
+[2021.05.06-04.48.03:427][378]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Actor_Movement -0.557のPIE開始時間
+[2021.05.06-04.48.11:402][326]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFEDF1C360
+[2021.05.06-04.51.12:046][474]LogSavePackage: Save=73.764702ms
+[2021.05.06-04.51.12:046][474]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/Test_Actor_Movement_Auto1DD1F56064C9BC41C07C718BA96E335DE.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/Maps/Test/Test_Actor_Movement_Auto1.umap'
+[2021.05.06-04.51.12:054][474]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_Actor_Movement' took 0.152
+[2021.05.06-04.51.12:054][474]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.152
+[2021.05.06-04.51.22:638][265]LogSavePackage: Save=74.850800ms
+[2021.05.06-04.51.22:638][265]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/Test_Actor_MovementF0F5BEBD4DAF8C5D29FC97AE167A4C40.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Actor_Movement.umap'
+[2021.05.06-04.51.22:663][265]LogFileHelpers: Saving map 'Test_Actor_Movement' took 0.247
+[2021.05.06-04.51.22:667][265]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.06-04.51.22:703][265]LightingResults: New page: ライティングのビルド
+[2021.05.06-04.51.22:750][265]LoadErrors: New page: マップをロード中: Template_Default.umap
+[2021.05.06-04.51.22:769][265]MapCheck: New page: マップをチェック
+[2021.05.06-04.51.22:769][265]LightingResults: New page: <何も選択されていません>
+[2021.05.06-04.51.22:777][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFA14F71A0
+[2021.05.06-04.51.22:777][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CF98C62B60
+[2021.05.06-04.51.22:824][265]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.06-04.51.22:827][265]LogAIModule: Creating AISystem for world Untitled_2
+[2021.05.06-04.51.22:834][265]Cmd: MAP CHECKDEP
+[2021.05.06-04.51.22:834][265]MapCheck: New page: Untitled_2 - 2021/05/06 22:51:22
+[2021.05.06-04.51.22:930][265]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 96.623ミリ秒かかりました。
+[2021.05.06-04.51.22:930][265]LogFileHelpers: Loading map 'Template_Default' took 0.265
+[2021.05.06-04.52.15:188][924]LogSavePackage: Save=16.765800ms
+[2021.05.06-04.52.15:188][924]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_Movement1D249C3F463C9569F7EF8CB800EF806E.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Movement.umap'
+[2021.05.06-04.52.15:215][924]LogFileHelpers: Saving map 'Test_Player_Movement' took 0.318
+[2021.05.06-04.52.17:484][110]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Textures'
+[2021.05.06-04.52.19:729][372]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Test'
+[2021.05.06-04.52.22:026][645]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2021.05.06-04.52.22:882][737]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2021.05.06-04.52.31:034][406]LogActorFactory: Actor Factory created SM_Shuriken
+[2021.05.06-04.52.37:615][190]LogActorFactory: Actor Factory created SM_Shuriken
+[2021.05.06-04.53.01:853][ 13]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2021.05.06-04.53.01:853][ 13]PIE: New page: PIEセッション: Test_Player_Movement (2021/05/06 22:53:01)
+[2021.05.06-04.53.01:854][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000894s)
+[2021.05.06-04.53.01:855][ 13]LogPlayLevel: PIE: World Init took: (0.000355s)
+[2021.05.06-04.53.01:855][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Movement.Test_Player_Movement to /Game/Maps/Test/UEDPIE_0_Test_Player_Movement.Test_Player_Movement (0.001348s)
+[2021.05.06-04.53.01:903][ 13]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.06-04.53.01:904][ 13]LogAIModule: Creating AISystem for world Test_Player_Movement
+[2021.05.06-04.53.01:907][ 13]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Movement.Test_Player_Movement up for play (max tick rate 0) at 2021.05.06-13.53.01
+[2021.05.06-04.53.01:907][ 13]LogWorld: Bringing up level for play took: 0.002343
+[2021.05.06-04.53.01:909][ 13]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Movement -0.074のPIE開始時間
+[2021.05.06-04.53.06:457][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFE2A30860
+[2021.05.06-04.53.12:179][157]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2021.05.06-04.53.12:179][157]PIE: New page: PIEセッション: Test_Player_Movement (2021/05/06 22:53:12)
+[2021.05.06-04.53.12:181][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000875s)
+[2021.05.06-04.53.12:181][157]LogPlayLevel: PIE: World Init took: (0.000352s)
+[2021.05.06-04.53.12:181][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Movement.Test_Player_Movement to /Game/Maps/Test/UEDPIE_0_Test_Player_Movement.Test_Player_Movement (0.001330s)
+[2021.05.06-04.53.12:214][157]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.06-04.53.12:216][157]LogAIModule: Creating AISystem for world Test_Player_Movement
+[2021.05.06-04.53.12:218][157]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Movement.Test_Player_Movement up for play (max tick rate 0) at 2021.05.06-13.53.12
+[2021.05.06-04.53.12:218][157]LogWorld: Bringing up level for play took: 0.002317
+[2021.05.06-04.53.12:220][157]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Movement 0.237のPIE開始時間
+[2021.05.06-04.53.15:324][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFC9BF4E00
+[2021.05.06-04.57.10:464][ 27]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2021.05.06-04.57.10:464][ 27]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2021.05.06-04.57.12:727][190]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-04.57.12:928][190]LogSavePackage: Save=20.942301ms
+[2021.05.06-04.57.12:928][190]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_Movement2400EDC64B2CDCDDEBA365964E85CC43.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Movement.umap'
+[2021.05.06-04.57.12:963][190]LogFileHelpers: Saving map 'Test_Player_Movement' took 0.179
+[2021.05.06-04.57.12:979][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNShurikenActor" FILE="../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNShurikenActor.uasset" SILENT=true
+[2021.05.06-04.57.13:217][190]LogSavePackage: Save=235.439102ms
+[2021.05.06-04.57.13:217][190]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/PNShurikenActorD1AD524A4AEAAACA195A2DBD52A8C479.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNShurikenActor.uasset'
+[2021.05.06-04.57.14:235][250]LogRenderer:Warning: Reallocating scene render targets to support 1432x904 (Frame:122725).
+[2021.05.06-04.57.34:420][731]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-05.00.55:039][740]LogEditorTransaction: Undo PIEリンクを作成
+[2021.05.06-05.00.55:056][740]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-05.01.55:938][933]BlueprintLog: New page: PNShurikenActor をコンパイル
+[2021.05.06-05.01.56:048][933]BlueprintEditorCompileResults: 情報 [2932.82] PNShurikenActor のコンパイルに成功しました！  [ 109 ミリ秒]
+[2021.05.06-05.01.57:878][150]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2021.05.06-05.01.57:878][150]PIE: New page: PIEセッション: Test_Player_Movement (2021/05/06 23:01:57)
+[2021.05.06-05.01.57:880][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001538s)
+[2021.05.06-05.01.57:880][150]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2021.05.06-05.01.57:880][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Movement.Test_Player_Movement to /Game/Maps/Test/UEDPIE_0_Test_Player_Movement.Test_Player_Movement (0.002224s)
+[2021.05.06-05.01.57:922][150]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.06-05.01.57:923][150]LogAIModule: Creating AISystem for world Test_Player_Movement
+[2021.05.06-05.01.57:925][150]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Movement.Test_Player_Movement up for play (max tick rate 0) at 2021.05.06-14.01.57
+[2021.05.06-05.01.57:926][150]LogWorld: Bringing up level for play took: 0.002529
+[2021.05.06-05.01.57:936][150]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Movement -0.048のPIE開始時間
+[2021.05.06-05.02.02:422][618]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFEF87C220
+[2021.05.06-05.02.54:800][861]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.05.06-05.03.17:944][579]LogSavePackage: Save=25.716200ms
+[2021.05.06-05.03.17:944][579]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_MovementFFB058FA4E2AD66301FE5BB4E99BB29D.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Movement.umap'
+[2021.05.06-05.03.17:970][579]LogFileHelpers: Saving map 'Test_Player_Movement' took 0.195
+[2021.05.06-05.03.17:984][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNShurikenActor" FILE="../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNShurikenActor.uasset" SILENT=true
+[2021.05.06-05.03.18:242][579]LogSavePackage: Save=245.440399ms
+[2021.05.06-05.03.18:242][579]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/PNShurikenActorA8C6D6FA49D0698603C90EB9CDB54DE9.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNShurikenActor.uasset'
+[2021.05.06-05.03.20:654][861]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.05.06-05.05.10:270][767]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.06-05.05.10:301][767]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-05.05.10:314][767]BlueprintEditorCompileResults: 情報 [3127.09] PNPlayerPawn のコンパイルに成功しました！  [ 43 ミリ秒]
+[2021.05.06-05.05.11:567][901]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2021.05.06-05.05.11:567][901]PIE: New page: PIEセッション: Test_Player_Movement (2021/05/06 23:05:11)
+[2021.05.06-05.05.11:570][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002052s)
+[2021.05.06-05.05.11:570][901]LogPlayLevel: PIE: World Init took: (0.000359s)
+[2021.05.06-05.05.11:570][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Movement.Test_Player_Movement to /Game/Maps/Test/UEDPIE_0_Test_Player_Movement.Test_Player_Movement (0.002514s)
+[2021.05.06-05.05.11:623][901]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.06-05.05.11:628][901]LogAIModule: Creating AISystem for world Test_Player_Movement
+[2021.05.06-05.05.11:633][901]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Movement.Test_Player_Movement up for play (max tick rate 0) at 2021.05.06-14.05.11
+[2021.05.06-05.05.11:634][901]LogWorld: Bringing up level for play took: 0.004710
+[2021.05.06-05.05.11:643][901]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Movement -0.341のPIE開始時間
+[2021.05.06-05.05.14:809][236]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFEAE02840
+[2021.05.06-05.05.22:338][135]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2021.05.06-05.05.22:338][135]PIE: New page: PIEセッション: Test_Player_Movement (2021/05/06 23:05:22)
+[2021.05.06-05.05.22:341][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002216s)
+[2021.05.06-05.05.22:341][135]LogPlayLevel: PIE: World Init took: (0.000402s)
+[2021.05.06-05.05.22:341][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Movement.Test_Player_Movement to /Game/Maps/Test/UEDPIE_0_Test_Player_Movement.Test_Player_Movement (0.002725s)
+[2021.05.06-05.05.22:376][135]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.06-05.05.22:378][135]LogAIModule: Creating AISystem for world Test_Player_Movement
+[2021.05.06-05.05.22:380][135]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Movement.Test_Player_Movement up for play (max tick rate 0) at 2021.05.06-14.05.22
+[2021.05.06-05.05.22:381][135]LogWorld: Bringing up level for play took: 0.002604
+[2021.05.06-05.05.22:390][135]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Movement 0.407のPIE開始時間
+[2021.05.06-05.05.25:249][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CF98C627A0
+[2021.05.06-05.05.30:900][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-05.05.30:961][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.06-05.05.31:238][117]LogSavePackage: Save=263.981201ms
+[2021.05.06-05.05.31:238][117]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn54F04D4A43304EB5D91EFC924975BF25.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.06-05.05.32:647][282]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2021.05.06-05.05.32:647][282]PIE: New page: PIEセッション: Test_Player_Movement (2021/05/06 23:05:32)
+[2021.05.06-05.05.32:649][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001895s)
+[2021.05.06-05.05.32:650][282]LogPlayLevel: PIE: World Init took: (0.000332s)
+[2021.05.06-05.05.32:650][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Movement.Test_Player_Movement to /Game/Maps/Test/UEDPIE_0_Test_Player_Movement.Test_Player_Movement (0.002327s)
+[2021.05.06-05.05.32:689][282]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.06-05.05.32:692][282]LogAIModule: Creating AISystem for world Test_Player_Movement
+[2021.05.06-05.05.32:696][282]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Movement.Test_Player_Movement up for play (max tick rate 0) at 2021.05.06-14.05.32
+[2021.05.06-05.05.32:696][282]LogWorld: Bringing up level for play took: 0.003802
+[2021.05.06-05.05.32:707][282]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Movement 0.724のPIE開始時間
+[2021.05.06-05.05.35:321][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-05.05.35:329][563]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFE75C40E0
+[2021.05.06-05.07.31:936][795]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-05.07.33:285][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.06-05.07.33:556][949]LogSavePackage: Save=260.135315ms
+[2021.05.06-05.07.33:556][949]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawnC1431A6D4B8DE46A63796FB09F019CB9.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.06-05.07.34:850][ 77]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.06-05.07.34:892][ 77]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-05.07.34:906][ 77]BlueprintEditorCompileResults: 情報 [3271.68] PNPlayerPawn のコンパイルに成功しました！  [ 56 ミリ秒]
+[2021.05.06-05.07.57:467][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.06-05.07.57:741][723]LogSavePackage: Save=262.184113ms
+[2021.05.06-05.07.57:741][723]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawnF8EBC16F4503CB90AD12BD8F2EA74D42.tmp' to '../../../../../../Users/magi1/Documents/UE4_PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.06-05.07.58:836][826]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.06-05.07.58:879][826]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-05.07.58:893][826]BlueprintEditorCompileResults: 情報 [3295.67] PNPlayerPawn のコンパイルに成功しました！  [ 56 ミリ秒]
+[2021.05.06-05.08.04:272][441]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2021.05.06-05.08.04:272][441]PIE: New page: PIEセッション: Test_Player_Movement (2021/05/06 23:08:04)
+[2021.05.06-05.08.04:274][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001985s)
+[2021.05.06-05.08.04:274][441]LogPlayLevel: PIE: World Init took: (0.000413s)
+[2021.05.06-05.08.04:275][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Movement.Test_Player_Movement to /Game/Maps/Test/UEDPIE_0_Test_Player_Movement.Test_Player_Movement (0.002502s)
+[2021.05.06-05.08.04:310][441]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.06-05.08.04:313][441]LogAIModule: Creating AISystem for world Test_Player_Movement
+[2021.05.06-05.08.04:315][441]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Movement.Test_Player_Movement up for play (max tick rate 0) at 2021.05.06-14.08.04
+[2021.05.06-05.08.04:316][441]LogWorld: Bringing up level for play took: 0.002543
+[2021.05.06-05.08.04:323][441]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Movement 0.34のPIE開始時間
+[2021.05.06-05.08.07:970][844]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFF32958A0
+[2021.05.06-05.12.04:220][107]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-05.12.04:969][155]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-05.12.05:168][168]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-05.12.05:351][182]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-05.12.07:944][463]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.06-05.12.08:496][464]Cmd: QUIT_EDITOR
+[2021.05.06-05.12.08:714][464]LogExit: Preparing to exit.
+[2021.05.06-05.12.09:963][464]LogExit: Editor shut down
+[2021.05.06-05.12.09:963][464]LogExit: Transaction tracking system shut down
+[2021.05.06-05.12.09:963][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFA8A77100
+[2021.05.06-05.12.09:964][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFA8491080
+[2021.05.06-05.12.09:964][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFEE1653A0
+[2021.05.06-05.12.09:966][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFD3044360
+[2021.05.06-05.12.09:966][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFB40504A0
+[2021.05.06-05.12.09:966][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFEE00AA20
+[2021.05.06-05.12.09:966][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFDD761940
+[2021.05.06-05.12.10:173][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CFC9CD19E0
+[2021.05.06-05.12.10:173][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D003B5D8A0
+[2021.05.06-05.12.10:173][464]LogExit: Object subsystem successfully closed.
+[2021.05.06-05.12.10:310][464]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (180)
+[2021.05.06-05.12.10:310][464]LogModuleManager: Shutting down and abandoning module NewLevelDialog (179)
+[2021.05.06-05.12.10:310][464]LogModuleManager: Shutting down and abandoning module CrashTracker (178)
+[2021.05.06-05.12.10:310][464]LogModuleManager: Shutting down and abandoning module SuperSearch (177)
+[2021.05.06-05.12.10:310][464]LogModuleManager: Shutting down and abandoning module WorldBrowser (176)
+[2021.05.06-05.12.10:310][464]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2021.05.06-05.12.10:310][464]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2021.05.06-05.12.10:310][464]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2021.05.06-05.12.10:310][464]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2021.05.06-05.12.10:310][464]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2021.05.06-05.12.10:310][464]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2021.05.06-05.12.10:323][464]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2021.05.06-05.12.10:323][464]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2021.05.06-05.12.10:323][464]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2021.05.06-05.12.10:323][464]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2021.05.06-05.12.10:323][464]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2021.05.06-05.12.10:323][464]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2021.05.06-05.12.10:323][464]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2021.05.06-05.12.10:323][464]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2021.05.06-05.12.10:323][464]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2021.05.06-05.12.10:323][464]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2021.05.06-05.12.10:323][464]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2021.05.06-05.12.10:323][464]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2021.05.06-05.12.10:338][464]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2021.05.06-05.12.10:338][464]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2021.05.06-05.12.10:338][464]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2021.05.06-05.12.10:338][464]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2021.05.06-05.12.10:338][464]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2021.05.06-05.12.10:338][464]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2021.05.06-05.12.10:338][464]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2021.05.06-05.12.10:338][464]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2021.05.06-05.12.10:338][464]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2021.05.06-05.12.10:338][464]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2021.05.06-05.12.10:338][464]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2021.05.06-05.12.10:338][464]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2021.05.06-05.12.10:747][464]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2021.05.06-05.12.10:747][464]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2021.05.06-05.12.10:747][464]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2021.05.06-05.12.10:747][464]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2021.05.06-05.12.10:747][464]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2021.05.06-05.12.10:747][464]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2021.05.06-05.12.10:747][464]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2021.05.06-05.12.10:766][464]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2021.05.06-05.12.10:766][464]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2021.05.06-05.12.10:766][464]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2021.05.06-05.12.10:773][464]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2021.05.06-05.12.10:773][464]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2021.05.06-05.12.10:773][464]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2021.05.06-05.12.10:773][464]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2021.05.06-05.12.10:780][464]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2021.05.06-05.12.10:780][464]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2021.05.06-05.12.10:780][464]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2021.05.06-05.12.10:780][464]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2021.05.06-05.12.10:780][464]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2021.05.06-05.12.10:877][464]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2021.05.06-05.12.10:888][464]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2021.05.06-05.12.10:899][464]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2021.05.06-05.12.10:900][464]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2021.05.06-05.12.10:900][464]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2021.05.06-05.12.10:900][464]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2021.05.06-05.12.10:900][464]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2021.05.06-05.12.10:900][464]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2021.05.06-05.12.10:910][464]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2021.05.06-05.12.10:918][464]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2021.05.06-05.12.10:918][464]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2021.05.06-05.12.10:930][464]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2021.05.06-05.12.10:930][464]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2021.05.06-05.12.10:930][464]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2021.05.06-05.12.10:930][464]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2021.05.06-05.12.10:930][464]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2021.05.06-05.12.10:930][464]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2021.05.06-05.12.10:930][464]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2021.05.06-05.12.10:930][464]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2021.05.06-05.12.10:930][464]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2021.05.06-05.12.10:930][464]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2021.05.06-05.12.11:091][464]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2021.05.06-05.12.11:100][464]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2021.05.06-05.12.11:100][464]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2021.05.06-05.12.11:100][464]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2021.05.06-05.12.11:100][464]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2021.05.06-05.12.11:100][464]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2021.05.06-05.12.11:117][464]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2021.05.06-05.12.11:117][464]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2021.05.06-05.12.11:117][464]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2021.05.06-05.12.11:117][464]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2021.05.06-05.12.11:117][464]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2021.05.06-05.12.11:117][464]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2021.05.06-05.12.11:117][464]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2021.05.06-05.12.11:118][464]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2021.05.06-05.12.11:118][464]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2021.05.06-05.12.11:118][464]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2021.05.06-05.12.11:118][464]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2021.05.06-05.12.11:118][464]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2021.05.06-05.12.11:128][464]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2021.05.06-05.12.11:128][464]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2021.05.06-05.12.11:128][464]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2021.05.06-05.12.11:128][464]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2021.05.06-05.12.11:128][464]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2021.05.06-05.12.11:128][464]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2021.05.06-05.12.11:129][464]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2021.05.06-05.12.11:129][464]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2021.05.06-05.12.11:138][464]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2021.05.06-05.12.11:240][464]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2021.05.06-05.12.11:240][464]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2021.05.06-05.12.11:241][464]LogModuleManager: Shutting down and abandoning module Media (76)
+[2021.05.06-05.12.11:241][464]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2021.05.06-05.12.11:242][464]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2021.05.06-05.12.11:242][464]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2021.05.06-05.12.11:242][464]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2021.05.06-05.12.11:251][464]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2021.05.06-05.12.11:251][464]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2021.05.06-05.12.11:266][464]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2021.05.06-05.12.11:266][464]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2021.05.06-05.12.11:266][464]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2021.05.06-05.12.11:266][464]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2021.05.06-05.12.11:267][464]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2021.05.06-05.12.11:281][464]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2021.05.06-05.12.11:290][464]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2021.05.06-05.12.11:290][464]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2021.05.06-05.12.11:293][464]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2021.05.06-05.12.11:293][464]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2021.05.06-05.12.11:293][464]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2021.05.06-05.12.11:293][464]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2021.05.06-05.12.11:293][464]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2021.05.06-05.12.11:293][464]LogModuleManager: Shutting down and abandoning module Core (55)
+[2021.05.06-05.12.11:293][464]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2021.05.06-05.12.11:293][464]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2021.05.06-05.12.11:293][464]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2021.05.06-05.12.11:303][464]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2021.05.06-05.12.11:329][464]LogDerivedDataCache: Shutdown
+[2021.05.06-05.12.11:329][464]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2021.05.06-05.12.11:343][464]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2021.05.06-05.12.11:343][464]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2021.05.06-05.12.11:350][464]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2021.05.06-05.12.11:355][464]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2021.05.06-05.12.11:355][464]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2021.05.06-05.12.11:355][464]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2021.05.06-05.12.11:355][464]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2021.05.06-05.12.11:355][464]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2021.05.06-05.12.11:355][464]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2021.05.06-05.12.11:355][464]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2021.05.06-05.12.11:355][464]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2021.05.06-05.12.11:355][464]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2021.05.06-05.12.11:356][464]LogExit: Exiting.
+[2021.05.06-05.12.11:360][464]Log file closed, 05/06/21 14:12:11
