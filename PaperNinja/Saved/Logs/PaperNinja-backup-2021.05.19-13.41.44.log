@@ -1,0 +1,1484 @@
+﻿Log file open, 05/17/21 19:37:05
+LogInit:Display: Running engine for game: PaperNinja
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2021.05.17-10.37.05:744][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2021.05.17-10.37.05:821][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2021.05.17-10.37.05:836][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2021.05.17-10.37.05:843][  0]LogInit: Object subsystem initialized
+[2021.05.17-10.37.05:844][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2021.05.17-10.37.05:844][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.05.17-10.37.05:844][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2021.05.17-10.37.05:844][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.05.17-10.37.05:844][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2021.05.17-10.37.05:844][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.05.17-10.37.05:845][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.17-10.37.05:845][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.17-10.37.05:857][  0]LogInit: Computer: DESKTOP-QG331CQ
+[2021.05.17-10.37.05:857][  0]LogInit: User: magi1
+[2021.05.17-10.37.05:857][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.05.17-10.37.05:857][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.17-10.37.05:858][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2021.05.17-10.37.05:858][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.17-10.37.05:858][  0]LogMemory: Process Physical Memory: 49.84 MB used, 49.84 MB peak
+[2021.05.17-10.37.05:858][  0]LogMemory: Process Virtual Memory: 24.82 MB used, 24.83 MB peak
+[2021.05.17-10.37.05:858][  0]LogMemory: Physical Memory: 6233.37 MB used, 16239.85 MB total
+[2021.05.17-10.37.05:858][  0]LogMemory: Virtual Memory: 4431.00 MB used, 134217728.00 MB total
+[2021.05.17-10.37.05:996][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce RTX 2080 (Feature Level 11_0)
+[2021.05.17-10.37.05:996][  0]LogD3D11RHI: Adapter has 8010MB of dedicated video memory, 0MB of dedicated system memory, and 8119MB of shared system memory, 2 output[s]
+[2021.05.17-10.37.06:024][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) UHD Graphics 630 (Feature Level 11_0)
+[2021.05.17-10.37.06:024][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8119MB of shared system memory, 0 output[s]
+[2021.05.17-10.37.06:026][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2021.05.17-10.37.06:026][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8119MB of shared system memory, 0 output[s]
+[2021.05.17-10.37.06:026][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2021.05.17-10.37.06:031][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.05.17-10.37.06:116][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.17-10.37.06:209][  0]LogTextLocalizationManager: The requested culture ('ja_JP') has no localization data; parent culture's ('ja') localization data will be used.
+[2021.05.17-10.37.06:258][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (-29098895) String: (現行レベルをディスクに保存)
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Engine/ja/Engine.locres) Hash: (-1280300587) String: (選択データをvlogファイルに保存)
+[2021.05.17-10.37.06:258][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (-630476809) String: ({0} にインポート...)
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (1271782899) String: (このフォルダへファイルからアセットをインポート)
+[2021.05.17-10.37.06:325][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2021.05.17-10.37.08:229][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.05.17-10.37.08:687][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.05.17-10.37.08:748][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2021.05.17-10.37.08:776][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2021.05.17-10.37.08:776][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2021.05.17-10.37.08:776][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.17-10.37.08:776][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.17-10.37.08:869][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.17-10.37.08:881][  0]LogDerivedDataCache: Using Local data cache path C:/Users/magi1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.17-10.37.09:104][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2021.05.17-10.37.09:104][  0]LogMeshUtilities: No automatic mesh merging module available
+[2021.05.17-10.37.09:400][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.05.17-10.37.09:493][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2021.05.17-10.37.10:266][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.17-10.37.10:490][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.17-10.37.10:490][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.17-10.37.10:490][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.17-10.37.10:490][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2021.05.17-10.37.10:490][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2021.05.17-10.37.10:500][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.17-10.37.10:698][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2021.05.17-10.37.10:698][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2021.05.17-10.37.10:767][  0]LogEngine: Initializing Engine...
+[2021.05.17-10.37.12:920][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.05.17-10.37.12:970][  0]LogInit: FAudioDevice initialized.
+[2021.05.17-10.37.13:010][  0]LogAIModule: Creating AISystem for world NewWorld
+[2021.05.17-10.37.13:025][  0]LogDerivedDataCache: Saved boot cache 0.01s 39MB C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2021.05.17-10.37.13:027][  0]LogInit: Texture streaming: Enabled
+[2021.05.17-10.37.13:106][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2021.05.17-10.37.13:106][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2021.05.17-10.37.13:106][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2021.05.17-10.37.13:106][  0]LogAnalytics: SetUserId 144e59504b07e7078f7f9fbff0f199ea|e89bcdc3dddd40638ff112a71cef8e67|badf8662-73b2-480e-8b08-9b9fdfc993be
+[2021.05.17-10.37.13:107][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2021.05.17-10.37.13:140][  0]LogInit: Transaction tracking system initialized
+[2021.05.17-10.37.13:337][  0]BlueprintLog: New page: エディタの読み込み
+[2021.05.17-10.37.13:385][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2021.05.17-10.37.13:385][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2021.05.17-10.37.13:901][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.05.17-10.37.14:198][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.05.17-10.37.14:472][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2021.05.17-10.37.14:473][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2021.05.17-10.37.14:476][  0]LogConsoleResponse:Display: 
+[2021.05.17-10.37.14:587][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2021.05.17-10.37.14:753][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.17-10.37.14:753][  0]Cmd: MAP LOAD FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.17-10.37.14:753][  0]LightingResults: New page: ライティングのビルド
+[2021.05.17-10.37.14:767][  0]MapCheck: New page: マップをチェック
+[2021.05.17-10.37.14:767][  0]LightingResults: New page: <何も選択されていません>
+[2021.05.17-10.37.14:771][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286DE580E00
+[2021.05.17-10.37.15:471][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.17-10.37.15:485][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.17-10.37.15:486][  0]Cmd: MAP CHECKDEP
+[2021.05.17-10.37.15:486][  0]MapCheck: New page: Minimal_Default - 2021/05/18 4:37:15
+[2021.05.17-10.37.15:586][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 99.766ミリ秒かかりました。
+[2021.05.17-10.37.15:586][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.833
+[2021.05.17-10.37.15:730][  0]LogCollectionManager: Loaded 0 collections in 0.001813 seconds
+[2021.05.17-10.37.15:737][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 1696 classes and 261 folders.
+[2021.05.17-10.37.15:776][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2021.05.17-10.37.15:797][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0025 seconds. Added 1 classes and 3 folders.
+[2021.05.17-10.37.15:864][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2021.05.17-10.37.15:866][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2021.05.17-10.37.15:875][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2021.05.17-10.37.15:905][  0]LogLoad: Full Startup: 13.12 seconds (BP compile: 0.07 seconds)
+[2021.05.17-10.37.15:954][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Test'
+[2021.05.17-10.37.16:068][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2021.05.17-10.37.16:173][  0]LogRenderer:Warning: Reallocating scene render targets to support 1200x576 (Frame:3).
+[2021.05.17-10.37.16:382][  3]LogAssetRegistry: Asset discovery search completed in 3.0088 seconds
+[2021.05.17-10.37.37:606][275]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2021.05.17-10.37.58:680][482]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2021.05.17-10.38.22:580][894]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-10.38.37:891][807]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2021.05.17-10.38.49:393][494]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2021.05.17-10.38.50:199][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2021.05.17-10.38.50:856][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2021.05.17-10.38.51:388][602]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2021.05.17-10.39.29:875][898]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2021.05.17-10.39.31:030][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2021.05.17-10.39.41:895][609]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2021.05.17-10.40.13:269][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2021.05.17-10.40.27:978][354]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2021.05.17-10.41.54:715][495]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2021.05.17-10.41.56:753][615]LogEditorTransaction: Undo 変数へ昇格
+[2021.05.17-10.41.56:813][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2021.05.17-10.44.44:058][523]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2021.05.17-10.46.01:372][100]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-10.46.01:457][100]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2021.05.17-10.46.01:485][100]BlueprintEditorCompileResults: 情報 [0538.70] PNPlayerPawn のコンパイルに成功しました！  [ 114 ミリ秒]
+[2021.05.17-10.46.02:108][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-10.46.02:516][133]LogSavePackage: Save=361.636597ms
+[2021.05.17-10.46.02:516][133]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn6E083E734297AAB279BC4AB52EDB43D8.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-10.46.05:065][276]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Stage01'
+[2021.05.17-10.46.06:110][335]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-10.46.06:124][335]Cmd: MAP LOAD FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Stage01/PNStage01_Top.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.17-10.46.06:125][335]LightingResults: New page: ライティングのビルド
+[2021.05.17-10.46.06:151][335]LoadErrors: New page: マップをロード中: PNStage01_Top.umap
+[2021.05.17-10.46.06:153][335]MapCheck: New page: マップをチェック
+[2021.05.17-10.46.06:153][335]LightingResults: New page: <何も選択されていません>
+[2021.05.17-10.46.06:162][335]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286D54407C0
+[2021.05.17-10.46.06:916][335]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.17-10.46.06:917][335]LogAIModule: Creating AISystem for world PNStage01_Top
+[2021.05.17-10.46.06:949][335]Cmd: MAP CHECKDEP
+[2021.05.17-10.46.06:949][335]MapCheck: New page: PNStage01_Top - 2021/05/18 4:46:06
+[2021.05.17-10.46.07:074][335]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 124.405ミリ秒かかりました。
+[2021.05.17-10.46.07:074][335]LogFileHelpers: Loading map 'PNStage01_Top' took 0.952
+[2021.05.17-10.46.07:833][375]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-10.46.07:833][375]LogPlayLevel: [PIE] Compiling PNStage01_GM before PIE...
+[2021.05.17-10.46.07:894][375]LogPlayLevel: PIE:  Blueprint regeneration took 60 ms (1 blueprints)
+[2021.05.17-10.46.07:894][375]PIE: New page: PIEセッション: PNStage01_Top (2021/05/18 4:46:07)
+[2021.05.17-10.46.07:895][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000504s)
+[2021.05.17-10.46.07:895][375]LogPlayLevel: PIE: World Init took: (0.000359s)
+[2021.05.17-10.46.07:895][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Stage01/PNStage01_Top.PNStage01_Top to /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top (0.000979s)
+[2021.05.17-10.46.07:958][375]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_GM.PNStage01_GM to /Game/Maps/Stage01/UEDPIE_0_PNStage01_GM.PNStage01_GM. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2021.05.17-10.46.07:973][375]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_SM.PNStage01_SM to /Game/Maps/Stage01/UEDPIE_0_PNStage01_SM.PNStage01_SM. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2021.05.17-10.46.08:128][375]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-10.46.08:139][375]LogAIModule: Creating AISystem for world PNStage01_Top
+[2021.05.17-10.46.08:140][375]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.17-10.46.08:140][375]LogWorld: Bringing World /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top up for play (max tick rate 60) at 2021.05.17-19.46.08
+[2021.05.17-10.46.08:144][375]LogWorld: Bringing up level for play took: 0.004577
+[2021.05.17-10.46.08:167][375]PIE: 情報 /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top 1.242のPIE開始時間
+[2021.05.17-10.46.08:185][375]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:2872).
+[2021.05.17-10.46.18:220][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028689693380
+[2021.05.17-10.46.22:658][232]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-10.46.22:658][232]LogPlayLevel: [PIE] Compiling PNStage01_GM before PIE...
+[2021.05.17-10.46.22:709][232]LogPlayLevel: PIE:  Blueprint regeneration took 50 ms (1 blueprints)
+[2021.05.17-10.46.22:709][232]PIE: New page: PIEセッション: PNStage01_Top (2021/05/18 4:46:22)
+[2021.05.17-10.46.22:710][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000498s)
+[2021.05.17-10.46.22:711][232]LogPlayLevel: PIE: World Init took: (0.000380s)
+[2021.05.17-10.46.22:711][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Stage01/PNStage01_Top.PNStage01_Top to /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top (0.000989s)
+[2021.05.17-10.46.22:764][232]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_GM.PNStage01_GM to /Game/Maps/Stage01/UEDPIE_0_PNStage01_GM.PNStage01_GM. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2021.05.17-10.46.22:779][232]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_SM.PNStage01_SM to /Game/Maps/Stage01/UEDPIE_0_PNStage01_SM.PNStage01_SM. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2021.05.17-10.46.22:819][232]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-10.46.22:822][232]LogAIModule: Creating AISystem for world PNStage01_Top
+[2021.05.17-10.46.22:823][232]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.17-10.46.22:823][232]LogWorld: Bringing World /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top up for play (max tick rate 60) at 2021.05.17-19.46.22
+[2021.05.17-10.46.22:826][232]LogWorld: Bringing up level for play took: 0.003249
+[2021.05.17-10.46.22:846][232]PIE: 情報 /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top -0.079のPIE開始時間
+[2021.05.17-10.46.23:635][277]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.23:850][290]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.24:033][301]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.24:217][312]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.24:400][323]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.24:567][333]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.25:233][373]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.25:651][398]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.25:883][412]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.26:150][428]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.26:317][438]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.26:534][451]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.26:718][462]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.26:934][475]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.27:150][488]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.27:351][500]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.27:584][514]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.27:834][529]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.28:033][541]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.28:267][555]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.28:517][570]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.28:733][583]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.28:950][596]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.29:150][608]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.29:351][620]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.29:551][632]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.29:734][643]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.29:933][655]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.30:101][665]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.31:214][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028689690860
+[2021.05.17-10.46.43:944][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-10.46.44:323][486]LogSavePackage: Save=351.137512ms
+[2021.05.17-10.46.44:323][486]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn63483A574BC026F7403E13B9B187BB7B.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-10.46.46:713][626]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-10.46.46:716][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-10.46.46:721][626]LogPlayLevel: [PIE] Compiling PNPlayerPawn before PIE...
+[2021.05.17-10.46.46:818][626]LogPlayLevel: [PIE] Compiling PNStage01_GM before PIE...
+[2021.05.17-10.46.46:860][626]LogPlayLevel: [PIE] Compiling PNGameMode before PIE...
+[2021.05.17-10.46.46:916][626]LogPlayLevel: PIE:  Blueprint regeneration took 204 ms (3 blueprints)
+[2021.05.17-10.46.46:916][626]PIE: New page: PIEセッション: PNStage01_Top (2021/05/18 4:46:46)
+[2021.05.17-10.46.46:917][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000499s)
+[2021.05.17-10.46.46:918][626]LogPlayLevel: PIE: World Init took: (0.000370s)
+[2021.05.17-10.46.46:918][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Stage01/PNStage01_Top.PNStage01_Top to /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top (0.000979s)
+[2021.05.17-10.46.46:971][626]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_GM.PNStage01_GM to /Game/Maps/Stage01/UEDPIE_0_PNStage01_GM.PNStage01_GM. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2021.05.17-10.46.46:986][626]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_SM.PNStage01_SM to /Game/Maps/Stage01/UEDPIE_0_PNStage01_SM.PNStage01_SM. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2021.05.17-10.46.47:037][626]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-10.46.47:039][626]LogAIModule: Creating AISystem for world PNStage01_Top
+[2021.05.17-10.46.47:040][626]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.17-10.46.47:040][626]LogWorld: Bringing World /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top up for play (max tick rate 60) at 2021.05.17-19.46.47
+[2021.05.17-10.46.47:042][626]LogWorld: Bringing up level for play took: 0.003105
+[2021.05.17-10.46.47:063][626]PIE: 情報 /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top 0.139のPIE開始時間
+[2021.05.17-10.46.48:160][690]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.48:360][702]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.48:543][713]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.48:726][724]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.48:876][733]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.49:776][787]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.49:976][799]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.50:176][811]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.50:393][824]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.50:593][836]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.50:810][849]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.51:027][862]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.51:227][874]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.51:442][887]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.51:660][900]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.51:859][912]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.52:060][924]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.52:260][936]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.52:460][948]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.52:660][960]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.52:860][972]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.53:077][985]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.53:326][  0]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.53:593][ 16]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.53:893][ 34]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.54:094][ 46]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.55:177][111]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.55:377][123]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.55:593][136]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.55:809][149]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.56:043][163]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.56:260][176]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.56:510][191]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.56:743][205]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.56:977][219]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.57:226][234]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.57:477][249]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.57:743][265]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.57:977][279]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.58:209][293]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.58:427][306]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.58:660][320]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.58:876][333]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.59:077][345]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.59:310][359]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.59:543][373]LogBlueprintUserMessages: 1
+[2021.05.17-10.46.59:793][388]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.00:026][402]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.00:277][417]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.00:560][434]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.00:810][449]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.01:160][470]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.01:443][487]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.01:694][502]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.01:976][519]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.02:210][533]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.02:460][548]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.02:709][563]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.02:960][578]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.03:210][593]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.03:477][609]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.03:727][624]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.03:993][640]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.04:260][656]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.04:526][672]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.04:777][687]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.05:060][704]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.05:326][720]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.05:594][736]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.05:860][752]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.06:093][766]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.06:359][782]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.06:594][796]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.06:844][811]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.07:076][825]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.07:344][841]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.07:660][860]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.07:943][877]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.08:210][893]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.08:477][909]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.08:777][927]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.09:043][943]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.09:310][959]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.09:560][974]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.09:843][991]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.10:110][  7]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.10:360][ 22]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.10:610][ 37]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.10:860][ 52]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.11:144][ 69]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.11:376][ 83]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.11:644][ 99]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.11:893][114]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.12:160][130]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.12:393][144]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.12:644][159]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.12:860][172]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.13:060][184]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.13:276][197]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.13:493][210]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.13:693][222]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.13:893][234]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.14:094][246]LogBlueprintUserMessages: 1
+[2021.05.17-10.47.15:029][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028690954400
+[2021.05.17-10.48.42:854][541]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-10.48.42:940][541]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-10.48.42:958][541]BlueprintEditorCompileResults: 情報 [0700.18] PNPlayerPawn のコンパイルに成功しました！  [ 103 ミリ秒]
+[2021.05.17-10.48.43:812][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-10.48.44:195][588]LogSavePackage: Save=354.951691ms
+[2021.05.17-10.48.44:195][588]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn9F406795463209EF896524ADF84C4DBE.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-10.48.46:797][741]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-10.48.46:799][741]LogPlayLevel: [PIE] Compiling PNGameMode before PIE...
+[2021.05.17-10.48.46:848][741]LogPlayLevel: [PIE] Compiling PNStage01_GM before PIE...
+[2021.05.17-10.48.46:890][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-10.48.46:901][741]LogPlayLevel: PIE:  Blueprint regeneration took 103 ms (2 blueprints)
+[2021.05.17-10.48.46:901][741]PIE: New page: PIEセッション: PNStage01_Top (2021/05/18 4:48:46)
+[2021.05.17-10.48.46:902][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000525s)
+[2021.05.17-10.48.46:902][741]LogPlayLevel: PIE: World Init took: (0.000388s)
+[2021.05.17-10.48.46:902][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Stage01/PNStage01_Top.PNStage01_Top to /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top (0.001031s)
+[2021.05.17-10.48.46:956][741]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_GM.PNStage01_GM to /Game/Maps/Stage01/UEDPIE_0_PNStage01_GM.PNStage01_GM. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2021.05.17-10.48.46:972][741]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_SM.PNStage01_SM to /Game/Maps/Stage01/UEDPIE_0_PNStage01_SM.PNStage01_SM. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2021.05.17-10.48.47:022][741]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-10.48.47:024][741]LogAIModule: Creating AISystem for world PNStage01_Top
+[2021.05.17-10.48.47:026][741]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.17-10.48.47:026][741]LogWorld: Bringing World /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top up for play (max tick rate 60) at 2021.05.17-19.48.47
+[2021.05.17-10.48.47:028][741]LogWorld: Bringing up level for play took: 0.003034
+[2021.05.17-10.48.47:049][741]PIE: 情報 /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top 0.125のPIE開始時間
+[2021.05.17-10.48.47:446][763]LogBlueprintUserMessages: 1
+[2021.05.17-10.48.47:614][773]LogBlueprintUserMessages: 2
+[2021.05.17-10.48.47:780][783]LogBlueprintUserMessages: 3
+[2021.05.17-10.48.47:963][794]LogBlueprintUserMessages: 4
+[2021.05.17-10.48.48:113][803]LogBlueprintUserMessages: 5
+[2021.05.17-10.48.48:296][814]LogBlueprintUserMessages: 6
+[2021.05.17-10.48.48:480][825]LogBlueprintUserMessages: 7
+[2021.05.17-10.48.48:629][834]LogBlueprintUserMessages: 8
+[2021.05.17-10.48.48:780][843]LogBlueprintUserMessages: 9
+[2021.05.17-10.48.48:929][852]LogBlueprintUserMessages: 10
+[2021.05.17-10.48.49:762][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028690EE8680
+[2021.05.17-10.49.01:337][589]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-10.49.03:233][701]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-10.49.03:319][701]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2021.05.17-10.49.03:337][701]BlueprintEditorCompileResults: 情報 [0720.55] PNPlayerPawn のコンパイルに成功しました！  [ 104 ミリ秒]
+[2021.05.17-10.49.04:039][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-10.49.04:425][739]LogSavePackage: Save=358.060394ms
+[2021.05.17-10.49.04:425][739]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawnC199E0A9483BB0E530FBFB9E6805A922.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-10.51.39:663][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-10.52.10:674][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2021.05.17-10.52.26:716][679]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2021.05.17-10.53.14:871][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2021.05.17-10.53.31:316][504]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2021.05.17-10.53.53:543][828]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2021.05.17-10.54.12:915][983]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2021.05.17-10.54.15:027][101]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2021.05.17-10.55.09:637][360]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-10.55.09:729][360]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2021.05.17-10.55.09:750][360]BlueprintEditorCompileResults: 情報 [1086.97] PNPlayerPawn のコンパイルに成功しました！  [ 113 ミリ秒]
+[2021.05.17-10.56.56:160][628]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-10.56.56:171][628]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Stage01/PNStage01_Top' took 0.011
+[2021.05.17-10.56.56:215][628]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/PNPlayerPawn] ([1] browsable assets)...
+[2021.05.17-10.56.56:235][628]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/PNPlayerPawn.PNPlayerPawn]
+[2021.05.17-10.56.56:235][628]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PNPlayerPawn]
+[2021.05.17-10.56.56:708][628]LogSavePackage: Save=438.468689ms
+[2021.05.17-10.56.56:709][628]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn_Auto18868A93B4415720C27B9179BCFB47D16.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/Blueprints/PNPlayerPawn_Auto1.uasset'
+[2021.05.17-10.56.56:721][628]LogFileHelpers: Auto-saving content packages took 0.550
+[2021.05.17-10.57.25:617][327]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-10.57.25:710][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-10.57.25:728][327]BlueprintEditorCompileResults: 情報 [1222.95] PNPlayerPawn のコンパイルに成功しました！  [ 110 ミリ秒]
+[2021.05.17-10.57.26:180][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-10.57.26:577][350]LogSavePackage: Save=370.026093ms
+[2021.05.17-10.57.26:577][350]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn5E9C3194469C164D4F6960B84166879D.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-10.57.32:228][688]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-10.57.32:230][688]LogPlayLevel: [PIE] Compiling PNGameMode before PIE...
+[2021.05.17-10.57.32:276][688]LogPlayLevel: [PIE] Compiling PNStage01_GM before PIE...
+[2021.05.17-10.57.32:318][688]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-10.57.32:329][688]LogPlayLevel: PIE:  Blueprint regeneration took 101 ms (2 blueprints)
+[2021.05.17-10.57.32:330][688]PIE: New page: PIEセッション: PNStage01_Top (2021/05/18 4:57:32)
+[2021.05.17-10.57.32:330][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000487s)
+[2021.05.17-10.57.32:331][688]LogPlayLevel: PIE: World Init took: (0.000409s)
+[2021.05.17-10.57.32:331][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Stage01/PNStage01_Top.PNStage01_Top to /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top (0.001008s)
+[2021.05.17-10.57.32:390][688]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_GM.PNStage01_GM to /Game/Maps/Stage01/UEDPIE_0_PNStage01_GM.PNStage01_GM. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2021.05.17-10.57.32:405][688]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_SM.PNStage01_SM to /Game/Maps/Stage01/UEDPIE_0_PNStage01_SM.PNStage01_SM. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2021.05.17-10.57.32:456][688]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-10.57.32:458][688]LogAIModule: Creating AISystem for world PNStage01_Top
+[2021.05.17-10.57.32:460][688]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.17-10.57.32:460][688]LogWorld: Bringing World /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top up for play (max tick rate 60) at 2021.05.17-19.57.32
+[2021.05.17-10.57.32:462][688]LogWorld: Bringing up level for play took: 0.003046
+[2021.05.17-10.57.32:481][688]PIE: 情報 /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top -0.443のPIE開始時間
+[2021.05.17-10.57.37:967][ 15]LogBlueprintUserMessages: 1
+[2021.05.17-10.57.38:134][ 25]LogBlueprintUserMessages: 2
+[2021.05.17-10.57.38:301][ 35]LogBlueprintUserMessages: 3
+[2021.05.17-10.57.38:450][ 44]LogBlueprintUserMessages: 4
+[2021.05.17-10.57.39:205][ 83]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002869C9D09A0
+[2021.05.17-10.58.32:087][254]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-10.58.45:508][ 55]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2021.05.17-10.58.59:213][877]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-10.58.59:306][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2021.05.17-10.58.59:324][877]BlueprintEditorCompileResults: 情報 [1316.54] PNPlayerPawn のコンパイルに成功しました！  [ 110 ミリ秒]
+[2021.05.17-10.59.22:702][262]LogUObjectGlobals:Warning: オブジェクト 'Object なし.' が見つかりませんでした
+[2021.05.17-10.59.22:703][262]LogUObjectGlobals:Warning: オブジェクト 'Object なし.' が見つかりませんでした
+[2021.05.17-10.59.22:703][262]LogUObjectGlobals:Warning: オブジェクト 'Object なし.' が見つかりませんでした
+[2021.05.17-10.59.22:703][262]LogUObjectGlobals:Warning: オブジェクト 'Object なし.' が見つかりませんでした
+[2021.05.17-10.59.22:703][262]LogUObjectGlobals:Warning: オブジェクト 'Object なし.' が見つかりませんでした
+[2021.05.17-10.59.22:704][262]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/PNPlayerPawn.PNPlayerPawn:AddCoin.K2Node_CommutativeAssociativeBinaryOperator_17 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/PNGateActor.PNGateActor:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_17
+[2021.05.17-10.59.22:704][262]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/PNPlayerPawn.PNPlayerPawn:AddCoin.K2Node_CommutativeAssociativeBinaryOperator_17 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/PNPlayerPawn.PNPlayerPawn:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_17
+[2021.05.17-10.59.22:707][262]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/PNPlayerPawn.PNPlayerPawn:AddCoin.K2Node_VariableSet_97 or K2Node_VariableSet /Game/Blueprints/PNPlayerPawn.PNPlayerPawn:EventGraph.K2Node_VariableSet_97
+[2021.05.17-10.59.22:710][262]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/PNPlayerPawn.PNPlayerPawn:AddCoin.K2Node_VariableSet_97 or K2Node_VariableSet /Game/Blueprints/PNPlayerPawn.PNPlayerPawn:EventGraph.K2Node_VariableSet_97
+[2021.05.17-10.59.22:711][262]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PNPlayerPawn.PNPlayerPawn:AddCoin.K2Node_CallFunction_2265 or K2Node_CallFunction /Game/Blueprints/PNPlayerPawn.PNPlayerPawn:EventGraph.K2Node_CallFunction_2265
+[2021.05.17-10.59.22:713][262]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/PNPlayerPawn.PNPlayerPawn:AddCoin.K2Node_VariableSet_97 or K2Node_VariableSet /Game/Blueprints/PNPlayerPawn.PNPlayerPawn:EventGraph.K2Node_VariableSet_97
+[2021.05.17-10.59.32:658][855]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-10.59.32:726][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-10.59.33:131][855]LogSavePackage: Save=376.898407ms
+[2021.05.17-10.59.33:131][855]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawnE452E5CB4BB7025C24F9B98A162EE355.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-10.59.34:078][911]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-10.59.34:173][911]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-10.59.34:193][911]BlueprintEditorCompileResults: 情報 [1351.41] PNPlayerPawn のコンパイルに成功しました！  [ 114 ミリ秒]
+[2021.05.17-11.00.03:616][676]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Test'
+[2021.05.17-11.00.08:457][960]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Test/Test_Trigger.Test_Trigger:PersistentLevel.P_Fire_2.ParticleSystemComponent0
+[2021.05.17-11.00.08:458][960]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Test/Test_Trigger.Test_Trigger:PersistentLevel.P_Fire2_5.ParticleSystemComponent0
+[2021.05.17-11.00.08:458][960]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Test/Test_Trigger.Test_Trigger:PersistentLevel.P_Fire3_8.ParticleSystemComponent0
+[2021.05.17-11.00.08:459][960]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Maps/Test/Test_Trigger.Test_Trigger:PersistentLevel.PNTrapFireActor.ParticleSystemComponent0
+[2021.05.17-11.00.08:466][960]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.00.08:480][960]Cmd: MAP LOAD FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Trigger.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.17-11.00.08:480][960]LightingResults: New page: ライティングのビルド
+[2021.05.17-11.00.08:510][960]LoadErrors: New page: マップをロード中: Test_Trigger.umap
+[2021.05.17-11.00.08:512][960]MapCheck: New page: マップをチェック
+[2021.05.17-11.00.08:512][960]LightingResults: New page: <何も選択されていません>
+[2021.05.17-11.00.08:523][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286D61DD8A0
+[2021.05.17-11.00.08:554][960]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.17-11.00.08:558][960]LogAIModule: Creating AISystem for world Test_Trigger
+[2021.05.17-11.00.08:589][960]Cmd: MAP CHECKDEP
+[2021.05.17-11.00.08:589][960]MapCheck: New page: Test_Trigger - 2021/05/18 5:00:08
+[2021.05.17-11.00.08:709][960]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 119.759ミリ秒かかりました。
+[2021.05.17-11.00.08:710][960]LogFileHelpers: Loading map 'Test_Trigger' took 0.231
+[2021.05.17-11.01.33:582][ 23]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2021.05.17-11.04.25:462][177]BlueprintLog: New page: PNPickupCoinActor をコンパイル
+[2021.05.17-11.04.25:511][177]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.04.25:525][177]BlueprintEditorCompileResults: 情報 [1642.74] PNPickupCoinActor のコンパイルに成功しました！  [ 62 ミリ秒]
+[2021.05.17-11.04.26:315][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPickupCoinActor" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPickupCoinActor.uasset" SILENT=true
+[2021.05.17-11.04.26:535][221]LogSavePackage: Save=187.272400ms
+[2021.05.17-11.04.26:535][221]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPickupCoinActor3A7C036E48CF2E05AEC73AAAF2B42B3D.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPickupCoinActor.uasset'
+[2021.05.17-11.04.28:849][348]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.04.30:096][348]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.04.30:214][348]LogSavePackage: Save=77.413803ms
+[2021.05.17-11.04.30:214][348]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Trigger54CF5912424B98FE6825189C95A7D310.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Trigger.umap'
+[2021.05.17-11.04.30:247][348]LogFileHelpers: Saving map 'Test_Trigger' took 0.286
+[2021.05.17-11.04.31:386][413]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-11.04.31:388][413]LogPlayLevel: [PIE] Compiling PNGameMode before PIE...
+[2021.05.17-11.04.31:433][413]LogPlayLevel: [PIE] Compiling Test_Trigger before PIE...
+[2021.05.17-11.04.31:478][413]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (2 blueprints)
+[2021.05.17-11.04.31:478][413]PIE: New page: PIEセッション: Test_Trigger (2021/05/18 5:04:31)
+[2021.05.17-11.04.31:483][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004822s)
+[2021.05.17-11.04.31:484][413]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2021.05.17-11.04.31:484][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Trigger.Test_Trigger to /Game/Maps/Test/UEDPIE_0_Test_Trigger.Test_Trigger (0.005499s)
+[2021.05.17-11.04.31:539][413]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-11.04.31:542][413]LogAIModule: Creating AISystem for world Test_Trigger
+[2021.05.17-11.04.31:546][413]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Trigger.Test_Trigger up for play (max tick rate 60) at 2021.05.17-20.04.31
+[2021.05.17-11.04.31:546][413]LogWorld: Bringing up level for play took: 0.004824
+[2021.05.17-11.04.31:571][413]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Trigger 0.646のPIE開始時間
+[2021.05.17-11.04.37:607][773]LogBlueprintUserMessages: 1
+[2021.05.17-11.04.38:926][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028680219440
+[2021.05.17-11.05.59:510][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.06.16:775][700]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2021.05.17-11.06.23:271][ 85]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-11.06.23:371][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2021.05.17-11.06.23:391][ 85]BlueprintEditorCompileResults: 情報 [1760.61] PNPlayerPawn のコンパイルに成功しました！  [ 121 ミリ秒]
+[2021.05.17-11.06.23:929][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-11.06.24:338][113]LogSavePackage: Save=377.385895ms
+[2021.05.17-11.06.24:338][113]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawnAD013A9344BB0670C79DD3BD4F4F839D.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-11.06.33:077][635]BlueprintLog: New page: PNPickupCoinActor をコンパイル
+[2021.05.17-11.06.33:125][635]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.06.33:139][635]BlueprintEditorCompileResults: 情報 [1770.36] PNPickupCoinActor のコンパイルに成功しました！  [ 62 ミリ秒]
+[2021.05.17-11.06.33:744][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPickupCoinActor" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPickupCoinActor.uasset" SILENT=true
+[2021.05.17-11.06.33:960][668]LogSavePackage: Save=187.358200ms
+[2021.05.17-11.06.33:960][668]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPickupCoinActor9B67CBD2433C15835E760B9CE242BC0D.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPickupCoinActor.uasset'
+[2021.05.17-11.07.40:436][642]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-11.07.40:539][642]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.07.40:560][642]BlueprintEditorCompileResults: 情報 [1837.78] PNPlayerPawn のコンパイルに成功しました！  [ 123 ミリ秒]
+[2021.05.17-11.07.41:072][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-11.07.41:479][668]LogSavePackage: Save=378.257599ms
+[2021.05.17-11.07.41:479][668]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn1108CDDB4A9C25FB16A5BC8242C33C24.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-11.07.51:458][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.07.52:777][257]LogSavePackage: Save=77.713097ms
+[2021.05.17-11.07.52:777][257]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_TriggerED31B31942A8669748FC5B9C00B6A7F9.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Trigger.umap'
+[2021.05.17-11.07.52:811][257]LogFileHelpers: Saving map 'Test_Trigger' took 0.285
+[2021.05.17-11.07.53:875][321]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Test'
+[2021.05.17-11.07.57:090][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.07.57:105][508]Cmd: MAP LOAD FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.17-11.07.57:105][508]LightingResults: New page: ライティングのビルド
+[2021.05.17-11.07.57:134][508]LoadErrors: New page: マップをロード中: Test_Player_Death.umap
+[2021.05.17-11.07.57:135][508]MapCheck: New page: マップをチェック
+[2021.05.17-11.07.57:135][508]LightingResults: New page: <何も選択されていません>
+[2021.05.17-11.07.57:144][508]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028698B87BA0
+[2021.05.17-11.07.57:171][508]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.17-11.07.57:174][508]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-11.07.57:205][508]Cmd: MAP CHECKDEP
+[2021.05.17-11.07.57:205][508]MapCheck: New page: Test_Player_Death - 2021/05/18 5:07:57
+[2021.05.17-11.07.57:326][508]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 120.872ミリ秒かかりました。
+[2021.05.17-11.07.57:327][508]LogFileHelpers: Loading map 'Test_Player_Death' took 0.225
+[2021.05.17-11.10.03:501][976]BlueprintLog: New page: Test_Player_Death をコンパイル
+[2021.05.17-11.10.03:536][976]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.10.03:549][976]BlueprintEditorCompileResults: 情報 [1980.77] Test_Player_Death のコンパイルに成功しました！  [ 48 ミリ秒]
+[2021.05.17-11.10.06:577][ 85]LogSavePackage: Save=84.080704ms
+[2021.05.17-11.10.06:577][ 85]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_Death40CA813644556A00DA3B8E96BB13A126.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap'
+[2021.05.17-11.10.06:610][ 85]LogFileHelpers: Saving map 'Test_Player_Death' took 0.294
+[2021.05.17-11.10.12:207][418]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-11.10.12:209][418]LogPlayLevel: [PIE] Compiling PNPickupCoinActor before PIE...
+[2021.05.17-11.10.12:261][418]LogPlayLevel: [PIE] Compiling PNGameMode before PIE...
+[2021.05.17-11.10.12:308][418]LogPlayLevel: [PIE] Compiling Test_Player_Death before PIE...
+[2021.05.17-11.10.12:358][418]LogPlayLevel: PIE:  Blueprint regeneration took 150 ms (3 blueprints)
+[2021.05.17-11.10.12:358][418]PIE: New page: PIEセッション: Test_Player_Death (2021/05/18 5:10:12)
+[2021.05.17-11.10.12:363][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004811s)
+[2021.05.17-11.10.12:363][418]LogPlayLevel: PIE: World Init took: (0.000345s)
+[2021.05.17-11.10.12:364][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Death.Test_Player_Death to /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death (0.005260s)
+[2021.05.17-11.10.12:415][418]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-11.10.12:418][418]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-11.10.12:421][418]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death up for play (max tick rate 60) at 2021.05.17-20.10.12
+[2021.05.17-11.10.12:422][418]LogWorld: Bringing up level for play took: 0.003412
+[2021.05.17-11.10.12:444][418]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Death -0.48のPIE開始時間
+[2021.05.17-11.10.13:212][462]LogBlueprintUserMessages: 5
+[2021.05.17-11.10.13:579][484]LogBlueprintUserMessages: 10
+[2021.05.17-11.10.13:762][495]LogBlueprintUserMessages: 15
+[2021.05.17-11.10.13:945][506]LogBlueprintUserMessages: 20
+[2021.05.17-11.10.14:113][516]LogBlueprintUserMessages: 25
+[2021.05.17-11.10.14:278][526]LogBlueprintUserMessages: 30
+[2021.05.17-11.10.14:446][536]LogBlueprintUserMessages: 35
+[2021.05.17-11.10.14:696][551]LogBlueprintUserMessages: 40
+[2021.05.17-11.10.14:879][562]LogBlueprintUserMessages: 45
+[2021.05.17-11.10.15:045][572]LogBlueprintUserMessages: 50
+[2021.05.17-11.10.15:212][582]LogBlueprintUserMessages: 55
+[2021.05.17-11.10.15:379][592]LogBlueprintUserMessages: 60
+[2021.05.17-11.10.15:546][602]LogBlueprintUserMessages: 65
+[2021.05.17-11.10.15:712][612]LogBlueprintUserMessages: 70
+[2021.05.17-11.10.15:862][621]LogBlueprintUserMessages: 75
+[2021.05.17-11.10.16:013][630]LogBlueprintUserMessages: 80
+[2021.05.17-11.10.16:179][640]LogBlueprintUserMessages: 85
+[2021.05.17-11.10.16:329][649]LogBlueprintUserMessages: 90
+[2021.05.17-11.10.16:496][659]LogBlueprintUserMessages: 95
+[2021.05.17-11.10.16:663][669]LogBlueprintUserMessages: 100
+[2021.05.17-11.10.16:845][680]LogBlueprintUserMessages: 105
+[2021.05.17-11.10.17:030][691]LogBlueprintUserMessages: 110
+[2021.05.17-11.10.17:213][702]LogBlueprintUserMessages: 115
+[2021.05.17-11.10.18:145][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286D4ED1B20
+[2021.05.17-11.10.35:826][805]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-11.10.35:930][805]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.10.35:951][805]BlueprintEditorCompileResults: 情報 [2013.17] PNPlayerPawn のコンパイルに成功しました！  [ 125 ミリ秒]
+[2021.05.17-11.10.36:890][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-11.10.37:290][857]LogSavePackage: Save=371.886505ms
+[2021.05.17-11.10.37:290][857]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn18CD781A4F2775F90F3D8B90F5FAA7CE.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-11.11.02:221][351]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.11.31:698][115]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2021.05.17-11.11.43:185][802]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2021.05.17-11.12.15:667][739]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-11.12.15:781][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2021.05.17-11.12.15:802][739]BlueprintEditorCompileResults: 情報 [2113.02] PNPlayerPawn のコンパイルに成功しました！  [ 134 ミリ秒]
+[2021.05.17-11.12.16:246][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-11.12.16:654][761]LogSavePackage: Save=377.696808ms
+[2021.05.17-11.12.16:654][761]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn7FF939494BC8E89FA13CEF967C727D25.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-11.12.18:273][850]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-11.12.18:273][850]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.12.18:274][850]LogPlayLevel: [PIE] Compiling PNPickupCoinActor before PIE...
+[2021.05.17-11.12.18:327][850]LogPlayLevel: [PIE] Compiling PNGameMode before PIE...
+[2021.05.17-11.12.18:374][850]LogPlayLevel: [PIE] Compiling Test_Player_Death before PIE...
+[2021.05.17-11.12.18:425][850]LogPlayLevel: PIE:  Blueprint regeneration took 152 ms (3 blueprints)
+[2021.05.17-11.12.18:425][850]PIE: New page: PIEセッション: Test_Player_Death (2021/05/18 5:12:18)
+[2021.05.17-11.12.18:430][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004780s)
+[2021.05.17-11.12.18:430][850]LogPlayLevel: PIE: World Init took: (0.000356s)
+[2021.05.17-11.12.18:430][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Death.Test_Player_Death to /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death (0.005237s)
+[2021.05.17-11.12.18:489][850]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-11.12.18:492][850]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-11.12.18:495][850]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death up for play (max tick rate 60) at 2021.05.17-20.12.18
+[2021.05.17-11.12.18:496][850]LogWorld: Bringing up level for play took: 0.002982
+[2021.05.17-11.12.18:519][850]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Death -0.406のPIE開始時間
+[2021.05.17-11.12.20:089][938]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286983BA020
+[2021.05.17-11.15.48:530][222]BlueprintLog: New page: Test_Player_Death をコンパイル
+[2021.05.17-11.15.48:572][222]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.15.48:585][222]BlueprintEditorCompileResults: 情報 [2325.80] Test_Player_Death のコンパイルに成功しました！  [ 54 ミリ秒]
+[2021.05.17-11.18.42:661][619]BlueprintLog: New page: Test_Player_Death をコンパイル
+[2021.05.17-11.18.42:719][619]BlueprintEditorCompileResults: 情報 [2499.94] Test_Player_Death のコンパイルに成功しました！  [ 57 ミリ秒]
+[2021.05.17-11.18.45:799][721]LogSavePackage: Save=114.228401ms
+[2021.05.17-11.18.45:799][721]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_DeathBB64B1344478D33D21D4F79E0607766E.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap'
+[2021.05.17-11.18.45:832][721]LogFileHelpers: Saving map 'Test_Player_Death' took 0.322
+[2021.05.17-11.18.54:113][217]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-11.18.54:117][217]LogPlayLevel: [PIE] Compiling Test_Player_Death before PIE...
+[2021.05.17-11.18.54:176][217]LogPlayLevel: PIE:  Blueprint regeneration took 62 ms (1 blueprints)
+[2021.05.17-11.18.54:176][217]PIE: New page: PIEセッション: Test_Player_Death (2021/05/18 5:18:54)
+[2021.05.17-11.18.54:186][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009436s)
+[2021.05.17-11.18.54:186][217]LogPlayLevel: PIE: World Init took: (0.000448s)
+[2021.05.17-11.18.54:186][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Death.Test_Player_Death to /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death (0.010009s)
+[2021.05.17-11.18.54:233][217]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-11.18.54:235][217]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-11.18.54:238][217]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death up for play (max tick rate 60) at 2021.05.17-20.18.54
+[2021.05.17-11.18.54:238][217]LogWorld: Bringing up level for play took: 0.002680
+[2021.05.17-11.18.54:260][217]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Death -0.665のPIE開始時間
+[2021.05.17-11.18.54:608][236]LogBlueprintUserMessages: 0
+[2021.05.17-11.18.55:107][266]LogBlueprintUserMessages: 0
+[2021.05.17-11.18.55:607][296]LogBlueprintUserMessages: 0
+[2021.05.17-11.18.56:107][326]LogBlueprintUserMessages: 0
+[2021.05.17-11.18.56:608][356]LogBlueprintUserMessages: 0
+[2021.05.17-11.18.57:107][386]LogBlueprintUserMessages: 0
+[2021.05.17-11.18.57:607][416]LogBlueprintUserMessages: 0
+[2021.05.17-11.18.58:108][446]LogBlueprintUserMessages: 0
+[2021.05.17-11.18.58:608][476]LogBlueprintUserMessages: 0
+[2021.05.17-11.18.59:107][506]LogBlueprintUserMessages: 0
+[2021.05.17-11.18.59:607][536]LogBlueprintUserMessages: 0
+[2021.05.17-11.19.00:107][566]LogBlueprintUserMessages: 0
+[2021.05.17-11.19.00:607][596]LogBlueprintUserMessages: 0
+[2021.05.17-11.19.01:108][626]LogBlueprintUserMessages: 0
+[2021.05.17-11.19.01:608][656]LogBlueprintUserMessages: 0
+[2021.05.17-11.19.02:108][686]LogBlueprintUserMessages: 0
+[2021.05.17-11.19.02:608][716]LogBlueprintUserMessages: 0
+[2021.05.17-11.19.03:108][746]LogBlueprintUserMessages: 10
+[2021.05.17-11.19.03:608][776]LogBlueprintUserMessages: 25
+[2021.05.17-11.19.04:108][806]LogBlueprintUserMessages: 40
+[2021.05.17-11.19.04:608][836]LogBlueprintUserMessages: 50
+[2021.05.17-11.19.05:108][866]LogBlueprintUserMessages: 50
+[2021.05.17-11.19.05:608][896]LogBlueprintUserMessages: 50
+[2021.05.17-11.19.06:107][926]LogBlueprintUserMessages: 50
+[2021.05.17-11.19.06:608][956]LogBlueprintUserMessages: 50
+[2021.05.17-11.19.07:108][986]LogBlueprintUserMessages: 50
+[2021.05.17-11.19.07:608][ 16]LogBlueprintUserMessages: 50
+[2021.05.17-11.19.07:892][ 29]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286BE225D00
+[2021.05.17-11.20.14:373][  5]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-11.20.14:484][  5]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.20.14:504][  5]BlueprintEditorCompileResults: 情報 [2591.72] PNPlayerPawn のコンパイルに成功しました！  [ 130 ミリ秒]
+[2021.05.17-11.20.15:161][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-11.20.15:568][ 40]LogSavePackage: Save=374.797089ms
+[2021.05.17-11.20.15:568][ 40]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn06A586824E532240FE25EB90682B5734.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-11.21.39:988][ 85]BlueprintLog: New page: Test_Player_Death をコンパイル
+[2021.05.17-11.21.40:031][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.21.40:044][ 85]BlueprintEditorCompileResults: 情報 [2677.26] Test_Player_Death のコンパイルに成功しました！  [ 56 ミリ秒]
+[2021.05.17-11.21.40:774][128]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-11.21.40:775][128]LogPlayLevel: [PIE] Compiling PNPickupCoinActor before PIE...
+[2021.05.17-11.21.40:827][128]LogPlayLevel: [PIE] Compiling PNGameMode before PIE...
+[2021.05.17-11.21.40:873][128]LogPlayLevel: [PIE] Compiling Test_Player_Death before PIE...
+[2021.05.17-11.21.40:929][128]LogPlayLevel: PIE:  Blueprint regeneration took 155 ms (3 blueprints)
+[2021.05.17-11.21.40:929][128]PIE: New page: PIEセッション: Test_Player_Death (2021/05/18 5:21:40)
+[2021.05.17-11.21.40:937][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007612s)
+[2021.05.17-11.21.40:938][128]LogPlayLevel: PIE: World Init took: (0.000460s)
+[2021.05.17-11.21.40:938][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Death.Test_Player_Death to /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death (0.008186s)
+[2021.05.17-11.21.40:992][128]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-11.21.40:996][128]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-11.21.40:998][128]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death up for play (max tick rate 60) at 2021.05.17-20.21.40
+[2021.05.17-11.21.40:999][128]LogWorld: Bringing up level for play took: 0.002963
+[2021.05.17-11.21.41:009][128]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Death 0.084のPIE開始時間
+[2021.05.17-11.21.41:271][135]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.41:771][165]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.42:271][195]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.42:771][225]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.43:271][255]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.43:771][285]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.44:271][315]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.44:771][345]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.45:271][375]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.45:771][405]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.46:271][435]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.46:771][465]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.47:271][495]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.47:771][525]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.48:271][555]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.48:771][585]LogBlueprintUserMessages: 0
+[2021.05.17-11.21.48:998][594]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002869CEE44A0
+[2021.05.17-11.23.38:173][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.25.44:630][672]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2021.05.17-11.25.44:971][672]LogSavePackage: Save=111.855003ms
+[2021.05.17-11.25.44:971][672]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_Death5C5F6DF84AD359F82F1075BFAC53F3B4.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap'
+[2021.05.17-11.25.45:004][672]LogFileHelpers: Saving map 'Test_Player_Death' took 0.320
+[2021.05.17-11.25.45:024][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-11.25.45:446][672]LogSavePackage: Save=391.075500ms
+[2021.05.17-11.25.45:447][672]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawnC364FD1648CE45390697A3816FBB54C2.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-11.25.45:880][698]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-11.25.45:995][698]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.25.46:017][698]BlueprintEditorCompileResults: 情報 [2923.24] PNPlayerPawn のコンパイルに成功しました！  [ 137 ミリ秒]
+[2021.05.17-11.25.46:651][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-11.25.47:072][731]LogSavePackage: Save=392.373108ms
+[2021.05.17-11.25.47:073][731]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn5DAAA72447E78555E14EA4A8B0EB58B4.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-11.31.51:652][596]BlueprintLog: New page: PNPickupCoinActor をコンパイル
+[2021.05.17-11.31.51:700][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.31.51:716][596]BlueprintEditorCompileResults: 情報 [3288.93] PNPickupCoinActor のコンパイルに成功しました！  [ 63 ミリ秒]
+[2021.05.17-11.32.35:856][236]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2021.05.17-11.33.32:278][598]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.33.33:642][598]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.33.33:796][598]LogSavePackage: Save=111.634804ms
+[2021.05.17-11.33.33:796][598]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_DeathA49695AC4F762618CE14E9823589A66B.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap'
+[2021.05.17-11.33.33:829][598]LogFileHelpers: Saving map 'Test_Player_Death' took 0.321
+[2021.05.17-11.35.18:235][822]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.38.33:293][342]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-11.38.33:423][342]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2021.05.17-11.38.33:444][342]BlueprintEditorCompileResults: 情報 [3690.66] PNPlayerPawn のコンパイルに成功しました！  [ 151 ミリ秒]
+[2021.05.17-11.38.33:824][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-11.38.34:287][360]LogSavePackage: Save=430.671387ms
+[2021.05.17-11.38.34:287][360]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn80EA620D47F0029343D1A196991A5B97.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-11.38.36:575][483]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-11.38.36:576][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.38.36:576][483]LogPlayLevel: [PIE] Compiling PNPickupCoinActor before PIE...
+[2021.05.17-11.38.36:629][483]LogPlayLevel: [PIE] Compiling PNGameMode before PIE...
+[2021.05.17-11.38.36:675][483]LogPlayLevel: [PIE] Compiling Test_Player_Death before PIE...
+[2021.05.17-11.38.36:734][483]LogPlayLevel: PIE:  Blueprint regeneration took 159 ms (3 blueprints)
+[2021.05.17-11.38.36:734][483]PIE: New page: PIEセッション: Test_Player_Death (2021/05/18 5:38:36)
+[2021.05.17-11.38.36:742][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007659s)
+[2021.05.17-11.38.36:743][483]LogPlayLevel: PIE: World Init took: (0.000452s)
+[2021.05.17-11.38.36:743][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Death.Test_Player_Death to /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death (0.008219s)
+[2021.05.17-11.38.36:806][483]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-11.38.36:809][483]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-11.38.36:812][483]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death up for play (max tick rate 60) at 2021.05.17-20.38.36
+[2021.05.17-11.38.36:812][483]LogWorld: Bringing up level for play took: 0.002823
+[2021.05.17-11.38.36:835][483]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Death -0.09のPIE開始時間
+[2021.05.17-11.38.37:071][495]LogBlueprintUserMessages: 0
+[2021.05.17-11.38.37:572][525]LogBlueprintUserMessages: 0
+[2021.05.17-11.38.38:072][555]LogBlueprintUserMessages: 0
+[2021.05.17-11.38.38:571][585]LogBlueprintUserMessages: 0
+[2021.05.17-11.38.39:071][615]LogBlueprintUserMessages: 0
+[2021.05.17-11.38.39:571][645]LogBlueprintUserMessages: 0
+[2021.05.17-11.38.40:072][675]LogBlueprintUserMessages: 0
+[2021.05.17-11.38.40:571][705]LogBlueprintUserMessages: 0
+[2021.05.17-11.38.41:071][735]LogBlueprintUserMessages: 0
+[2021.05.17-11.38.41:572][765]LogBlueprintUserMessages: 0
+[2021.05.17-11.38.42:072][795]LogBlueprintUserMessages: 0
+[2021.05.17-11.38.42:413][811]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286AE4C0B80
+[2021.05.17-11.39.30:012][647]LogUObjectGlobals:Warning: オブジェクト 'Object なし.' が見つかりませんでした
+[2021.05.17-11.39.30:031][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.41.28:972][694]LogEditorTransaction: Undo PIEリンクを作成
+[2021.05.17-11.41.29:229][703]LogEditorTransaction: Undo PIEリンクを作成
+[2021.05.17-11.41.29:620][716]LogEditorTransaction: Undo ノードを移動
+[2021.05.17-11.41.29:989][734]LogEditorTransaction: Undo ノードを追加
+[2021.05.17-11.41.30:374][753]LogEditorTransaction: Undo 選択対象を削除します
+[2021.05.17-11.41.30:974][783]LogEditorTransaction: Undo 選択対象を削除します
+[2021.05.17-11.41.31:626][818]LogEditorTransaction: Undo 選択対象を削除します
+[2021.05.17-11.41.32:178][847]LogEditorTransaction: Undo 選択対象を削除します
+[2021.05.17-11.42.29:105][174]LogSavePackage: Save=112.409698ms
+[2021.05.17-11.42.29:105][174]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_Death45CC6DAC4BE1F270B9A99D829524597E.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap'
+[2021.05.17-11.42.29:138][174]LogFileHelpers: Saving map 'Test_Player_Death' took 0.319
+[2021.05.17-11.42.29:160][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-11.42.29:599][174]LogSavePackage: Save=409.563110ms
+[2021.05.17-11.42.29:599][174]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn9C7B23A5461A47030A6DEABF80A9B1C8.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-11.42.29:623][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPickupCoinActor" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPickupCoinActor.uasset" SILENT=true
+[2021.05.17-11.42.29:839][174]LogSavePackage: Save=184.538101ms
+[2021.05.17-11.42.29:839][174]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPickupCoinActorED052A9348818F7BA29AAA86A388CD2B.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPickupCoinActor.uasset'
+[2021.05.17-11.42.29:863][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPickupScrollActor" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPickupScrollActor.uasset" SILENT=true
+[2021.05.17-11.42.30:165][174]LogSavePackage: Save=268.266998ms
+[2021.05.17-11.42.30:165][174]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPickupScrollActorDBB4542A427CCE6DE8931FB61A7B9629.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPickupScrollActor.uasset'
+[2021.05.17-11.42.30:347][185]BlueprintLog: New page: PNPickupScrollActor をコンパイル
+[2021.05.17-11.42.30:390][185]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.42.30:408][185]BlueprintEditorCompileResults: 情報 [3927.63] PNPickupScrollActor のコンパイルに成功しました！  [ 61 ミリ秒]
+[2021.05.17-11.42.30:523][192]BlueprintLog: New page: PNPickupScrollActor をコンパイル
+[2021.05.17-11.42.30:580][192]BlueprintEditorCompileResults: 情報 [3927.80] PNPickupScrollActor のコンパイルに成功しました！  [ 56 ミリ秒]
+[2021.05.17-11.42.34:197][378]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.42.34:350][378]LogSavePackage: Save=111.830200ms
+[2021.05.17-11.42.34:350][378]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_DeathA0E01A8B4E4577188370BAB972A6FF23.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap'
+[2021.05.17-11.42.36:687][513]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-11.42.36:691][513]LogPlayLevel: [PIE] Compiling PNPlayerPawn before PIE...
+[2021.05.17-11.42.36:828][513]LogPlayLevel: [PIE] Compiling PNPickupCoinActor before PIE...
+[2021.05.17-11.42.36:878][513]LogPlayLevel: [PIE] Compiling Test_Player_Death before PIE...
+[2021.05.17-11.42.36:923][513]LogPlayLevel: [PIE] Compiling PNPickupScrollActor before PIE...
+[2021.05.17-11.42.36:969][513]LogPlayLevel: [PIE] Compiling PNGameMode before PIE...
+[2021.05.17-11.42.37:028][513]LogPlayLevel: PIE:  Blueprint regeneration took 341 ms (5 blueprints)
+[2021.05.17-11.42.37:028][513]PIE: New page: PIEセッション: Test_Player_Death (2021/05/18 5:42:37)
+[2021.05.17-11.42.37:036][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007466s)
+[2021.05.17-11.42.37:036][513]LogPlayLevel: PIE: World Init took: (0.000373s)
+[2021.05.17-11.42.37:036][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Death.Test_Player_Death to /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death (0.007944s)
+[2021.05.17-11.42.37:097][513]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-11.42.37:101][513]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-11.42.37:104][513]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death up for play (max tick rate 60) at 2021.05.17-20.42.37
+[2021.05.17-11.42.37:105][513]LogWorld: Bringing up level for play took: 0.003874
+[2021.05.17-11.42.37:130][513]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Death 0.205のPIE開始時間
+[2021.05.17-11.42.37:282][516]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.37:781][546]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.38:281][576]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.38:782][606]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.39:282][636]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.39:782][666]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.40:282][696]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.40:782][726]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.41:282][756]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.41:782][786]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.42:282][816]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.42:782][846]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.43:283][876]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.43:782][906]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.44:282][936]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.44:782][966]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.45:282][996]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.45:783][ 26]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.45:898][ 33]LogBlueprintUserMessages: Goal
+[2021.05.17-11.42.46:282][ 56]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.46:783][ 86]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.47:282][116]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.47:782][146]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.48:283][176]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.48:782][206]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.49:283][236]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.49:783][266]LogBlueprintUserMessages: 0
+[2021.05.17-11.42.50:317][295]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.42.50:350][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002870E6205E0
+[2021.05.17-11.43.10:905][502]BlueprintLog: New page: Test_Player_Death をコンパイル
+[2021.05.17-11.43.10:948][502]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.43.10:962][502]BlueprintEditorCompileResults: 情報 [3968.18] Test_Player_Death のコンパイルに成功しました！  [ 56 ミリ秒]
+[2021.05.17-11.43.12:499][591]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-11.43.12:502][591]LogPlayLevel: [PIE] Compiling Test_Player_Death before PIE...
+[2021.05.17-11.43.12:558][591]LogPlayLevel: PIE:  Blueprint regeneration took 59 ms (1 blueprints)
+[2021.05.17-11.43.12:559][591]PIE: New page: PIEセッション: Test_Player_Death (2021/05/18 5:43:12)
+[2021.05.17-11.43.12:566][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006861s)
+[2021.05.17-11.43.12:566][591]LogPlayLevel: PIE: World Init took: (0.000343s)
+[2021.05.17-11.43.12:566][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Death.Test_Player_Death to /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death (0.007310s)
+[2021.05.17-11.43.12:614][591]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-11.43.12:617][591]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-11.43.12:620][591]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death up for play (max tick rate 60) at 2021.05.17-20.43.12
+[2021.05.17-11.43.12:621][591]LogWorld: Bringing up level for play took: 0.003247
+[2021.05.17-11.43.12:644][591]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Death -0.281のPIE開始時間
+[2021.05.17-11.43.20:105][ 37]LogBlueprintUserMessages: Goal
+[2021.05.17-11.43.21:263][102]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028709392480
+[2021.05.17-11.43.57:027][242]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.43.58:883][242]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.43.59:032][242]LogSavePackage: Save=105.762604ms
+[2021.05.17-11.43.59:032][242]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_DeathD7FF14144D8DA53201A80083A0E43483.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap'
+[2021.05.17-11.43.59:065][242]LogFileHelpers: Saving map 'Test_Player_Death' took 0.314
+[2021.05.17-11.44.37:030][950]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2021.05.17-11.44.57:452][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.44.57:511][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNFuncLibrary" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNFuncLibrary.uasset" SILENT=true
+[2021.05.17-11.44.57:518][162]LogSavePackage: Save=3.502200ms
+[2021.05.17-11.44.57:518][162]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNFuncLibrary819F07034E901EB2EB69E8BE0F6F53D7.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNFuncLibrary.uasset'
+[2021.05.17-11.46.06:025][258]BlueprintLog: New page: PNFuncLibrary をコンパイル
+[2021.05.17-11.46.06:049][258]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.46.06:063][258]BlueprintEditorCompileResults: 情報 [4143.28] PNFuncLibrary のコンパイルに成功しました！  [ 38 ミリ秒]
+[2021.05.17-11.48.42:122][567]BlueprintLog: New page: PNFuncLibrary をコンパイル
+[2021.05.17-11.48.42:162][567]BlueprintEditorCompileResults: 情報 [4299.38] PNFuncLibrary のコンパイルに成功しました！  [ 39 ミリ秒]
+[2021.05.17-11.48.42:549][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNFuncLibrary" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNFuncLibrary.uasset" SILENT=true
+[2021.05.17-11.48.42:595][588]LogSavePackage: Save=12.959600ms
+[2021.05.17-11.48.42:595][588]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNFuncLibrary39D4BD0740740B41A64C54938FD8002A.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNFuncLibrary.uasset'
+[2021.05.17-11.48.49:044][969]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-11.48.49:045][969]LogPlayLevel: [PIE] Compiling Test_Player_Death before PIE...
+[2021.05.17-11.48.49:093][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.48.49:106][969]LogPlayLevel: PIE:  Blueprint regeneration took 61 ms (1 blueprints)
+[2021.05.17-11.48.49:106][969]PIE: New page: PIEセッション: Test_Player_Death (2021/05/18 5:48:49)
+[2021.05.17-11.48.49:113][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006599s)
+[2021.05.17-11.48.49:113][969]LogPlayLevel: PIE: World Init took: (0.000419s)
+[2021.05.17-11.48.49:113][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Death.Test_Player_Death to /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death (0.007131s)
+[2021.05.17-11.48.49:158][969]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-11.48.49:162][969]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-11.48.49:165][969]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death up for play (max tick rate 60) at 2021.05.17-20.48.49
+[2021.05.17-11.48.49:165][969]LogWorld: Bringing up level for play took: 0.003486
+[2021.05.17-11.48.49:189][969]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Death 0.264のPIE開始時間
+[2021.05.17-11.48.50:328][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002870CB6B420
+[2021.05.17-11.48.51:523][ 91]LogSavePackage: Save=106.575798ms
+[2021.05.17-11.48.51:523][ 91]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_Death982D90634F0F8F05426B54B74C346B7A.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap'
+[2021.05.17-11.48.52:782][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.49.15:890][536]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.49.31:047][441]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2021.05.17-11.49.46:155][345]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2021.05.17-11.50.16:106][139]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2021.05.17-11.50.33:078][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2021.05.17-11.50.48:963][ 97]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2021.05.17-11.51.48:446][642]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-11.51.48:586][642]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2021.05.17-11.51.48:611][642]BlueprintEditorCompileResults: 情報 [4485.83] PNPlayerPawn のコンパイルに成功しました！  [ 163 ミリ秒]
+[2021.05.17-11.51.48:862][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-11.51.49:322][652]LogSavePackage: Save=427.545685ms
+[2021.05.17-11.51.49:322][652]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawnE1237E97416B1581B3EE9CB75D8B0B02.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-11.53.06:540][219]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-11.53.06:668][219]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.53.06:690][219]BlueprintEditorCompileResults: 情報 [4563.91] PNPlayerPawn のコンパイルに成功しました！  [ 150 ミリ秒]
+[2021.05.17-11.53.07:144][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-11.53.07:593][241]LogSavePackage: Save=418.489105ms
+[2021.05.17-11.53.07:593][241]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawnA82595424D2E021F253A07B4C6E501F6.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-11.53.38:292][ 48]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-11.53.38:420][ 48]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.53.38:444][ 48]BlueprintEditorCompileResults: 情報 [4595.66] PNPlayerPawn のコンパイルに成功しました！  [ 151 ミリ秒]
+[2021.05.17-11.53.38:826][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-11.53.39:286][ 65]LogSavePackage: Save=428.117310ms
+[2021.05.17-11.53.39:286][ 65]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn4B6EDC3842B26290860A4590CE530049.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-11.53.44:268][356]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-11.53.44:269][356]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.53.44:269][356]LogPlayLevel: [PIE] Compiling PNPickupCoinActor before PIE...
+[2021.05.17-11.53.44:321][356]LogPlayLevel: [PIE] Compiling PNPickupScrollActor before PIE...
+[2021.05.17-11.53.44:369][356]LogPlayLevel: [PIE] Compiling PNGameMode before PIE...
+[2021.05.17-11.53.44:414][356]LogPlayLevel: [PIE] Compiling Test_Player_Death before PIE...
+[2021.05.17-11.53.44:473][356]LogPlayLevel: PIE:  Blueprint regeneration took 205 ms (4 blueprints)
+[2021.05.17-11.53.44:473][356]PIE: New page: PIEセッション: Test_Player_Death (2021/05/18 5:53:44)
+[2021.05.17-11.53.44:480][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006151s)
+[2021.05.17-11.53.44:480][356]LogPlayLevel: PIE: World Init took: (0.000352s)
+[2021.05.17-11.53.44:480][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Death.Test_Player_Death to /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death (0.006607s)
+[2021.05.17-11.53.44:540][356]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-11.53.44:542][356]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-11.53.44:545][356]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death up for play (max tick rate 60) at 2021.05.17-20.53.44
+[2021.05.17-11.53.44:545][356]LogWorld: Bringing up level for play took: 0.002791
+[2021.05.17-11.53.44:570][356]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Death -0.355のPIE開始時間
+[2021.05.17-11.53.55:213][985]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028713ECD440
+[2021.05.17-11.54.23:159][271]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2021.05.17-11.54.51:941][988]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.54.52:092][988]LogSavePackage: Save=105.942200ms
+[2021.05.17-11.54.52:092][988]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_DeathEC60DBD3403E23C84544E8973D7BCFB2.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap'
+[2021.05.17-11.54.53:175][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.54.54:084][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNActorMacroLibrary" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNActorMacroLibrary.uasset" SILENT=true
+[2021.05.17-11.54.54:094][ 51]LogSavePackage: Save=6.217900ms
+[2021.05.17-11.54.54:094][ 51]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNActorMacroLibrary102912A04912073CE2D42880D1BAFDC3.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNActorMacroLibrary.uasset'
+[2021.05.17-11.58.18:247][166]BlueprintLog: New page: PNFuncLibrary をコンパイル
+[2021.05.17-11.58.18:284][166]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.58.18:305][166]BlueprintEditorCompileResults: 情報 [4875.52] PNFuncLibrary のコンパイルに成功しました！  [ 57 ミリ秒]
+[2021.05.17-11.58.51:769][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNActorMacroLibrary" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNActorMacroLibrary.uasset" SILENT=true
+[2021.05.17-11.58.51:812][145]LogSavePackage: Save=10.821000ms
+[2021.05.17-11.58.51:812][145]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNActorMacroLibrary6D4568A145BD1FA08631C8B34132CC56.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNActorMacroLibrary.uasset'
+[2021.05.17-11.58.52:973][212]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.58.54:400][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNFuncLibrary" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNFuncLibrary.uasset" SILENT=true
+[2021.05.17-11.58.54:452][212]LogSavePackage: Save=14.677700ms
+[2021.05.17-11.58.54:452][212]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNFuncLibrary05008C9A481BDCA6B4CDC6A78D743CF9.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNFuncLibrary.uasset'
+[2021.05.17-11.59.09:954][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-11.59.27:749][201]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2021.05.17-12.00.18:873][212]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2021.05.17-12.00.56:095][412]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-12.00.56:243][412]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2021.05.17-12.00.56:268][412]BlueprintEditorCompileResults: 情報 [5033.49] PNPlayerPawn のコンパイルに成功しました！  [ 172 ミリ秒]
+[2021.05.17-12.00.56:692][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-12.00.57:180][432]LogSavePackage: Save=454.903290ms
+[2021.05.17-12.00.57:180][432]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn3139306A4C42A309674F229B6C3FF1BA.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-12.02.06:602][490]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-12.02.06:737][490]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.02.06:762][490]BlueprintEditorCompileResults: 情報 [5103.98] PNPlayerPawn のコンパイルに成功しました！  [ 159 ミリ秒]
+[2021.05.17-12.02.07:281][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-12.02.07:763][516]LogSavePackage: Save=451.131714ms
+[2021.05.17-12.02.07:763][516]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn0403164E4638D0BE1C9811A27203F49E.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-12.02.09:235][589]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.02.10:279][589]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.02.10:434][589]LogSavePackage: Save=107.751801ms
+[2021.05.17-12.02.10:434][589]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_DeathB7FEE40E45BF99E599F76F9052990819.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap'
+[2021.05.17-12.02.10:466][589]LogFileHelpers: Saving map 'Test_Player_Death' took 0.323
+[2021.05.17-12.02.11:388][641]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-12.02.11:389][641]LogPlayLevel: [PIE] Compiling PNPickupCoinActor before PIE...
+[2021.05.17-12.02.11:441][641]LogPlayLevel: [PIE] Compiling PNPickupScrollActor before PIE...
+[2021.05.17-12.02.11:488][641]LogPlayLevel: [PIE] Compiling PNGameMode before PIE...
+[2021.05.17-12.02.11:535][641]LogPlayLevel: [PIE] Compiling PNActorMacroLibrary before PIE...
+[2021.05.17-12.02.11:577][641]LogPlayLevel: [PIE] Compiling Test_Player_Death before PIE...
+[2021.05.17-12.02.11:626][641]LogPlayLevel: [PIE] Compiling PNPlayerPawn before PIE...
+[2021.05.17-12.02.11:782][641]LogPlayLevel: PIE:  Blueprint regeneration took 394 ms (6 blueprints)
+[2021.05.17-12.02.11:782][641]PIE: New page: PIEセッション: Test_Player_Death (2021/05/18 6:02:11)
+[2021.05.17-12.02.11:789][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006784s)
+[2021.05.17-12.02.11:790][641]LogPlayLevel: PIE: World Init took: (0.000463s)
+[2021.05.17-12.02.11:790][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Death.Test_Player_Death to /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death (0.007352s)
+[2021.05.17-12.02.11:856][641]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-12.02.11:858][641]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-12.02.11:860][641]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death up for play (max tick rate 60) at 2021.05.17-21.02.11
+[2021.05.17-12.02.11:861][641]LogWorld: Bringing up level for play took: 0.002862
+[2021.05.17-12.02.11:883][641]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Death 0.959のPIE開始時間
+[2021.05.17-12.02.33:896][958]LogBlueprintUserMessages: Goal
+[2021.05.17-12.02.37:001][141]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.02.37:036][142]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000287267F4180
+[2021.05.17-12.02.43:854][544]BlueprintLog: New page: Test_Player_Death をコンパイル
+[2021.05.17-12.02.43:913][544]BlueprintEditorCompileResults: 情報 [5141.13] Test_Player_Death のコンパイルに成功しました！  [ 58 ミリ秒]
+[2021.05.17-12.02.45:682][646]BlueprintLog: New page: PNPickupCoinActor をコンパイル
+[2021.05.17-12.02.45:730][646]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.02.45:747][646]BlueprintEditorCompileResults: 情報 [5142.96] PNPickupCoinActor のコンパイルに成功しました！  [ 64 ミリ秒]
+[2021.05.17-12.02.47:236][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.02.48:390][732]LogSavePackage: Save=107.909798ms
+[2021.05.17-12.02.48:390][732]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_DeathB892AF7F47D4BFCBB974DE80626607B3.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap'
+[2021.05.17-12.02.48:423][732]LogFileHelpers: Saving map 'Test_Player_Death' took 0.320
+[2021.05.17-12.03.22:456][758]BlueprintLog: New page: Test_Player_Death をコンパイル
+[2021.05.17-12.03.22:515][758]BlueprintEditorCompileResults: 情報 [5179.73] Test_Player_Death のコンパイルに成功しました！  [ 59 ミリ秒]
+[2021.05.17-12.03.43:243][978]BlueprintLog: New page: PNPickupScrollActor をコンパイル
+[2021.05.17-12.03.43:302][978]BlueprintEditorCompileResults: 情報 [5200.52] PNPickupScrollActor のコンパイルに成功しました！  [ 58 ミリ秒]
+[2021.05.17-12.04.23:459][385]Cmd: TRANSACTION UNDO
+[2021.05.17-12.04.23:459][385]LogEditorTransaction: Undo ノードを移動
+[2021.05.17-12.04.23:719][393]Cmd: TRANSACTION UNDO
+[2021.05.17-12.04.23:719][393]LogEditorTransaction: Undo ノードを追加
+[2021.05.17-12.04.24:236][413]Cmd: TRANSACTION UNDO
+[2021.05.17-12.04.24:236][413]LogEditorTransaction: Undo ノードを移動
+[2021.05.17-12.04.29:535][726]LogEditorTransaction: Undo 選択対象を削除します
+[2021.05.17-12.04.33:714][961]BlueprintLog: New page: PNPickupScrollActor をコンパイル
+[2021.05.17-12.04.33:776][961]BlueprintEditorCompileResults: 情報 [5250.99] PNPickupScrollActor のコンパイルに成功しました！  [ 61 ミリ秒]
+[2021.05.17-12.04.34:263][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPickupScrollActor" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPickupScrollActor.uasset" SILENT=true
+[2021.05.17-12.04.34:565][987]LogSavePackage: Save=268.221405ms
+[2021.05.17-12.04.34:565][987]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPickupScrollActor586EEFED4581475E6E7A7684D84CF555.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPickupScrollActor.uasset'
+[2021.05.17-12.04.38:181][204]BlueprintLog: New page: PNFuncLibrary をコンパイル
+[2021.05.17-12.04.38:232][204]BlueprintEditorCompileResults: 情報 [5255.45] PNFuncLibrary のコンパイルに成功しました！  [ 50 ミリ秒]
+[2021.05.17-12.04.42:033][428]BlueprintLog: New page: Test_Player_Death をコンパイル
+[2021.05.17-12.04.42:091][428]BlueprintEditorCompileResults: 情報 [5259.31] Test_Player_Death のコンパイルに成功しました！  [ 57 ミリ秒]
+[2021.05.17-12.05.01:668][590]BlueprintLog: New page: PNPickupCoinActor をコンパイル
+[2021.05.17-12.05.01:715][590]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.05.01:730][590]BlueprintEditorCompileResults: 情報 [5278.95] PNPickupCoinActor のコンパイルに成功しました！  [ 62 ミリ秒]
+[2021.05.17-12.05.02:631][644]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-12.05.02:788][644]BlueprintEditorCompileResults: 情報 [5280.01] PNPlayerPawn のコンパイルに成功しました！  [ 157 ミリ秒]
+[2021.05.17-12.05.05:477][800]BlueprintLog: New page: Test_Player_Death をコンパイル
+[2021.05.17-12.05.05:521][800]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.05.05:535][800]BlueprintEditorCompileResults: 情報 [5282.75] Test_Player_Death のコンパイルに成功しました！  [ 58 ミリ秒]
+[2021.05.17-12.05.44:734][121]BlueprintLog: New page: Test_Player_Death をコンパイル
+[2021.05.17-12.05.44:792][121]BlueprintEditorCompileResults: 情報 [5322.01] Test_Player_Death のコンパイルに成功しました！  [ 57 ミリ秒]
+[2021.05.17-12.05.47:029][238]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.05.47:826][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNActorMacroLibrary" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNActorMacroLibrary.uasset" SILENT=true
+[2021.05.17-12.05.47:876][238]LogSavePackage: Save=13.267700ms
+[2021.05.17-12.05.47:876][238]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNActorMacroLibrary7595AB71413A923FEF2961971B62F23D.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNActorMacroLibrary.uasset'
+[2021.05.17-12.05.47:887][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNFuncLibrary" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNFuncLibrary.uasset" SILENT=true
+[2021.05.17-12.05.47:939][238]LogSavePackage: Save=15.146400ms
+[2021.05.17-12.05.47:939][238]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNFuncLibraryFB2F4C584B66C80198B680ABBC9260A9.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNFuncLibrary.uasset'
+[2021.05.17-12.05.47:957][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPickupCoinActor" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPickupCoinActor.uasset" SILENT=true
+[2021.05.17-12.05.48:186][238]LogSavePackage: Save=193.583496ms
+[2021.05.17-12.05.48:186][238]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPickupCoinActor058A64404204DA3979A401825025E4FE.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPickupCoinActor.uasset'
+[2021.05.17-12.05.48:205][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-12.05.48:689][238]LogSavePackage: Save=451.324188ms
+[2021.05.17-12.05.48:689][238]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawnCC5CE3004918CB71553E41AA98111780.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-12.05.48:824][238]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.05.48:978][238]LogSavePackage: Save=112.862198ms
+[2021.05.17-12.05.48:978][238]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_DeathFE89419C40C8FDADF8991999025BEF0D.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap'
+[2021.05.17-12.05.49:011][238]LogFileHelpers: Saving map 'Test_Player_Death' took 0.315
+[2021.05.17-12.05.49:415][261]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-12.05.49:416][261]LogPlayLevel: [PIE] Compiling PNPickupCoinActor before PIE...
+[2021.05.17-12.05.49:467][261]LogPlayLevel: [PIE] Compiling PNPickupScrollActor before PIE...
+[2021.05.17-12.05.49:514][261]LogPlayLevel: [PIE] Compiling PNGameMode before PIE...
+[2021.05.17-12.05.49:562][261]LogPlayLevel: [PIE] Compiling PNActorMacroLibrary before PIE...
+[2021.05.17-12.05.49:607][261]LogPlayLevel: [PIE] Compiling Test_Player_Death before PIE...
+[2021.05.17-12.05.49:655][261]LogPlayLevel: [PIE] Compiling PNPlayerPawn before PIE...
+[2021.05.17-12.05.49:814][261]LogPlayLevel: PIE:  Blueprint regeneration took 398 ms (6 blueprints)
+[2021.05.17-12.05.49:814][261]PIE: New page: PIEセッション: Test_Player_Death (2021/05/18 6:05:49)
+[2021.05.17-12.05.49:821][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007232s)
+[2021.05.17-12.05.49:822][261]LogPlayLevel: PIE: World Init took: (0.000356s)
+[2021.05.17-12.05.49:822][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Death.Test_Player_Death to /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death (0.007692s)
+[2021.05.17-12.05.49:882][261]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-12.05.49:886][261]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-12.05.49:888][261]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death up for play (max tick rate 60) at 2021.05.17-21.05.49
+[2021.05.17-12.05.49:889][261]LogWorld: Bringing up level for play took: 0.003318
+[2021.05.17-12.05.49:913][261]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Death 0.988のPIE開始時間
+[2021.05.17-12.05.50:098][264]LogBlueprintUserMessages: 0
+[2021.05.17-12.05.50:579][293]LogBlueprintUserMessages: 0
+[2021.05.17-12.05.51:080][323]LogBlueprintUserMessages: 15
+[2021.05.17-12.05.51:580][353]LogBlueprintUserMessages: 35
+[2021.05.17-12.05.52:080][383]LogBlueprintUserMessages: 50
+[2021.05.17-12.05.52:580][413]LogBlueprintUserMessages: 65
+[2021.05.17-12.05.53:081][443]LogBlueprintUserMessages: 80
+[2021.05.17-12.05.53:580][473]LogBlueprintUserMessages: 85
+[2021.05.17-12.05.54:080][503]LogBlueprintUserMessages: 85
+[2021.05.17-12.05.54:580][533]LogBlueprintUserMessages: 85
+[2021.05.17-12.05.55:080][563]LogBlueprintUserMessages: 85
+[2021.05.17-12.05.55:580][593]LogBlueprintUserMessages: 85
+[2021.05.17-12.05.56:081][623]LogBlueprintUserMessages: 85
+[2021.05.17-12.05.56:580][653]LogBlueprintUserMessages: 85
+[2021.05.17-12.05.57:081][683]LogBlueprintUserMessages: 85
+[2021.05.17-12.05.57:581][713]LogBlueprintUserMessages: 85
+[2021.05.17-12.05.58:080][743]LogBlueprintUserMessages: 85
+[2021.05.17-12.05.58:581][773]LogBlueprintUserMessages: 85
+[2021.05.17-12.05.59:082][803]LogBlueprintUserMessages: 85
+[2021.05.17-12.05.59:336][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.05.59:369][816]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002870CA880E0
+[2021.05.17-12.06.00:588][883]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-12.06.00:589][883]LogPlayLevel: [PIE] Compiling PNPickupCoinActor before PIE...
+[2021.05.17-12.06.00:641][883]LogPlayLevel: [PIE] Compiling PNPickupScrollActor before PIE...
+[2021.05.17-12.06.00:688][883]LogPlayLevel: [PIE] Compiling PNGameMode before PIE...
+[2021.05.17-12.06.00:735][883]LogPlayLevel: [PIE] Compiling Test_Player_Death before PIE...
+[2021.05.17-12.06.00:793][883]LogPlayLevel: PIE:  Blueprint regeneration took 205 ms (4 blueprints)
+[2021.05.17-12.06.00:793][883]PIE: New page: PIEセッション: Test_Player_Death (2021/05/18 6:06:00)
+[2021.05.17-12.06.00:802][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008325s)
+[2021.05.17-12.06.00:802][883]LogPlayLevel: PIE: World Init took: (0.000340s)
+[2021.05.17-12.06.00:803][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Death.Test_Player_Death to /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death (0.008803s)
+[2021.05.17-12.06.00:857][883]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-12.06.00:859][883]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-12.06.00:861][883]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death up for play (max tick rate 60) at 2021.05.17-21.06.00
+[2021.05.17-12.06.00:862][883]LogWorld: Bringing up level for play took: 0.002927
+[2021.05.17-12.06.00:886][883]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Death -0.039のPIE開始時間
+[2021.05.17-12.06.01:079][892]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.01:579][922]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.02:078][952]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.02:579][982]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.03:079][ 12]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.03:578][ 42]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.04:079][ 72]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.04:579][102]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.05:079][132]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.05:579][162]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.06:079][192]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.06:579][222]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.07:079][252]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.07:578][282]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.08:079][312]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.08:579][342]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.09:079][372]LogBlueprintUserMessages: 0
+[2021.05.17-12.06.09:579][402]LogBlueprintUserMessages: 5
+[2021.05.17-12.06.10:079][432]LogBlueprintUserMessages: 25
+[2021.05.17-12.06.10:579][462]LogBlueprintUserMessages: 40
+[2021.05.17-12.06.11:079][492]LogBlueprintUserMessages: 60
+[2021.05.17-12.06.11:579][522]LogBlueprintUserMessages: 75
+[2021.05.17-12.06.12:079][552]LogBlueprintUserMessages: 90
+[2021.05.17-12.06.12:579][582]LogBlueprintUserMessages: 110
+[2021.05.17-12.06.13:079][612]LogBlueprintUserMessages: 125
+[2021.05.17-12.06.13:579][642]LogBlueprintUserMessages: 125
+[2021.05.17-12.06.14:079][672]LogBlueprintUserMessages: 125
+[2021.05.17-12.06.14:578][702]LogBlueprintUserMessages: 125
+[2021.05.17-12.06.15:079][732]LogBlueprintUserMessages: 125
+[2021.05.17-12.06.15:579][762]LogBlueprintUserMessages: 125
+[2021.05.17-12.06.16:079][792]LogBlueprintUserMessages: 125
+[2021.05.17-12.06.16:580][822]LogBlueprintUserMessages: 125
+[2021.05.17-12.06.17:079][852]LogBlueprintUserMessages: 125
+[2021.05.17-12.06.17:579][882]LogBlueprintUserMessages: 125
+[2021.05.17-12.06.18:079][912]LogBlueprintUserMessages: 125
+[2021.05.17-12.06.18:579][942]LogBlueprintUserMessages: 126
+[2021.05.17-12.06.19:079][972]LogBlueprintUserMessages: 126
+[2021.05.17-12.06.19:578][  2]LogBlueprintUserMessages: 126
+[2021.05.17-12.06.20:079][ 32]LogBlueprintUserMessages: 126
+[2021.05.17-12.06.20:579][ 62]LogBlueprintUserMessages: 126
+[2021.05.17-12.06.21:079][ 92]LogBlueprintUserMessages: 126
+[2021.05.17-12.06.21:579][122]LogBlueprintUserMessages: 126
+[2021.05.17-12.06.22:079][152]LogBlueprintUserMessages: 126
+[2021.05.17-12.06.22:579][182]LogBlueprintUserMessages: 127
+[2021.05.17-12.06.23:079][212]LogBlueprintUserMessages: 127
+[2021.05.17-12.06.23:579][242]LogBlueprintUserMessages: 127
+[2021.05.17-12.06.24:079][272]LogBlueprintUserMessages: 127
+[2021.05.17-12.06.24:579][302]LogBlueprintUserMessages: 127
+[2021.05.17-12.06.25:079][332]LogBlueprintUserMessages: 127
+[2021.05.17-12.06.25:579][362]LogBlueprintUserMessages: 127
+[2021.05.17-12.06.26:079][392]LogBlueprintUserMessages: 127
+[2021.05.17-12.06.26:579][422]LogBlueprintUserMessages: 127
+[2021.05.17-12.06.27:079][452]LogBlueprintUserMessages: 127
+[2021.05.17-12.06.27:580][482]LogBlueprintUserMessages: 127
+[2021.05.17-12.06.28:079][512]LogBlueprintUserMessages: 127
+[2021.05.17-12.06.28:422][528]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028725FC7CE0
+[2021.05.17-12.09.18:248][504]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.09.18:406][504]LogSavePackage: Save=111.577797ms
+[2021.05.17-12.09.18:406][504]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_Death00C7E0104FDBC0CB6FEDEDBAEAA24CAE.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap'
+[2021.05.17-12.09.19:352][559]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.09.20:476][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-12.09.20:974][559]LogSavePackage: Save=458.693298ms
+[2021.05.17-12.09.20:974][559]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawnDC9C4A964B42F8318392F6BAFCD86769.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-12.09.23:330][697]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-12.09.23:334][697]LogPlayLevel: [PIE] Compiling Test_Player_Death before PIE...
+[2021.05.17-12.09.23:381][697]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.09.23:393][697]LogPlayLevel: PIE:  Blueprint regeneration took 62 ms (1 blueprints)
+[2021.05.17-12.09.23:393][697]PIE: New page: PIEセッション: Test_Player_Death (2021/05/18 6:09:23)
+[2021.05.17-12.09.23:401][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007325s)
+[2021.05.17-12.09.23:401][697]LogPlayLevel: PIE: World Init took: (0.000384s)
+[2021.05.17-12.09.23:401][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Death.Test_Player_Death to /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death (0.007820s)
+[2021.05.17-12.09.23:451][697]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-12.09.23:453][697]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-12.09.23:456][697]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death up for play (max tick rate 60) at 2021.05.17-21.09.23
+[2021.05.17-12.09.23:457][697]LogWorld: Bringing up level for play took: 0.003061
+[2021.05.17-12.09.23:479][697]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Death 0.554のPIE開始時間
+[2021.05.17-12.09.23:825][716]LogBlueprintUserMessages: 0
+[2021.05.17-12.09.24:325][746]LogBlueprintUserMessages: 0
+[2021.05.17-12.09.24:825][776]LogBlueprintUserMessages: 15
+[2021.05.17-12.09.25:325][806]LogBlueprintUserMessages: 30
+[2021.05.17-12.09.25:825][836]LogBlueprintUserMessages: 45
+[2021.05.17-12.09.26:325][866]LogBlueprintUserMessages: 60
+[2021.05.17-12.09.26:826][896]LogBlueprintUserMessages: 80
+[2021.05.17-12.09.27:325][926]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.27:825][956]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.28:326][986]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.28:825][ 16]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.29:326][ 46]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.29:825][ 76]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.30:326][106]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.30:825][136]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.31:326][166]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.31:826][196]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.32:326][226]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.32:826][256]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.33:325][286]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.33:825][316]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.34:325][346]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.34:826][376]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.35:325][406]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.35:826][436]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.36:325][466]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.36:825][496]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.37:325][526]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.37:826][556]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.38:326][586]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.38:826][616]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.39:326][646]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.39:826][676]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.40:326][706]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.40:826][736]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.41:326][766]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.41:826][796]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.42:327][826]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.42:826][856]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.43:326][886]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.43:826][916]LogBlueprintUserMessages: 85
+[2021.05.17-12.09.44:325][946]LogBlueprintUserMessages: 90
+[2021.05.17-12.09.44:826][976]LogBlueprintUserMessages: 100
+[2021.05.17-12.09.45:326][  6]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.45:826][ 36]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.46:326][ 66]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.46:826][ 96]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.47:326][126]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.47:826][156]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.48:326][186]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.48:826][216]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.49:326][246]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.49:825][276]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.50:326][306]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.50:826][336]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.51:326][366]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.51:826][396]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.52:326][426]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.52:826][456]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.53:326][486]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.53:826][516]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.54:327][546]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.54:826][576]LogBlueprintUserMessages: 105
+[2021.05.17-12.09.55:326][606]LogBlueprintUserMessages: 106
+[2021.05.17-12.09.55:826][636]LogBlueprintUserMessages: 106
+[2021.05.17-12.09.56:327][666]LogBlueprintUserMessages: 106
+[2021.05.17-12.09.56:826][696]LogBlueprintUserMessages: 106
+[2021.05.17-12.09.57:327][726]LogBlueprintUserMessages: 106
+[2021.05.17-12.09.57:827][756]LogBlueprintUserMessages: 106
+[2021.05.17-12.09.58:327][786]LogBlueprintUserMessages: 106
+[2021.05.17-12.09.58:826][816]LogBlueprintUserMessages: 106
+[2021.05.17-12.09.59:057][825]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000287254C3420
+[2021.05.17-12.10.57:554][305]BlueprintLog: New page: PNPlayerPawn をコンパイル
+[2021.05.17-12.10.57:689][305]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.10.57:713][305]BlueprintEditorCompileResults: 情報 [5634.93] PNPlayerPawn のコンパイルに成功しました！  [ 160 ミリ秒]
+[2021.05.17-12.10.59:901][422]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.17-12.10.59:901][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.10.59:902][422]LogPlayLevel: [PIE] Compiling PNPickupCoinActor before PIE...
+[2021.05.17-12.10.59:954][422]LogPlayLevel: [PIE] Compiling PNPickupScrollActor before PIE...
+[2021.05.17-12.11.00:000][422]LogPlayLevel: [PIE] Compiling PNGameMode before PIE...
+[2021.05.17-12.11.00:048][422]LogPlayLevel: [PIE] Compiling Test_Player_Death before PIE...
+[2021.05.17-12.11.00:106][422]LogPlayLevel: PIE:  Blueprint regeneration took 205 ms (4 blueprints)
+[2021.05.17-12.11.00:106][422]PIE: New page: PIEセッション: Test_Player_Death (2021/05/18 6:11:00)
+[2021.05.17-12.11.00:113][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007262s)
+[2021.05.17-12.11.00:114][422]LogPlayLevel: PIE: World Init took: (0.000355s)
+[2021.05.17-12.11.00:114][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Player_Death.Test_Player_Death to /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death (0.007722s)
+[2021.05.17-12.11.00:175][422]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.17-12.11.00:178][422]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.05.17-12.11.00:182][422]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Player_Death.Test_Player_Death up for play (max tick rate 60) at 2021.05.17-21.11.00
+[2021.05.17-12.11.00:182][422]LogWorld: Bringing up level for play took: 0.003529
+[2021.05.17-12.11.00:205][422]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Player_Death 1.28のPIE開始時間
+[2021.05.17-12.11.00:393][431]LogBlueprintUserMessages: 0
+[2021.05.17-12.11.00:893][461]LogBlueprintUserMessages: 0
+[2021.05.17-12.11.01:392][491]LogBlueprintUserMessages: 0
+[2021.05.17-12.11.01:893][521]LogBlueprintUserMessages: 0
+[2021.05.17-12.11.02:393][551]LogBlueprintUserMessages: 0
+[2021.05.17-12.11.02:893][581]LogBlueprintUserMessages: 15
+[2021.05.17-12.11.03:394][611]LogBlueprintUserMessages: 35
+[2021.05.17-12.11.03:894][641]LogBlueprintUserMessages: 40
+[2021.05.17-12.11.04:393][671]LogBlueprintUserMessages: 50
+[2021.05.17-12.11.04:894][701]LogBlueprintUserMessages: 65
+[2021.05.17-12.11.05:393][731]LogBlueprintUserMessages: 80
+[2021.05.17-12.11.05:894][761]LogBlueprintUserMessages: 100
+[2021.05.17-12.11.06:394][791]LogBlueprintUserMessages: 105
+[2021.05.17-12.11.06:894][821]LogBlueprintUserMessages: 105
+[2021.05.17-12.11.07:394][851]LogBlueprintUserMessages: 105
+[2021.05.17-12.11.07:894][881]LogBlueprintUserMessages: 105
+[2021.05.17-12.11.08:394][911]LogBlueprintUserMessages: 105
+[2021.05.17-12.11.08:893][941]LogBlueprintUserMessages: 105
+[2021.05.17-12.11.09:393][971]LogBlueprintUserMessages: 105
+[2021.05.17-12.11.09:894][  1]LogBlueprintUserMessages: 105
+[2021.05.17-12.11.10:393][ 31]LogBlueprintUserMessages: 105
+[2021.05.17-12.11.10:894][ 61]LogBlueprintUserMessages: 104
+[2021.05.17-12.11.11:393][ 91]LogBlueprintUserMessages: 104
+[2021.05.17-12.11.11:894][121]LogBlueprintUserMessages: 104
+[2021.05.17-12.11.12:000][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002872A00B6A0
+[2021.05.17-12.11.15:592][228]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.11.16:687][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2021.05.17-12.11.17:182][228]LogSavePackage: Save=458.766602ms
+[2021.05.17-12.11.17:182][228]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPlayerPawn732D822A4291A0D136C4F09AD58824D9.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2021.05.17-12.11.17:314][228]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.17-12.11.17:471][228]LogSavePackage: Save=112.057297ms
+[2021.05.17-12.11.17:471][228]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Player_Death060F408D40C2277F71091A90D5FB9526.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap'
+[2021.05.17-12.11.17:503][228]LogFileHelpers: Saving map 'Test_Player_Death' took 0.314
+[2021.05.17-12.11.19:132][288]Cmd: QUIT_EDITOR
+[2021.05.17-12.11.19:323][288]LogExit: Preparing to exit.
+[2021.05.17-12.11.20:048][288]LogExit: Editor shut down
+[2021.05.17-12.11.20:048][288]LogExit: Transaction tracking system shut down
+[2021.05.17-12.11.20:049][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286E5A90EA0
+[2021.05.17-12.11.20:049][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286E66514E0
+[2021.05.17-12.11.20:049][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286D613BD80
+[2021.05.17-12.11.20:051][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002868C9ADB20
+[2021.05.17-12.11.20:051][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286B3A76AC0
+[2021.05.17-12.11.20:051][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002868CF8E160
+[2021.05.17-12.11.20:051][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000286ACD1A840
+[2021.05.17-12.11.20:101][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002871AE55DA0
+[2021.05.17-12.11.20:101][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002869985D580
+[2021.05.17-12.11.20:101][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002870E64FEC0
+[2021.05.17-12.11.20:101][288]LogExit: Object subsystem successfully closed.
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module CrashTracker (178)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module SuperSearch (177)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module WorldBrowser (176)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2021.05.17-12.11.20:165][288]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2021.05.17-12.11.20:281][288]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2021.05.17-12.11.20:387][288]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2021.05.17-12.11.20:387][288]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2021.05.17-12.11.20:387][288]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2021.05.17-12.11.20:388][288]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2021.05.17-12.11.20:458][288]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2021.05.17-12.11.20:458][288]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2021.05.17-12.11.20:458][288]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2021.05.17-12.11.20:458][288]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2021.05.17-12.11.20:458][288]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2021.05.17-12.11.20:458][288]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2021.05.17-12.11.20:458][288]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2021.05.17-12.11.20:458][288]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2021.05.17-12.11.20:458][288]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2021.05.17-12.11.20:458][288]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2021.05.17-12.11.20:458][288]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2021.05.17-12.11.20:458][288]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2021.05.17-12.11.20:458][288]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2021.05.17-12.11.20:459][288]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2021.05.17-12.11.20:459][288]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2021.05.17-12.11.20:459][288]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2021.05.17-12.11.20:459][288]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2021.05.17-12.11.20:459][288]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2021.05.17-12.11.20:459][288]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2021.05.17-12.11.20:459][288]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2021.05.17-12.11.20:459][288]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2021.05.17-12.11.20:459][288]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2021.05.17-12.11.20:459][288]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2021.05.17-12.11.20:459][288]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2021.05.17-12.11.20:459][288]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2021.05.17-12.11.20:459][288]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2021.05.17-12.11.20:459][288]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2021.05.17-12.11.20:560][288]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2021.05.17-12.11.20:560][288]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2021.05.17-12.11.20:561][288]LogModuleManager: Shutting down and abandoning module Media (76)
+[2021.05.17-12.11.20:561][288]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2021.05.17-12.11.20:563][288]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2021.05.17-12.11.20:563][288]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2021.05.17-12.11.20:563][288]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2021.05.17-12.11.20:563][288]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2021.05.17-12.11.20:563][288]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2021.05.17-12.11.20:563][288]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2021.05.17-12.11.20:563][288]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2021.05.17-12.11.20:563][288]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2021.05.17-12.11.20:563][288]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2021.05.17-12.11.20:563][288]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2021.05.17-12.11.20:563][288]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2021.05.17-12.11.20:563][288]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2021.05.17-12.11.20:563][288]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2021.05.17-12.11.20:566][288]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2021.05.17-12.11.20:566][288]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2021.05.17-12.11.20:566][288]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2021.05.17-12.11.20:566][288]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2021.05.17-12.11.20:566][288]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2021.05.17-12.11.20:566][288]LogModuleManager: Shutting down and abandoning module Core (55)
+[2021.05.17-12.11.20:566][288]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2021.05.17-12.11.20:566][288]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2021.05.17-12.11.20:566][288]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2021.05.17-12.11.20:566][288]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2021.05.17-12.11.20:626][288]LogDerivedDataCache: Shutdown
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2021.05.17-12.11.20:626][288]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2021.05.17-12.11.20:632][288]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2021.05.17-12.11.20:632][288]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2021.05.17-12.11.20:632][288]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2021.05.17-12.11.20:632][288]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2021.05.17-12.11.20:632][288]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2021.05.17-12.11.20:632][288]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2021.05.17-12.11.20:632][288]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2021.05.17-12.11.20:632][288]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2021.05.17-12.11.20:632][288]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2021.05.17-12.11.20:634][288]LogExit: Exiting.
+[2021.05.17-12.11.20:637][288]Log file closed, 05/17/21 21:11:20
