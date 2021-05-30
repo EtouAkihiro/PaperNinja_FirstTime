@@ -1,0 +1,661 @@
+﻿Log file open, 05/30/21 09:40:12
+LogInit:Display: Running engine for game: PaperNinja
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2021.05.30-00.40.12:794][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2021.05.30-00.40.12:931][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2021.05.30-00.40.13:047][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2021.05.30-00.40.13:092][  0]LogInit: Object subsystem initialized
+[2021.05.30-00.40.13:118][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2021.05.30-00.40.13:118][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.05.30-00.40.13:118][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2021.05.30-00.40.13:118][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.05.30-00.40.13:118][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2021.05.30-00.40.13:118][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.05.30-00.40.13:130][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.30-00.40.13:130][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.30-00.40.13:165][  0]LogInit: Computer: DESKTOP-QG331CQ
+[2021.05.30-00.40.13:165][  0]LogInit: User: magi1
+[2021.05.30-00.40.13:165][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.05.30-00.40.13:165][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.30-00.40.13:166][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2021.05.30-00.40.13:166][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.30-00.40.13:166][  0]LogMemory: Process Physical Memory: 49.70 MB used, 49.70 MB peak
+[2021.05.30-00.40.13:166][  0]LogMemory: Process Virtual Memory: 24.81 MB used, 24.81 MB peak
+[2021.05.30-00.40.13:166][  0]LogMemory: Physical Memory: 7375.50 MB used, 16239.85 MB total
+[2021.05.30-00.40.13:167][  0]LogMemory: Virtual Memory: 4431.00 MB used, 134217728.00 MB total
+[2021.05.30-00.40.13:554][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce RTX 2080 (Feature Level 11_0)
+[2021.05.30-00.40.13:554][  0]LogD3D11RHI: Adapter has 8010MB of dedicated video memory, 0MB of dedicated system memory, and 8119MB of shared system memory, 2 output[s]
+[2021.05.30-00.40.13:641][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) UHD Graphics 630 (Feature Level 11_0)
+[2021.05.30-00.40.13:641][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8119MB of shared system memory, 0 output[s]
+[2021.05.30-00.40.13:648][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2021.05.30-00.40.13:648][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8119MB of shared system memory, 0 output[s]
+[2021.05.30-00.40.13:648][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2021.05.30-00.40.13:672][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.05.30-00.40.14:124][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.30-00.40.14:882][  0]LogTextLocalizationManager: The requested culture ('ja_JP') has no localization data; parent culture's ('ja') localization data will be used.
+[2021.05.30-00.40.15:167][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (-29098895) String: (現行レベルをディスクに保存)
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Engine/ja/Engine.locres) Hash: (-1280300587) String: (選択データをvlogファイルに保存)
+[2021.05.30-00.40.15:167][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (-630476809) String: ({0} にインポート...)
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (1271782899) String: (このフォルダへファイルからアセットをインポート)
+[2021.05.30-00.40.15:532][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2021.05.30-00.40.23:360][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.05.30-00.40.25:713][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.05.30-00.40.26:114][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2021.05.30-00.40.26:251][  0]LogDerivedDataCache: Loaded boot cache 0.13s 39MB C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2021.05.30-00.40.26:251][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2021.05.30-00.40.26:251][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.30-00.40.26:251][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.30-00.40.26:821][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.30-00.40.26:844][  0]LogDerivedDataCache: Using Local data cache path C:/Users/magi1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.30-00.40.28:994][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2021.05.30-00.40.28:994][  0]LogMeshUtilities: No automatic mesh merging module available
+[2021.05.30-00.40.31:186][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.05.30-00.40.31:836][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2021.05.30-00.40.37:884][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.30-00.40.39:169][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.30-00.40.39:169][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.30-00.40.39:169][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.30-00.40.39:169][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2021.05.30-00.40.39:170][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2021.05.30-00.40.39:231][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.30-00.40.40:756][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2021.05.30-00.40.40:756][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2021.05.30-00.40.41:051][  0]LogEngine: Initializing Engine...
+[2021.05.30-00.40.43:841][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.05.30-00.40.43:979][  0]LogInit: FAudioDevice initialized.
+[2021.05.30-00.40.44:244][  0]LogAIModule: Creating AISystem for world NewWorld
+[2021.05.30-00.40.44:315][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2021.05.30-00.40.44:324][  0]LogInit: Texture streaming: Enabled
+[2021.05.30-00.40.44:830][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2021.05.30-00.40.44:831][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2021.05.30-00.40.44:831][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2021.05.30-00.40.44:831][  0]LogAnalytics: SetUserId 144e59504b07e7078f7f9fbff0f199ea|e89bcdc3dddd40638ff112a71cef8e67|badf8662-73b2-480e-8b08-9b9fdfc993be
+[2021.05.30-00.40.44:833][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2021.05.30-00.40.45:098][  0]LogInit: Transaction tracking system initialized
+[2021.05.30-00.40.46:015][  0]BlueprintLog: New page: エディタの読み込み
+[2021.05.30-00.40.46:169][  0]LogAssetRegistry: FAssetRegistry took 0.0145 seconds to start up
+[2021.05.30-00.40.46:170][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2021.05.30-00.40.47:666][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.05.30-00.40.48:433][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.05.30-00.40.49:829][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2021.05.30-00.40.49:831][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2021.05.30-00.40.49:863][  0]LogConsoleResponse:Display: 
+[2021.05.30-00.40.50:554][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2021.05.30-00.40.51:524][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.05.30-00.40.51:528][  0]Cmd: MAP LOAD FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.30-00.40.51:546][  0]LightingResults: New page: ライティングのビルド
+[2021.05.30-00.40.51:625][  0]MapCheck: New page: マップをチェック
+[2021.05.30-00.40.51:626][  0]LightingResults: New page: <何も選択されていません>
+[2021.05.30-00.40.51:652][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000267D42C4EA0
+[2021.05.30-00.40.54:677][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.30-00.40.54:721][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.30-00.40.54:725][  0]Cmd: MAP CHECKDEP
+[2021.05.30-00.40.54:726][  0]MapCheck: New page: Minimal_Default - 2021/05/30 18:40:54
+[2021.05.30-00.40.55:184][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 457.892ミリ秒かかりました。
+[2021.05.30-00.40.55:184][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.658
+[2021.05.30-00.40.55:671][  0]LogCollectionManager: Loaded 0 collections in 0.005597 seconds
+[2021.05.30-00.40.55:695][  0]LogContentBrowser: Native class hierarchy populated in 0.0235 seconds. Added 1696 classes and 261 folders.
+[2021.05.30-00.40.55:835][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0067 seconds. Added 1 classes and 2 folders.
+[2021.05.30-00.40.55:943][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0081 seconds. Added 1 classes and 3 folders.
+[2021.05.30-00.40.56:314][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2021.05.30-00.40.56:325][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2021.05.30-00.40.56:361][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2021.05.30-00.40.56:410][  0]LogLoad: Full Startup: 50.47 seconds (BP compile: 0.30 seconds)
+[2021.05.30-00.40.57:521][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2021.05.30-00.40.57:816][  0]LogRenderer:Warning: Reallocating scene render targets to support 1200x576 (Frame:3).
+[2021.05.30-00.40.57:963][  1]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Stage01'
+[2021.05.30-00.41.03:702][ 18]LogAssetRegistry: Asset discovery search completed in 17.5476 seconds
+[2021.05.30-00.41.10:447][ 41]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters'
+[2021.05.30-00.41.12:531][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Test'
+[2021.05.30-00.41.53:186][703]Cmd: MAP LOAD FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Enemy_Navigation.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.30-00.41.53:187][703]LightingResults: New page: ライティングのビルド
+[2021.05.30-00.41.53:340][703]LoadErrors: New page: マップをロード中: Test_Enemy_Navigation.umap
+[2021.05.30-00.41.53:345][703]MapCheck: New page: マップをチェック
+[2021.05.30-00.41.53:345][703]LightingResults: New page: <何も選択されていません>
+[2021.05.30-00.41.53:371][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000267CB5BFE20
+[2021.05.30-00.41.53:478][703]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.30-00.41.53:495][703]LogAIModule: Creating AISystem for world Test_Enemy_Navigation
+[2021.05.30-00.41.53:645][703]Cmd: MAP CHECKDEP
+[2021.05.30-00.41.53:645][703]MapCheck: New page: Test_Enemy_Navigation - 2021/05/30 18:41:53
+[2021.05.30-00.41.53:939][703]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 293.614ミリ秒かかりました。
+[2021.05.30-00.41.53:942][703]LogFileHelpers: Loading map 'Test_Enemy_Navigation' took 0.763
+[2021.05.30-00.41.56:263][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-00.41.56:917][763]LogSavePackage: Save=308.432312ms
+[2021.05.30-00.41.56:917][763]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Enemy_Navigation871727E44D75B3DBA6F95BBCDAF5DE92.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Enemy_Navigation.umap'
+[2021.05.30-00.42.25:421][921]LogSavePackage: Save=166.636597ms
+[2021.05.30-00.42.25:421][921]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_AI_Patrol92E644BF44BB45FBD012A2965F338B4D.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_AI_Patrol.umap'
+[2021.05.30-00.42.25:559][921]LogFileHelpers: Saving map 'Test_AI_Patrol' took 1.456
+[2021.05.30-00.48.00:361][991]Cmd: MAP LOAD FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_AI_Patrol.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.30-00.48.00:361][991]LightingResults: New page: ライティングのビルド
+[2021.05.30-00.48.00:467][991]LoadErrors: New page: マップをロード中: Test_AI_Patrol.umap
+[2021.05.30-00.48.00:469][991]MapCheck: New page: マップをチェック
+[2021.05.30-00.48.00:469][991]LightingResults: New page: <何も選択されていません>
+[2021.05.30-00.48.00:482][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000267D0D5D8A0
+[2021.05.30-00.48.00:793][991]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.30-00.48.00:793][991]LogAIModule: Creating AISystem for world Test_AI_Patrol
+[2021.05.30-00.48.00:891][991]Cmd: MAP CHECKDEP
+[2021.05.30-00.48.00:892][991]MapCheck: New page: Test_AI_Patrol - 2021/05/30 18:48:00
+[2021.05.30-00.48.01:178][991]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 286.047ミリ秒かかりました。
+[2021.05.30-00.48.01:209][991]LogFileHelpers: Loading map 'Test_AI_Patrol' took 0.851
+[2021.05.30-00.48.07:793][127]MapCheck: New page: マップをチェック
+[2021.05.30-00.48.07:844][127]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.05.30-00.48.07:844][127]MapCheck: New page: Test_AI_Patrol - 2021/05/30 18:48:07
+[2021.05.30-00.48.08:135][127]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 291.298ミリ秒かかりました。
+[2021.05.30-00.48.08:159][127]LogEditorBuildUtils: Build time 0:00:00
+[2021.05.30-00.48.13:172][295]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.30-00.48.13:172][295]LogPlayLevel: [PIE] Compiling Test_AI_Patrol before PIE...
+[2021.05.30-00.48.13:255][295]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-00.48.13:274][295]LogPlayLevel: PIE:  Blueprint regeneration took 102 ms (1 blueprints)
+[2021.05.30-00.48.13:274][295]PIE: New page: SIEセッション: Test_AI_Patrol (2021/05/30 18:48:13)
+[2021.05.30-00.48.13:285][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010268s)
+[2021.05.30-00.48.13:286][295]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2021.05.30-00.48.13:286][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_AI_Patrol.Test_AI_Patrol to /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol (0.011406s)
+[2021.05.30-00.48.15:430][295]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.30-00.48.15:442][295]LogAIModule: Creating AISystem for world Test_AI_Patrol
+[2021.05.30-00.48.15:454][295]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.30-00.48.15:454][295]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol up for play (max tick rate 0) at 2021.05.30-09.48.15
+[2021.05.30-00.48.15:464][295]LogWorld: Bringing up level for play took: 0.021086
+[2021.05.30-00.48.15:471][295]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol 1.53のPIE開始時間
+[2021.05.30-00.48.20:586][705]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000267CF108B80
+[2021.05.30-00.48.29:848][677]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AI'
+[2021.05.30-00.48.44:906][193]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AI'
+[2021.05.30-00.49.39:078][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-00.49.39:090][134]LogSavePackage: Save=6.721700ms
+[2021.05.30-00.49.39:090][134]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_Patrol2CE52C76438F961D8ABFFF9698564D9D.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-00.49.39:794][134]LogSavePackage: Save=207.951508ms
+[2021.05.30-00.49.39:794][134]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_AI_Patrol13C31D9F4A6A68907847D9BA09753A41.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_AI_Patrol.umap'
+[2021.05.30-00.49.39:889][134]LogFileHelpers: Saving map 'Test_AI_Patrol' took 0.777
+[2021.05.30-00.49.53:936][504]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2021.05.30-00.51.17:932][480]BlueprintLog: New page: PNAIController をコンパイル
+[2021.05.30-00.51.18:083][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-00.51.18:084][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2021.05.30-00.51.18:123][480]BlueprintEditorCompileResults: 情報 [0672.18] PNAIController のコンパイルに成功しました！  [ 190 ミリ秒]
+[2021.05.30-00.52.21:275][704]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/BTTask_BlueprintBase_New
+[2021.05.30-00.53.01:645][890]LogMetaData: Removing '/Game/AI/PNBTTask_GetPatrolLocation.SKEL_PNBTTask_GetPatrolLocation_C' ref from Metadata '/Game/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2021.05.30-00.53.01:645][890]LogMetaData: Removing '/Game/AI/PNBTTask_GetPatrolLocation.PNBTTask_GetPatrolLocation_C' ref from Metadata '/Game/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2021.05.30-00.53.01:734][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBTTask_GetPatrolLocation" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset" SILENT=true
+[2021.05.30-00.53.01:747][890]LogSavePackage: Save=7.990400ms
+[2021.05.30-00.53.01:747][890]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTTask_GetPatrolLocation3E6158A448C59742536A14A1DD1D626D.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset'
+[2021.05.30-00.53.01:964][892]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/AI/PNBTTask_GetPatrolLocation
+[2021.05.30-00.53.03:031][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-00.53.04:231][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BTTask_BlueprintBase_New" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/BTTask_BlueprintBase_New.uasset" SILENT=true
+[2021.05.30-00.53.04:245][974]LogSavePackage: Save=5.026100ms
+[2021.05.30-00.53.04:245][974]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/BTTask_BlueprintBase_New0B94A3A3465A4B30EFC7448A308378A6.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/BTTask_BlueprintBase_New.uasset'
+[2021.05.30-00.53.04:266][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNAIController" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNAIController.uasset" SILENT=true
+[2021.05.30-00.53.04:603][974]LogSavePackage: Save=181.027695ms
+[2021.05.30-00.53.04:603][974]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNAIControllerA229175D4A2F398B053129B5D0AB9916.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNAIController.uasset'
+[2021.05.30-00.53.04:622][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-00.53.04:788][974]LogSavePackage: Save=9.868800ms
+[2021.05.30-00.53.04:788][974]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_PatrolCC2C4A9C43A9C1F7421BA0B4CD87432C.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-00.55.28:015][380]BlueprintLog: New page: PNBTTask_GetPatrolLocation をコンパイル
+[2021.05.30-00.55.28:130][380]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-00.55.28:131][380]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2021.05.30-00.55.28:170][380]BlueprintEditorCompileResults: 情報 [0922.23] PNBTTask_GetPatrolLocation のコンパイルに成功しました！  [ 154 ミリ秒]
+[2021.05.30-00.55.28:729][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBTTask_GetPatrolLocation" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset" SILENT=true
+[2021.05.30-00.55.28:934][432]LogSavePackage: Save=48.508202ms
+[2021.05.30-00.55.28:934][432]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTTask_GetPatrolLocationF711E62E4F2DF2C9F3D528A4F5737D19.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset'
+[2021.05.30-00.59.34:395][526]BlueprintLog: New page: PNBTTask_GetPatrolLocation をコンパイル
+[2021.05.30-00.59.34:555][526]BlueprintEditorCompileResults: 情報 [1168.61] PNBTTask_GetPatrolLocation のコンパイルに成功しました！  [ 159 ミリ秒]
+[2021.05.30-00.59.44:073][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBTTask_GetPatrolLocation" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset" SILENT=true
+[2021.05.30-00.59.44:282][767]LogSavePackage: Save=58.936100ms
+[2021.05.30-00.59.44:282][767]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTTask_GetPatrolLocation9135BBD6471D6B2684410F8891CCAF20.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset'
+[2021.05.30-01.00.27:987][314]BlueprintLog: New page: PNBTTask_GetPatrolLocation をコンパイル
+[2021.05.30-01.00.28:152][314]BlueprintEditorCompileResults: 情報 [1222.21] PNBTTask_GetPatrolLocation のコンパイルに成功しました！  [ 163 ミリ秒]
+[2021.05.30-01.00.28:748][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBTTask_GetPatrolLocation" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset" SILENT=true
+[2021.05.30-01.00.28:963][345]LogSavePackage: Save=65.146004ms
+[2021.05.30-01.00.28:963][345]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTTask_GetPatrolLocationAF1428B94E29B6F48B8FC4A414C9158E.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset'
+[2021.05.30-01.02.23:885][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-01.02.24:050][692]LogSavePackage: Save=15.432600ms
+[2021.05.30-01.02.24:050][692]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_Patrol246B46A5414E0468B92BE583E24F15BD.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-01.02.34:038][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-01.02.34:204][282]LogSavePackage: Save=15.642600ms
+[2021.05.30-01.02.34:204][282]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_PatrolB4D076D840E84F547FD728ABB6CB4415.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-01.02.40:647][661]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.30-01.02.40:652][661]LogPlayLevel: [PIE] Compiling Test_AI_Patrol before PIE...
+[2021.05.30-01.02.40:760][661]LogPlayLevel: PIE:  Blueprint regeneration took 113 ms (1 blueprints)
+[2021.05.30-01.02.40:760][661]PIE: New page: SIEセッション: Test_AI_Patrol (2021/05/30 19:02:40)
+[2021.05.30-01.02.40:771][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010339s)
+[2021.05.30-01.02.40:772][661]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2021.05.30-01.02.40:772][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_AI_Patrol.Test_AI_Patrol to /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol (0.011574s)
+[2021.05.30-01.02.40:816][661]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.30-01.02.40:821][661]LogAIModule: Creating AISystem for world Test_AI_Patrol
+[2021.05.30-01.02.40:833][661]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.30-01.02.40:833][661]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol up for play (max tick rate 60) at 2021.05.30-10.02.40
+[2021.05.30-01.02.40:835][661]LogWorld: Bringing up level for play took: 0.014095
+[2021.05.30-01.02.40:839][661]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol 0.899のPIE開始時間
+[2021.05.30-01.04.33:860][299]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000026796CD49A0
+[2021.05.30-01.04.36:578][451]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AI'
+[2021.05.30-01.05.26:662][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBlackboard_Enemy" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBlackboard_Enemy.uasset" SILENT=true
+[2021.05.30-01.05.26:671][435]LogSavePackage: Save=4.478500ms
+[2021.05.30-01.05.26:671][435]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBlackboard_Enemy324BD6704E53196FA0DAC3BCA027108D.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBlackboard_Enemy.uasset'
+[2021.05.30-01.06.48:075][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBlackboard_Enemy" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBlackboard_Enemy.uasset" SILENT=true
+[2021.05.30-01.06.48:240][176]LogSavePackage: Save=5.628200ms
+[2021.05.30-01.06.48:240][176]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBlackboard_Enemy07E5F4A8480DD39E252A328F347741E2.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBlackboard_Enemy.uasset'
+[2021.05.30-01.06.48:261][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-01.06.48:427][176]LogSavePackage: Save=16.052401ms
+[2021.05.30-01.06.48:427][176]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_Patrol9AA4EBDC473F54CAFF5AE29D42794FB9.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-01.06.52:497][414]LogBehaviorTree:Warning: Blackboard asset (PNBlackboard_Enemy) has (PNBlackboard_Enemy) in parent chain! Clearing value to avoid cycle.
+[2021.05.30-01.07.00:704][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBlackboard_Enemy" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBlackboard_Enemy.uasset" SILENT=true
+[2021.05.30-01.07.00:858][900]LogSavePackage: Save=4.878200ms
+[2021.05.30-01.07.00:858][900]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBlackboard_Enemy52C3BA9649429F0E7C19DDB6F6D08CDE.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBlackboard_Enemy.uasset'
+[2021.05.30-01.09.24:899][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBlackboard_Enemy" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBlackboard_Enemy.uasset" SILENT=true
+[2021.05.30-01.09.25:059][473]LogSavePackage: Save=6.067800ms
+[2021.05.30-01.09.25:059][473]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBlackboard_EnemyC32B808042B42845CD568889C5A78046.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBlackboard_Enemy.uasset'
+[2021.05.30-01.10.13:735][259]BlueprintLog: New page: PNAIController をコンパイル
+[2021.05.30-01.10.13:948][259]BlueprintEditorCompileResults: 情報 [1808.00] PNAIController のコンパイルに成功しました！  [ 212 ミリ秒]
+[2021.05.30-01.10.14:606][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNAIController" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNAIController.uasset" SILENT=true
+[2021.05.30-01.10.14:961][291]LogSavePackage: Save=194.578598ms
+[2021.05.30-01.10.14:961][291]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNAIControllerA71C888A458E592D35F07AAABCE611BA.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNAIController.uasset'
+[2021.05.30-01.10.25:003][889]BlueprintLog: New page: PNBTTask_GetPatrolLocation をコンパイル
+[2021.05.30-01.10.25:168][889]BlueprintEditorCompileResults: 情報 [1819.22] PNBTTask_GetPatrolLocation のコンパイルに成功しました！  [ 165 ミリ秒]
+[2021.05.30-01.11.03:747][161]BlueprintLog: New page: PNBTTask_GetPatrolLocation をコンパイル
+[2021.05.30-01.11.03:909][161]BlueprintEditorCompileResults: 情報 [1857.97] PNBTTask_GetPatrolLocation のコンパイルに成功しました！  [ 162 ミリ秒]
+[2021.05.30-01.11.11:463][610]BlueprintLog: New page: PNBTTask_GetPatrolLocation をコンパイル
+[2021.05.30-01.11.11:625][610]BlueprintEditorCompileResults: 情報 [1865.68] PNBTTask_GetPatrolLocation のコンパイルに成功しました！  [ 162 ミリ秒]
+[2021.05.30-01.11.38:478][194]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_AI_Patrol' took 0.027
+[2021.05.30-01.11.38:538][194]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/PNBTTask_GetPatrolLocation] ([1] browsable assets)...
+[2021.05.30-01.11.38:544][194]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/PNBTTask_GetPatrolLocation]
+[2021.05.30-01.11.38:852][194]LogSavePackage: Save=145.934692ms
+[2021.05.30-01.11.38:853][194]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTTask_GetPatrolLocation_Auto1DCC669A7449A8E1C6D57B7A1BEAE23F7.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/AI/PNBTTask_GetPatrolLocation_Auto1.uasset'
+[2021.05.30-01.11.38:871][194]LogFileHelpers: Auto-saving content packages took 0.393
+[2021.05.30-01.12.22:889][494]BlueprintLog: New page: PNBTTask_GetPatrolLocation をコンパイル
+[2021.05.30-01.12.23:011][494]BlueprintEditorCompileResults: 情報 [1937.07] PNBTTask_GetPatrolLocation のコンパイルに成功しました！  [ 121 ミリ秒]
+[2021.05.30-01.12.44:998][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-01.12.45:166][800]LogSavePackage: Save=14.814900ms
+[2021.05.30-01.12.45:166][800]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_PatrolD2CAFFE6484FC926382D099C5C48966D.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-01.12.47:390][921]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.30-01.12.47:394][921]LogPlayLevel: [PIE] Compiling Test_AI_Patrol before PIE...
+[2021.05.30-01.12.47:503][921]LogPlayLevel: PIE:  Blueprint regeneration took 113 ms (1 blueprints)
+[2021.05.30-01.12.47:503][921]PIE: New page: SIEセッション: Test_AI_Patrol (2021/05/30 19:12:47)
+[2021.05.30-01.12.47:514][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010129s)
+[2021.05.30-01.12.47:515][921]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2021.05.30-01.12.47:516][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_AI_Patrol.Test_AI_Patrol to /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol (0.011455s)
+[2021.05.30-01.12.47:564][921]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.30-01.12.47:569][921]LogAIModule: Creating AISystem for world Test_AI_Patrol
+[2021.05.30-01.12.47:581][921]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.30-01.12.47:581][921]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol up for play (max tick rate 60) at 2021.05.30-10.12.47
+[2021.05.30-01.12.47:584][921]LogWorld: Bringing up level for play took: 0.014273
+[2021.05.30-01.12.47:588][921]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol -0.353のPIE開始時間
+[2021.05.30-01.13.11:581][330]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000267906FBC40
+[2021.05.30-01.16.22:863][758]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.30-01.16.22:868][758]LogPlayLevel: [PIE] Compiling Test_AI_Patrol before PIE...
+[2021.05.30-01.16.22:982][758]LogPlayLevel: PIE:  Blueprint regeneration took 119 ms (1 blueprints)
+[2021.05.30-01.16.22:982][758]PIE: New page: SIEセッション: Test_AI_Patrol (2021/05/30 19:16:22)
+[2021.05.30-01.16.22:994][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010867s)
+[2021.05.30-01.16.22:995][758]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2021.05.30-01.16.22:995][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_AI_Patrol.Test_AI_Patrol to /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol (0.011946s)
+[2021.05.30-01.16.23:041][758]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.30-01.16.23:045][758]LogAIModule: Creating AISystem for world Test_AI_Patrol
+[2021.05.30-01.16.23:058][758]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.30-01.16.23:058][758]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol up for play (max tick rate 60) at 2021.05.30-10.16.23
+[2021.05.30-01.16.23:061][758]LogWorld: Bringing up level for play took: 0.014791
+[2021.05.30-01.16.23:066][758]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol 1.124のPIE開始時間
+[2021.05.30-01.16.26:208][922]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002679B9B6980
+[2021.05.30-01.16.28:519][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-01.16.28:686][987]LogSavePackage: Save=17.626699ms
+[2021.05.30-01.16.28:686][987]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_PatrolEC8686B745C217F001F732B1AE31C956.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-01.16.28:705][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBTTask_GetPatrolLocation" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset" SILENT=true
+[2021.05.30-01.16.28:895][987]LogSavePackage: Save=42.342400ms
+[2021.05.30-01.16.28:895][987]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTTask_GetPatrolLocationAD6BEB594333718DC3085B96411EC80B.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset'
+[2021.05.30-01.16.33:289][241]BlueprintLog: New page: PNBTTask_GetPatrolLocation をコンパイル
+[2021.05.30-01.16.33:408][241]BlueprintEditorCompileResults: 情報 [2187.46] PNBTTask_GetPatrolLocation のコンパイルに成功しました！  [ 119 ミリ秒]
+[2021.05.30-01.16.33:823][264]LogPropertyNode: Object is invalid AllowedTypes
+[2021.05.30-01.16.35:881][382]BlueprintLog: New page: PNAIController をコンパイル
+[2021.05.30-01.16.36:115][382]BlueprintEditorCompileResults: 情報 [2190.17] PNAIController のコンパイルに成功しました！  [ 233 ミリ秒]
+[2021.05.30-01.16.41:948][721]BlueprintLog: New page: PNBTTask_GetPatrolLocation をコンパイル
+[2021.05.30-01.16.42:068][721]BlueprintEditorCompileResults: 情報 [2196.12] PNBTTask_GetPatrolLocation のコンパイルに成功しました！  [ 120 ミリ秒]
+[2021.05.30-01.16.43:968][826]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.30-01.16.43:973][826]LogPlayLevel: [PIE] Compiling Test_AI_Patrol before PIE...
+[2021.05.30-01.16.44:081][826]LogPlayLevel: PIE:  Blueprint regeneration took 113 ms (1 blueprints)
+[2021.05.30-01.16.44:082][826]PIE: New page: SIEセッション: Test_AI_Patrol (2021/05/30 19:16:44)
+[2021.05.30-01.16.44:093][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010427s)
+[2021.05.30-01.16.44:094][826]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2021.05.30-01.16.44:094][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_AI_Patrol.Test_AI_Patrol to /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol (0.011463s)
+[2021.05.30-01.16.44:139][826]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.30-01.16.44:143][826]LogAIModule: Creating AISystem for world Test_AI_Patrol
+[2021.05.30-01.16.44:156][826]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.30-01.16.44:156][826]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol up for play (max tick rate 60) at 2021.05.30-10.16.44
+[2021.05.30-01.16.44:159][826]LogWorld: Bringing up level for play took: 0.014407
+[2021.05.30-01.16.44:163][826]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol 0.222のPIE開始時間
+[2021.05.30-01.16.48:815][ 82]LogEditorViewport: Clicking on Actor (LMB): PNPawn_Rabbit_C (PNPawn_Rabbit)
+[2021.05.30-01.16.48:815][ 82]LogSelection:Warning: PIE object was selected: "PNPawn_Rabbit_C /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.PNPawn_Rabbit_C_6"
+[2021.05.30-01.17.22:200][ 49]LogPropertyNode: Object is invalid AllowedTypes
+[2021.05.30-01.18.42:834][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000026791A4FE20
+[2021.05.30-01.18.54:771][537]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.30-01.18.54:776][537]LogPlayLevel: [PIE] Compiling Test_AI_Patrol before PIE...
+[2021.05.30-01.18.54:887][537]LogPlayLevel: PIE:  Blueprint regeneration took 116 ms (1 blueprints)
+[2021.05.30-01.18.54:888][537]PIE: New page: SIEセッション: Test_AI_Patrol (2021/05/30 19:18:54)
+[2021.05.30-01.18.54:899][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010695s)
+[2021.05.30-01.18.54:900][537]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2021.05.30-01.18.54:900][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_AI_Patrol.Test_AI_Patrol to /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol (0.011816s)
+[2021.05.30-01.18.54:902][537]LogSelection:Warning: PIE object was selected: "PNPawn_Rabbit_C /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.PNPawn_Rabbit_C_6"
+[2021.05.30-01.18.54:941][537]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.30-01.18.54:946][537]LogAIModule: Creating AISystem for world Test_AI_Patrol
+[2021.05.30-01.18.54:958][537]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.30-01.18.54:958][537]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol up for play (max tick rate 60) at 2021.05.30-10.18.54
+[2021.05.30-01.18.54:961][537]LogWorld: Bringing up level for play took: 0.014193
+[2021.05.30-01.18.54:970][537]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol 1.03のPIE開始時間
+[2021.05.30-01.18.55:045][537]LogSelection:Warning: PIE object was selected: "PNPawn_Rabbit_C /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.PNPawn_Rabbit_C_6"
+[2021.05.30-01.19.59:828][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002679D458540
+[2021.05.30-01.25.10:824][395]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_AI_Patrol' took 0.040
+[2021.05.30-01.25.10:886][395]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/PNBT_Patrol] ([1] browsable assets)...
+[2021.05.30-01.25.10:894][395]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/PNBT_Patrol]
+[2021.05.30-01.25.11:254][395]LogSavePackage: Save=191.475204ms
+[2021.05.30-01.25.11:257][395]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_Patrol_Auto2B53403C04456E2592B8E22B5566E94B1.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/AI/PNBT_Patrol_Auto2.uasset'
+[2021.05.30-01.25.11:281][395]LogFileHelpers: Auto-saving content packages took 0.457
+[2021.05.30-01.27.34:944][894]BlueprintLog: New page: PNBTTask_GetPatrolLocation をコンパイル
+[2021.05.30-01.27.35:068][894]BlueprintEditorCompileResults: 情報 [2849.12] PNBTTask_GetPatrolLocation のコンパイルに成功しました！  [ 122 ミリ秒]
+[2021.05.30-01.27.35:461][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBTTask_GetPatrolLocation" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset" SILENT=true
+[2021.05.30-01.27.35:672][927]LogSavePackage: Save=49.916401ms
+[2021.05.30-01.27.35:672][927]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTTask_GetPatrolLocation95EE4A814712C299F99B31A9988C1E12.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset'
+[2021.05.30-01.27.36:722][986]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.30-01.27.36:727][986]LogPlayLevel: [PIE] Compiling Test_AI_Patrol before PIE...
+[2021.05.30-01.27.36:838][986]LogPlayLevel: PIE:  Blueprint regeneration took 115 ms (1 blueprints)
+[2021.05.30-01.27.36:839][986]PIE: New page: SIEセッション: Test_AI_Patrol (2021/05/30 19:27:36)
+[2021.05.30-01.27.36:850][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010427s)
+[2021.05.30-01.27.36:851][986]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2021.05.30-01.27.36:851][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_AI_Patrol.Test_AI_Patrol to /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol (0.011628s)
+[2021.05.30-01.27.36:852][986]LogSelection:Warning: PIE object was selected: "PNPawn_Rabbit_C /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.PNPawn_Rabbit_C_6"
+[2021.05.30-01.27.36:900][986]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.30-01.27.36:905][986]LogAIModule: Creating AISystem for world Test_AI_Patrol
+[2021.05.30-01.27.36:917][986]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.30-01.27.36:917][986]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol up for play (max tick rate 0) at 2021.05.30-10.27.36
+[2021.05.30-01.27.36:920][986]LogWorld: Bringing up level for play took: 0.014117
+[2021.05.30-01.27.36:927][986]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol 0.985のPIE開始時間
+[2021.05.30-01.27.37:001][986]LogSelection:Warning: PIE object was selected: "PNPawn_Rabbit_C /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.PNPawn_Rabbit_C_6"
+[2021.05.30-01.27.45:242][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-01.27.45:419][498]LogSavePackage: Save=17.031000ms
+[2021.05.30-01.27.45:419][498]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_Patrol59F53D204EC95CB4783A77B636316835.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-01.28.02:895][789]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.05.30-01.28.02:895][789]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.SkySphere"
+[2021.05.30-01.28.04:758][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000267957AFBA0
+[2021.05.30-01.28.05:554][914]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.30-01.28.05:559][914]LogPlayLevel: [PIE] Compiling Test_AI_Patrol before PIE...
+[2021.05.30-01.28.05:668][914]LogPlayLevel: PIE:  Blueprint regeneration took 114 ms (1 blueprints)
+[2021.05.30-01.28.05:669][914]PIE: New page: SIEセッション: Test_AI_Patrol (2021/05/30 19:28:05)
+[2021.05.30-01.28.05:680][914]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010226s)
+[2021.05.30-01.28.05:680][914]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2021.05.30-01.28.05:681][914]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_AI_Patrol.Test_AI_Patrol to /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol (0.011340s)
+[2021.05.30-01.28.05:682][914]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.SkySphere"
+[2021.05.30-01.28.05:730][914]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.30-01.28.05:734][914]LogAIModule: Creating AISystem for world Test_AI_Patrol
+[2021.05.30-01.28.05:747][914]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.30-01.28.05:747][914]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol up for play (max tick rate 0) at 2021.05.30-10.28.05
+[2021.05.30-01.28.05:750][914]LogWorld: Bringing up level for play took: 0.014484
+[2021.05.30-01.28.05:756][914]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol -0.185のPIE開始時間
+[2021.05.30-01.28.05:773][914]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.SkySphere"
+[2021.05.30-01.28.18:675][768]LogSelection:Warning: PIE object was selected: "TargetPoint /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.TP1"
+[2021.05.30-01.28.21:548][943]LogSelection:Warning: PIE object was selected: "TargetPoint /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.TP2"
+[2021.05.30-01.28.25:808][163]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000267A04B47C0
+[2021.05.30-01.28.41:935][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBTTask_GetPatrolLocation" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset" SILENT=true
+[2021.05.30-01.28.42:141][422]LogSavePackage: Save=54.635201ms
+[2021.05.30-01.28.42:141][422]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTTask_GetPatrolLocationF9F51E5A44679A80384592866FC7B68A.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset'
+[2021.05.30-01.30.55:735][ 65]LogPropertyNode: Object is invalid AllowedTypes
+[2021.05.30-01.31.03:453][941]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.30-01.31.27:155][479]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.30-01.31.27:490][479]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/AI/BTTask_BlueprintBase_New
+[2021.05.30-01.31.33:490][164]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2021.05.30-01.31.33:491][164]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AI'
+[2021.05.30-01.32.01:312][ 60]LogMetaData: Removing '/Game/AI/PNBTTask_PopPatrolLocation.PNBTTask_PopPatrolLocation_C' ref from Metadata '/Game/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2021.05.30-01.32.01:312][ 60]LogMetaData: Removing '/Game/AI/PNBTTask_PopPatrolLocation.SKEL_PNBTTask_PopPatrolLocation_C' ref from Metadata '/Game/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2021.05.30-01.32.01:403][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBTTask_PopPatrolLocation" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_PopPatrolLocation.uasset" SILENT=true
+[2021.05.30-01.32.01:414][ 60]LogSavePackage: Save=7.699200ms
+[2021.05.30-01.32.01:414][ 60]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTTask_PopPatrolLocation3B8BC5E6433CF84EAEE0F7AF6898A311.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_PopPatrolLocation.uasset'
+[2021.05.30-01.32.01:771][ 61]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/AI/PNBTTask_PopPatrolLocation
+[2021.05.30-01.45.26:590][916]BlueprintLog: New page: PNBTTask_PopPatrolLocation をコンパイル
+[2021.05.30-01.45.26:672][916]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-01.45.26:672][916]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2021.05.30-01.45.26:716][916]BlueprintEditorCompileResults: 情報 [3920.77] PNBTTask_PopPatrolLocation のコンパイルに成功しました！  [ 125 ミリ秒]
+[2021.05.30-01.45.27:048][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBTTask_PopPatrolLocation" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_PopPatrolLocation.uasset" SILENT=true
+[2021.05.30-01.45.27:272][944]LogSavePackage: Save=37.282501ms
+[2021.05.30-01.45.27:272][944]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTTask_PopPatrolLocation0D79CFD245A964AFC085C3B97E4C252D.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_PopPatrolLocation.uasset'
+[2021.05.30-01.45.28:584][ 26]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.30-01.45.28:589][ 26]LogPlayLevel: [PIE] Compiling Test_AI_Patrol before PIE...
+[2021.05.30-01.45.28:699][ 26]LogPlayLevel: PIE:  Blueprint regeneration took 115 ms (1 blueprints)
+[2021.05.30-01.45.28:699][ 26]PIE: New page: SIEセッション: Test_AI_Patrol (2021/05/30 19:45:28)
+[2021.05.30-01.45.28:711][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010343s)
+[2021.05.30-01.45.28:712][ 26]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2021.05.30-01.45.28:712][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_AI_Patrol.Test_AI_Patrol to /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol (0.011601s)
+[2021.05.30-01.45.28:713][ 26]LogSelection:Warning: PIE object was selected: "PNPawn_Rabbit_C /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.PNPawn_Rabbit_C_6"
+[2021.05.30-01.45.28:759][ 26]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.30-01.45.28:764][ 26]LogAIModule: Creating AISystem for world Test_AI_Patrol
+[2021.05.30-01.45.28:776][ 26]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.30-01.45.28:776][ 26]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol up for play (max tick rate 0) at 2021.05.30-10.45.28
+[2021.05.30-01.45.28:780][ 26]LogWorld: Bringing up level for play took: 0.015384
+[2021.05.30-01.45.28:787][ 26]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol 0.846のPIE開始時間
+[2021.05.30-01.45.28:869][ 26]LogSelection:Warning: PIE object was selected: "PNPawn_Rabbit_C /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.PNPawn_Rabbit_C_6"
+[2021.05.30-01.45.34:011][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002679B3A1260
+[2021.05.30-01.46.04:944][653]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_AI_Patrol' took 0.035
+[2021.05.30-01.46.05:007][653]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/PNBT_Patrol] ([1] browsable assets)...
+[2021.05.30-01.46.05:014][653]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/PNBT_Patrol]
+[2021.05.30-01.46.05:355][653]LogSavePackage: Save=164.958694ms
+[2021.05.30-01.46.05:357][653]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_Patrol_Auto3854689DA4579DBEE88F92D8CB3DDE994.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/AI/PNBT_Patrol_Auto3.uasset'
+[2021.05.30-01.46.05:379][653]LogFileHelpers: Auto-saving content packages took 0.434
+[2021.05.30-01.46.21:773][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-01.46.21:952][541]LogSavePackage: Save=18.909901ms
+[2021.05.30-01.46.21:952][541]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_PatrolDD5000C048C917A80BC492ADAF2B7CF0.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-01.46.27:296][941]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.30-01.46.27:300][941]LogPlayLevel: [PIE] Compiling Test_AI_Patrol before PIE...
+[2021.05.30-01.46.27:411][941]LogPlayLevel: PIE:  Blueprint regeneration took 115 ms (1 blueprints)
+[2021.05.30-01.46.27:412][941]PIE: New page: SIEセッション: Test_AI_Patrol (2021/05/30 19:46:27)
+[2021.05.30-01.46.27:422][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010153s)
+[2021.05.30-01.46.27:423][941]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2021.05.30-01.46.27:423][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_AI_Patrol.Test_AI_Patrol to /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol (0.011246s)
+[2021.05.30-01.46.27:424][941]LogSelection:Warning: PIE object was selected: "PNPawn_Rabbit_C /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.PNPawn_Rabbit_C_6"
+[2021.05.30-01.46.27:473][941]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.30-01.46.27:477][941]LogAIModule: Creating AISystem for world Test_AI_Patrol
+[2021.05.30-01.46.27:490][941]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.30-01.46.27:490][941]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol up for play (max tick rate 0) at 2021.05.30-10.46.27
+[2021.05.30-01.46.27:493][941]LogWorld: Bringing up level for play took: 0.014142
+[2021.05.30-01.46.27:500][941]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol -0.442のPIE開始時間
+[2021.05.30-01.46.27:573][941]LogSelection:Warning: PIE object was selected: "PNPawn_Rabbit_C /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.PNPawn_Rabbit_C_6"
+[2021.05.30-01.48.34:597][764]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2021.05.30-01.48.36:641][852]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-01.48.36:642][852]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2021.05.30-01.48.36:744][853]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002679B39BEC0
+[2021.05.30-01.48.52:157][ 11]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-01.48.52:158][ 11]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2021.05.30-01.49.40:894][587]BlueprintLog: New page: PNPawn_Rabbit をコンパイル
+[2021.05.30-01.49.41:353][587]BlueprintEditorCompileResults: 情報 [4175.41] PNPawn_Rabbit のコンパイルに成功しました！  [ 458 ミリ秒]
+[2021.05.30-01.49.41:903][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPawn_Rabbit" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPawn_Rabbit.uasset" SILENT=true
+[2021.05.30-01.49.43:094][616]LogSavePackage: Save=1035.381348ms
+[2021.05.30-01.49.43:094][616]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPawn_Rabbit296A238241A2156B15510D863DA509BA.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPawn_Rabbit.uasset'
+[2021.05.30-01.50.07:714][351]BlueprintLog: New page: PNAIController をコンパイル
+[2021.05.30-01.50.07:899][351]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-01.50.07:967][351]BlueprintEditorCompileResults: 情報 [4202.02] PNAIController のコンパイルに成功しました！  [ 252 ミリ秒]
+[2021.05.30-01.50.58:315][834]BlueprintLog: New page: PNBTTask_GetPatrolLocation をコンパイル
+[2021.05.30-01.50.58:401][834]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-01.50.58:402][834]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2021.05.30-01.50.58:444][834]BlueprintEditorCompileResults: 情報 [4252.50] PNBTTask_GetPatrolLocation のコンパイルに成功しました！  [ 128 ミリ秒]
+[2021.05.30-01.51.05:452][359]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AI'
+[2021.05.30-01.51.18:084][982]BlueprintLog: New page: PNBTTask_PopPatrolLocation をコンパイル
+[2021.05.30-01.51.18:165][982]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-01.51.18:166][982]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2021.05.30-01.51.18:207][982]BlueprintEditorCompileResults: 情報 [4272.26] PNBTTask_PopPatrolLocation のコンパイルに成功しました！  [ 122 ミリ秒]
+[2021.05.30-01.56.17:623][647]LogEditorTransaction: Undo ノードを追加
+[2021.05.30-01.56.17:828][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-01.56.17:829][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2021.05.30-01.56.52:555][718]BlueprintLog: New page: PNAIController をコンパイル
+[2021.05.30-01.56.52:738][718]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2021.05.30-01.56.52:792][718]BlueprintEditorCompileResults: 情報 [4606.85] PNAIController のコンパイルに成功しました！  [ 237 ミリ秒]
+[2021.05.30-01.56.53:215][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNAIController" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNAIController.uasset" SILENT=true
+[2021.05.30-01.56.53:586][738]LogSavePackage: Save=216.326797ms
+[2021.05.30-01.56.53:586][738]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNAIControllerE979A9EB467526B72A588CA0040B6704.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNAIController.uasset'
+[2021.05.30-01.57.01:955][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-01.57.02:398][273]LogSavePackage: Save=259.165588ms
+[2021.05.30-01.57.02:398][273]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_AI_Patrol27CDEDC0493D33495BF529BB2E367356.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_AI_Patrol.umap'
+[2021.05.30-01.57.04:083][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBTTask_GetPatrolLocation" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset" SILENT=true
+[2021.05.30-01.57.04:292][307]LogSavePackage: Save=48.856899ms
+[2021.05.30-01.57.04:292][307]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTTask_GetPatrolLocation5F94FD40465DDBC828231A8C8AF09F03.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset'
+[2021.05.30-01.57.04:312][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBTTask_PopPatrolLocation" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_PopPatrolLocation.uasset" SILENT=true
+[2021.05.30-01.57.04:504][307]LogSavePackage: Save=34.980999ms
+[2021.05.30-01.57.04:504][307]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTTask_PopPatrolLocationB67AAAAB41C9441D2431398EF90ACCCF.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_PopPatrolLocation.uasset'
+[2021.05.30-01.57.04:547][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPawn_Rabbit" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPawn_Rabbit.uasset" SILENT=true
+[2021.05.30-01.57.05:738][307]LogSavePackage: Save=1029.752930ms
+[2021.05.30-01.57.05:738][307]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPawn_Rabbit17893B0344134FEF4A7E97854E533134.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPawn_Rabbit.uasset'
+[2021.05.30-01.57.58:361][ 78]Cmd: TRANSACTION UNDO
+[2021.05.30-01.57.58:361][ 78]LogEditorTransaction: Undo ノードを移動
+[2021.05.30-01.57.58:555][ 78]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-01.57.58:689][ 80]Cmd: TRANSACTION UNDO
+[2021.05.30-01.57.58:689][ 80]LogEditorTransaction: Undo ノードを移動
+[2021.05.30-01.58.07:274][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-01.58.07:463][938]LogSavePackage: Save=19.443800ms
+[2021.05.30-01.58.07:464][938]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_PatrolEDF8FD574D06AB79229D748CC42E7B1D.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-01.58.20:106][733]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.05.30-01.58.20:111][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2021.05.30-01.58.20:121][733]LogPlayLevel: [PIE] Compiling PNPawn_Rabbit before PIE...
+[2021.05.30-01.58.20:386][733]LogPlayLevel: [PIE] Compiling PNAIController before PIE...
+[2021.05.30-01.58.20:589][733]LogPlayLevel: [PIE] Compiling PNBTTask_GetPatrolLocation before PIE...
+[2021.05.30-01.58.20:688][733]LogPlayLevel: [PIE] Compiling PNBTTask_PopPatrolLocation before PIE...
+[2021.05.30-01.58.20:780][733]LogPlayLevel: [PIE] Compiling Test_AI_Patrol before PIE...
+[2021.05.30-01.58.20:893][733]LogPlayLevel: PIE:  Blueprint regeneration took 786 ms (5 blueprints)
+[2021.05.30-01.58.20:893][733]PIE: New page: SIEセッション: Test_AI_Patrol (2021/05/30 19:58:20)
+[2021.05.30-01.58.20:904][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009737s)
+[2021.05.30-01.58.20:905][733]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2021.05.30-01.58.20:905][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_AI_Patrol.Test_AI_Patrol to /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol (0.010955s)
+[2021.05.30-01.58.20:906][733]LogSelection:Warning: PIE object was selected: "PNPawn_Rabbit_C /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.PNPawn_Rabbit_C_1"
+[2021.05.30-01.58.20:955][733]LogWorld: Game class is 'PNGameMode_C'
+[2021.05.30-01.58.20:959][733]LogAIModule: Creating AISystem for world Test_AI_Patrol
+[2021.05.30-01.58.20:972][733]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2021.05.30-01.58.20:972][733]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol up for play (max tick rate 0) at 2021.05.30-10.58.20
+[2021.05.30-01.58.20:975][733]LogWorld: Bringing up level for play took: 0.014281
+[2021.05.30-01.58.20:982][733]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol 1.041のPIE開始時間
+[2021.05.30-01.58.21:055][733]LogSelection:Warning: PIE object was selected: "PNPawn_Rabbit_C /Game/Maps/Test/UEDPIE_0_Test_AI_Patrol.Test_AI_Patrol:PersistentLevel.PNPawn_Rabbit_C_1"
+[2021.05.30-01.59.20:696][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-01.59.43:458][679]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000267AD3E9940
+[2021.05.30-01.59.46:138][829]Cmd: TRANSACTION UNDO
+[2021.05.30-01.59.46:138][829]LogEditorTransaction: Undo Patrol Wait Duration を編集
+[2021.05.30-01.59.46:577][832]Cmd: TRANSACTION UNDO
+[2021.05.30-01.59.46:577][832]LogEditorTransaction: Undo ノードを移動
+[2021.05.30-01.59.46:766][832]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-01.59.50:519][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2021.05.30-01.59.50:922][ 44]LogSavePackage: Save=223.211105ms
+[2021.05.30-01.59.50:922][ 44]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_AI_Patrol0739BBE842C3595D06CF4EA6B07A1DFE.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_AI_Patrol.umap'
+[2021.05.30-01.59.54:157][316]BlueprintLog: New page: PNBTTask_GetPatrolLocation をコンパイル
+[2021.05.30-01.59.54:276][316]BlueprintEditorCompileResults: 情報 [4788.33] PNBTTask_GetPatrolLocation のコンパイルに成功しました！  [ 118 ミリ秒]
+[2021.05.30-01.59.59:913][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-02.00.00:094][865]LogSavePackage: Save=19.076200ms
+[2021.05.30-02.00.00:094][865]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_PatrolE2312ED4481BD01886DC69B4DE51B23A.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-02.00.01:554][995]BlueprintLog: New page: PNBTTask_PopPatrolLocation をコンパイル
+[2021.05.30-02.00.01:670][995]BlueprintEditorCompileResults: 情報 [4795.73] PNBTTask_PopPatrolLocation のコンパイルに成功しました！  [ 115 ミリ秒]
+[2021.05.30-02.00.03:948][160]BlueprintLog: New page: PNPawn_Rabbit をコンパイル
+[2021.05.30-02.00.04:243][160]BlueprintEditorCompileResults: 情報 [4798.30] PNPawn_Rabbit のコンパイルに成功しました！  [ 295 ミリ秒]
+[2021.05.30-02.00.05:832][249]BlueprintLog: New page: PNAIController をコンパイル
+[2021.05.30-02.00.06:017][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-02.00.06:070][249]BlueprintEditorCompileResults: 情報 [4800.13] PNAIController のコンパイルに成功しました！  [ 238 ミリ秒]
+[2021.05.30-02.00.08:596][379]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-02.00.09:882][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNAIController" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNAIController.uasset" SILENT=true
+[2021.05.30-02.00.10:262][379]LogSavePackage: Save=219.300400ms
+[2021.05.30-02.00.10:262][379]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNAIControllerFAEF0A364F5F2B6D040D64A03F000F64.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNAIController.uasset'
+[2021.05.30-02.00.10:280][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBTTask_GetPatrolLocation" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset" SILENT=true
+[2021.05.30-02.00.10:493][379]LogSavePackage: Save=50.465199ms
+[2021.05.30-02.00.10:493][379]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTTask_GetPatrolLocation4D96AC6A45751A344DFC638D7355E7BE.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_GetPatrolLocation.uasset'
+[2021.05.30-02.00.10:522][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBTTask_PopPatrolLocation" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_PopPatrolLocation.uasset" SILENT=true
+[2021.05.30-02.00.10:714][379]LogSavePackage: Save=35.014400ms
+[2021.05.30-02.00.10:714][379]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTTask_PopPatrolLocation4ADFDBC94AB80D80F0E27096A52D5702.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTTask_PopPatrolLocation.uasset'
+[2021.05.30-02.00.10:762][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPawn_Rabbit" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPawn_Rabbit.uasset" SILENT=true
+[2021.05.30-02.00.11:954][379]LogSavePackage: Save=1035.282959ms
+[2021.05.30-02.00.11:954][379]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPawn_RabbitA829658C4CCA96BC53306A803FE34A82.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPawn_Rabbit.uasset'
+[2021.05.30-02.00.12:366][379]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-02.00.12:776][379]LogSavePackage: Save=227.269897ms
+[2021.05.30-02.00.12:776][379]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_AI_Patrol8A27010143AB0C616D2ACB8EE41E9A2C.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_AI_Patrol.umap'
+[2021.05.30-02.00.12:878][379]LogFileHelpers: Saving map 'Test_AI_Patrol' took 0.869
+[2021.05.30-02.03.28:544][ 90]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.30-02.04.00:663][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-02.04.00:851][816]LogSavePackage: Save=24.876200ms
+[2021.05.30-02.04.00:851][816]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_PatrolEF1DC3D34897068983F546859CAF05CA.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-02.04.00:871][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBlackboard_Enemy" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBlackboard_Enemy.uasset" SILENT=true
+[2021.05.30-02.04.01:041][816]LogSavePackage: Save=6.734400ms
+[2021.05.30-02.04.01:041][816]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBlackboard_Enemy29373EFF4A19051B54440C88D1C480E0.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBlackboard_Enemy.uasset'
+[2021.05.30-02.04.02:425][943]BlueprintLog: New page: PNBTTask_GetPatrolLocation をコンパイル
+[2021.05.30-02.04.02:551][943]BlueprintEditorCompileResults: 情報 [5036.61] PNBTTask_GetPatrolLocation のコンパイルに成功しました！  [ 125 ミリ秒]
+[2021.05.30-02.04.03:942][ 61]BlueprintLog: New page: PNBTTask_PopPatrolLocation をコンパイル
+[2021.05.30-02.04.04:080][ 61]BlueprintEditorCompileResults: 情報 [5038.14] PNBTTask_PopPatrolLocation のコンパイルに成功しました！  [ 137 ミリ秒]
+[2021.05.30-02.06.11:235][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-02.06.11:419][ 65]LogSavePackage: Save=26.087700ms
+[2021.05.30-02.06.11:419][ 65]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_PatrolC1CE55D34373569C3107D29A18BE9109.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-02.06.29:629][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-02.06.29:817][  1]LogSavePackage: Save=26.326401ms
+[2021.05.30-02.06.29:817][  1]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_Patrol15DFD044490BD1B0C10C82B2743E2C15.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-02.06.41:331][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-02.06.41:517][175]LogSavePackage: Save=28.676901ms
+[2021.05.30-02.06.41:517][175]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_Patrol9DB2A7E44D0F48F81970C29365AC27DF.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-02.10.09:115][248]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_AI_Patrol' took 0.030
+[2021.05.30-02.10.09:171][248]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/PNBT_Patrol] ([1] browsable assets)...
+[2021.05.30-02.10.09:178][248]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/PNBT_Patrol]
+[2021.05.30-02.10.09:524][248]LogSavePackage: Save=174.452896ms
+[2021.05.30-02.10.09:527][248]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_Patrol_Auto48F7E96C44A7B8D0522FA21ABF24E177B.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/AI/PNBT_Patrol_Auto4.uasset'
+[2021.05.30-02.10.09:554][248]LogFileHelpers: Auto-saving content packages took 0.440
+[2021.05.30-02.13.12:903][208]BlueprintLog: New page: PNPawn_Rabbit をコンパイル
+[2021.05.30-02.13.13:235][208]BlueprintEditorCompileResults: 情報 [5587.29] PNPawn_Rabbit のコンパイルに成功しました！  [ 332 ミリ秒]
+[2021.05.30-02.13.13:768][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPawn_Rabbit" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPawn_Rabbit.uasset" SILENT=true
+[2021.05.30-02.13.14:992][240]LogSavePackage: Save=1063.170410ms
+[2021.05.30-02.13.14:992][240]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNPawn_Rabbit062C7C2C40788F5CAB46F58E17538237.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNPawn_Rabbit.uasset'
+[2021.05.30-02.13.22:946][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBT_Patrol" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset" SILENT=true
+[2021.05.30-02.13.23:132][908]LogSavePackage: Save=28.014799ms
+[2021.05.30-02.13.23:132][908]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBT_PatrolA9C1F0C74F5A6A9E46483DBAF910A560.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBT_Patrol.uasset'
+[2021.05.30-02.13.30:506][600]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/BTService_BlueprintBase_New
+[2021.05.30-02.13.33:151][877]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2021.05.30-02.13.33:151][877]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AI'
+[2021.05.30-02.14.12:970][834]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.05.30-02.14.13:010][834]LogMetaData: Removing '/Game/AI/PNBTS_EnemySensor.SKEL_PNBTS_EnemySensor_C' ref from Metadata '/Game/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2021.05.30-02.14.13:010][834]LogMetaData: Removing '/Game/AI/PNBTS_EnemySensor.PNBTS_EnemySensor_C' ref from Metadata '/Game/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2021.05.30-02.14.13:096][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PNBTS_EnemySensor" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTS_EnemySensor.uasset" SILENT=true
+[2021.05.30-02.14.13:109][834]LogSavePackage: Save=7.824700ms
+[2021.05.30-02.14.13:109][834]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNBTS_EnemySensorE86E39AF418AE81980803C9A8C17C8E7.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/AI/PNBTS_EnemySensor.uasset'
+[2021.05.30-02.14.13:340][835]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/AI/PNBTS_EnemySensor
+[2021.05.30-02.15.22:956][125]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2021.05.30-02.16.25:895][663]LogWindows:Error: Windows GetLastError: この操作を正しく終了しました。 (0)
+[2021.05.30-02.16.25:905][663]LogCrashTracker: 
+
+
+[2021.05.30-02.16.40:258][663]LogCrashTracker: 
+
+
+[2021.05.30-02.16.40:258][663]LogWindows: === Critical error: ===
+Assertion failed: !bIsChangingText [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\Slate\Private\Widgets\Input\SEditableText.cpp] [Line: 556] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffef05d4b89) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() (0x00007ffe649d8074) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformoutputdevices.cpp:95]
+UE4Editor-Core.dll!FOutputDevice::Logf__VA() (0x00007ffe64857878) + 159 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:144]
+UE4Editor-Core.dll!FDebug::AssertFailed() (0x00007ffe64838b17) + 62 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:224]
+UE4Editor-Slate.dll!SEditableText::StartChangingText() (0x00007ffe641270da) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\input\seditabletext.cpp:560]
+UE4Editor-Slate.dll!FTextEditHelper::OnKeyChar() (0x00007ffe6404b3ac) + 32 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\text\textedithelper.cpp:40]
+UE4Editor-Slate.dll!SEditableText::OnKeyChar() (0x00007ffe6410ad23) + 77 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\input\seditabletext.cpp:1622]
+UE4Editor-Slate.dll!<lambda_f4267d5369f6530713340915266300fb>::operator()() (0x00007ffe63f2de22) + 38 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3504]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FCharacterEvent,<lambda_f4267d5369f6530713340915266300fb> >() (0x00007ffe63ee6c9d) + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:202]
+UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_f4267d5369f6530713340915266300fb>,FCharacterEvent>() (0x00007ffe63ee8ace) + 34 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:184]
+UE4Editor-Slate.dll!FSlateApplication::ProcessKeyCharEvent() (0x00007ffe63f93a74) + 150 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3505]
+UE4Editor-Slate.dll!FSlateApplication::OnKeyChar() (0x00007ffe63f83633) + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3485]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() (0x00007ffe64933008) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1149]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() (0x00007ffe64925d2e) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1669]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() (0x00007ffe64934d50) + 41 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:742]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() (0x00007ffe64923192) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:604]
+USER32.dll!UnknownFunction (0x00007ffef268e858) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffef268e299) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() (0x00007ffe649d3ec6) + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:774]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff71a7300a9) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launchengineloop.cpp:2233]
+UE4Editor.exe!GuardedMain() (0x00007ff71a72267c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff71a7226ea) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff71a732219) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff71a733159) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffef2527034) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffef2c82651) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffef2c82651) + 0 bytes [UnknownFile:0]
+
+
+[2021.05.30-02.16.40:512][663]LogExit: Executing StaticShutdownAfterError
+[2021.05.30-02.16.40:569][663]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.05.30-02.16.40:569][663]Log file closed, 05/30/21 11:16:40
