@@ -1,0 +1,874 @@
+﻿Log file open, 06/02/21 10:46:03
+LogInit:Display: Running engine for game: PaperNinja
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2021.06.02-01.46.03:749][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2021.06.02-01.46.03:855][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2021.06.02-01.46.03:912][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2021.06.02-01.46.03:943][  0]LogInit: Object subsystem initialized
+[2021.06.02-01.46.03:961][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2021.06.02-01.46.03:961][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.06.02-01.46.03:961][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2021.06.02-01.46.03:961][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.06.02-01.46.03:961][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2021.06.02-01.46.03:961][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.06.02-01.46.03:971][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.02-01.46.03:971][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.06.02-01.46.04:007][  0]LogInit: Computer: DESKTOP-QG331CQ
+[2021.06.02-01.46.04:007][  0]LogInit: User: magi1
+[2021.06.02-01.46.04:007][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.06.02-01.46.04:007][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.06.02-01.46.04:007][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2021.06.02-01.46.04:008][  0]LogMemory: Platform Memory Stats for Windows
+[2021.06.02-01.46.04:008][  0]LogMemory: Process Physical Memory: 49.75 MB used, 49.75 MB peak
+[2021.06.02-01.46.04:008][  0]LogMemory: Process Virtual Memory: 26.79 MB used, 26.79 MB peak
+[2021.06.02-01.46.04:008][  0]LogMemory: Physical Memory: 6994.60 MB used, 16239.85 MB total
+[2021.06.02-01.46.04:008][  0]LogMemory: Virtual Memory: 4432.94 MB used, 134217728.00 MB total
+[2021.06.02-01.46.04:349][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce RTX 2080 (Feature Level 11_0)
+[2021.06.02-01.46.04:349][  0]LogD3D11RHI: Adapter has 8010MB of dedicated video memory, 0MB of dedicated system memory, and 8119MB of shared system memory, 2 output[s]
+[2021.06.02-01.46.04:433][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) UHD Graphics 630 (Feature Level 11_0)
+[2021.06.02-01.46.04:433][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8119MB of shared system memory, 0 output[s]
+[2021.06.02-01.46.04:438][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2021.06.02-01.46.04:438][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8119MB of shared system memory, 0 output[s]
+[2021.06.02-01.46.04:438][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2021.06.02-01.46.04:452][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.06.02-01.46.04:666][  0]LogD3D11RHI: Async texture creation enabled
+[2021.06.02-01.46.05:188][  0]LogTextLocalizationManager: The requested culture ('ja_JP') has no localization data; parent culture's ('ja') localization data will be used.
+[2021.06.02-01.46.05:326][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (-29098895) String: (現行レベルをディスクに保存)
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Engine/ja/Engine.locres) Hash: (-1280300587) String: (選択データをvlogファイルに保存)
+[2021.06.02-01.46.05:326][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (-630476809) String: ({0} にインポート...)
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (1271782899) String: (このフォルダへファイルからアセットをインポート)
+[2021.06.02-01.46.05:487][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2021.06.02-01.46.11:242][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.06.02-01.46.12:572][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.06.02-01.46.12:757][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2021.06.02-01.46.12:842][  0]LogDerivedDataCache: Loaded boot cache 0.09s 39MB C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2021.06.02-01.46.12:842][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2021.06.02-01.46.12:842][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.06.02-01.46.12:842][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.06.02-01.46.13:115][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.06.02-01.46.13:130][  0]LogDerivedDataCache: Using Local data cache path C:/Users/magi1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.06.02-01.46.14:184][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2021.06.02-01.46.14:184][  0]LogMeshUtilities: No automatic mesh merging module available
+[2021.06.02-01.46.15:304][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.06.02-01.46.15:618][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2021.06.02-01.46.19:107][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.06.02-01.46.19:746][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.06.02-01.46.19:746][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.06.02-01.46.19:746][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.06.02-01.46.19:746][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2021.06.02-01.46.19:747][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2021.06.02-01.46.19:776][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.06.02-01.46.20:458][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2021.06.02-01.46.20:458][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2021.06.02-01.46.20:731][  0]LogEngine: Initializing Engine...
+[2021.06.02-01.46.23:137][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.06.02-01.46.23:282][  0]LogInit: FAudioDevice initialized.
+[2021.06.02-01.46.23:475][  0]LogAIModule: Creating AISystem for world NewWorld
+[2021.06.02-01.46.23:529][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2021.06.02-01.46.23:535][  0]LogInit: Texture streaming: Enabled
+[2021.06.02-01.46.23:812][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2021.06.02-01.46.23:812][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2021.06.02-01.46.23:812][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2021.06.02-01.46.23:813][  0]LogAnalytics: SetUserId 144e59504b07e7078f7f9fbff0f199ea|e89bcdc3dddd40638ff112a71cef8e67|badf8662-73b2-480e-8b08-9b9fdfc993be
+[2021.06.02-01.46.23:814][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2021.06.02-01.46.23:961][  0]LogInit: Transaction tracking system initialized
+[2021.06.02-01.46.24:634][  0]BlueprintLog: New page: エディタの読み込み
+[2021.06.02-01.46.24:729][  0]LogAssetRegistry: FAssetRegistry took 0.0123 seconds to start up
+[2021.06.02-01.46.24:730][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2021.06.02-01.46.26:208][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.06.02-01.46.27:038][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.06.02-01.46.27:903][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2021.06.02-01.46.27:905][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2021.06.02-01.46.27:924][  0]LogConsoleResponse:Display: 
+[2021.06.02-01.46.28:325][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2021.06.02-01.46.28:867][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.06.02-01.46.28:871][  0]Cmd: MAP LOAD FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.02-01.46.28:880][  0]LightingResults: New page: ライティングのビルド
+[2021.06.02-01.46.28:932][  0]MapCheck: New page: マップをチェック
+[2021.06.02-01.46.28:932][  0]LightingResults: New page: <何も選択されていません>
+[2021.06.02-01.46.28:967][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C8CED8EA0
+[2021.06.02-01.46.31:127][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.02-01.46.31:155][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.06.02-01.46.31:158][  0]Cmd: MAP CHECKDEP
+[2021.06.02-01.46.31:159][  0]MapCheck: New page: Minimal_Default - 2021/06/02 19:46:31
+[2021.06.02-01.46.31:441][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 282.448ミリ秒かかりました。
+[2021.06.02-01.46.31:443][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.574
+[2021.06.02-01.46.31:832][  0]LogCollectionManager: Loaded 0 collections in 0.004653 seconds
+[2021.06.02-01.46.31:855][  0]LogContentBrowser: Native class hierarchy populated in 0.0220 seconds. Added 1696 classes and 261 folders.
+[2021.06.02-01.46.31:989][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0065 seconds. Added 1 classes and 2 folders.
+[2021.06.02-01.46.32:084][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0068 seconds. Added 1 classes and 3 folders.
+[2021.06.02-01.46.32:412][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2021.06.02-01.46.32:419][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2021.06.02-01.46.32:447][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2021.06.02-01.46.32:488][  0]LogLoad: Full Startup: 33.28 seconds (BP compile: 0.23 seconds)
+[2021.06.02-01.46.33:339][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2021.06.02-01.46.33:589][  0]LogRenderer:Warning: Reallocating scene render targets to support 1200x576 (Frame:3).
+[2021.06.02-01.46.33:661][  1]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Stage01'
+[2021.06.02-01.46.36:668][ 10]LogAssetRegistry: Asset discovery search completed in 11.9520 seconds
+[2021.06.02-01.46.49:917][401]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2021.06.02-01.46.50:699][428]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2021.06.02-01.46.57:878][857]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Test'
+[2021.06.02-01.47.06:175][144]Cmd: MAP LOAD FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Player_Death.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.02-01.47.06:175][144]LightingResults: New page: ライティングのビルド
+[2021.06.02-01.47.06:254][144]LoadErrors: New page: マップをロード中: Test_Player_Death.umap
+[2021.06.02-01.47.06:261][144]MapCheck: New page: マップをチェック
+[2021.06.02-01.47.06:261][144]LightingResults: New page: <何も選択されていません>
+[2021.06.02-01.47.06:274][144]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C843EC7C0
+[2021.06.02-01.47.06:354][144]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.02-01.47.06:361][144]LogAIModule: Creating AISystem for world Test_Player_Death
+[2021.06.02-01.47.06:464][144]Cmd: MAP CHECKDEP
+[2021.06.02-01.47.06:464][144]MapCheck: New page: Test_Player_Death - 2021/06/02 19:47:06
+[2021.06.02-01.47.06:777][144]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 312.408ミリ秒かかりました。
+[2021.06.02-01.47.06:780][144]LogFileHelpers: Loading map 'Test_Player_Death' took 0.609
+[2021.06.02-01.48.17:729][561]LogSavePackage: Save=230.441696ms
+[2021.06.02-01.48.17:729][561]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_ParticleSystemEAAD453349C82A6CA6A0B582DE60978D.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_ParticleSystem.umap'
+[2021.06.02-01.48.17:840][561]LogFileHelpers: Saving map 'Test_ParticleSystem' took 1.348
+[2021.06.02-01.48.36:866][701]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2021.06.02-01.48.38:248][779]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2021.06.02-01.48.40:087][889]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2021.06.02-01.48.40:703][925]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2021.06.02-01.48.46:705][274]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2021.06.02-01.48.46:894][277]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	PNAnimBP_Ninja_C /Engine/Transient.CharacterMesh0:PNAnimBP_Ninja_C_0
+	Function /Game/Animations/PNAnimBP_Ninja.PNAnimBP_Ninja_C:ExecuteUbergraph_PNAnimBP_Ninja:02BB
+[2021.06.02-01.48.46:895][277]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsPNPlayer_Pawn'
+	PNAnimBP_Ninja_C /Engine/Transient.CharacterMesh0:PNAnimBP_Ninja_C_0
+	Function /Game/Animations/PNAnimBP_Ninja.PNAnimBP_Ninja_C:ExecuteUbergraph_PNAnimBP_Ninja:03B5
+[2021.06.02-01.48.46:906][277]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	PNAnimBP_Ninja_C /Engine/Transient.CharacterMesh0:PNAnimBP_Ninja_C_0
+	Function /Game/Animations/PNAnimBP_Ninja.PNAnimBP_Ninja_C:ExecuteUbergraph_PNAnimBP_Ninja:02BB
+[2021.06.02-01.48.46:906][277]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsPNPlayer_Pawn'
+	PNAnimBP_Ninja_C /Engine/Transient.CharacterMesh0:PNAnimBP_Ninja_C_0
+	Function /Game/Animations/PNAnimBP_Ninja.PNAnimBP_Ninja_C:ExecuteUbergraph_PNAnimBP_Ninja:03B5
+[2021.06.02-01.48.57:668][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.06.02-01.48.58:374][869]LogEditorViewport: Clicking on Actor (LMB): PNPickupScrollActor_C (PNPickupScrollActor)
+[2021.06.02-01.49.11:625][660]LogEditorViewport: Clicking on Actor (LMB): PNSwitchActor_C (PNSwitchActor)
+[2021.06.02-01.49.22:679][320]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.06.02-01.49.23:533][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.06.02-01.49.24:210][404]LogEditorViewport: Clicking on Actor (LMB): PNPickupScrollActor_C (PNPickupScrollActor)
+[2021.06.02-01.49.29:137][697]Cmd: EDIT COPY
+[2021.06.02-01.49.29:583][723]Cmd: EDIT PASTE
+[2021.06.02-01.49.35:935][ 69]Cmd: EDIT COPY
+[2021.06.02-01.49.36:470][101]Cmd: EDIT PASTE
+[2021.06.02-01.49.38:912][242]Cmd: EDIT COPY
+[2021.06.02-01.49.39:354][268]Cmd: EDIT PASTE
+[2021.06.02-01.49.41:623][398]Cmd: EDIT COPY
+[2021.06.02-01.49.42:112][427]Cmd: EDIT PASTE
+[2021.06.02-01.49.45:524][626]Cmd: EDIT COPY
+[2021.06.02-01.49.45:909][649]Cmd: EDIT PASTE
+[2021.06.02-01.49.48:230][782]Cmd: EDIT COPY
+[2021.06.02-01.49.48:852][819]Cmd: EDIT PASTE
+[2021.06.02-01.50.15:490][394]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Stage01'
+[2021.06.02-01.50.16:962][481]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2021.06.02-01.50.18:240][557]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2021.06.02-01.50.18:857][593]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2021.06.02-01.50.22:714][806]LogActorFactory: Actor Factory created SM_Bonfire
+[2021.06.02-01.50.25:148][939]LogActorFactory: Actor Factory created SM_Bonfire
+[2021.06.02-01.50.26:871][ 35]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.06.02-01.50.29:556][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.06.02-01.50.31:713][178]LogSavePackage: Save=332.394989ms
+[2021.06.02-01.50.31:713][178]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_ParticleSystemA795B0354B9A60CB5E069C8AACD74062.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_ParticleSystem.umap'
+[2021.06.02-01.50.31:819][178]LogFileHelpers: Saving map 'Test_ParticleSystem' took 1.012
+[2021.06.02-01.51.33:437][874]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2021.06.02-01.54.31:876][555]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2021.06.02-01.54.35:030][718]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2021.06.02-01.54.49:657][589]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2021.06.02-01.55.02:234][322]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2021.06.02-01.55.09:892][777]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Texture'
+[2021.06.02-01.56.09:194][256]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/magi1/Documents/独学/Unreal Engine 4 で極めるゲーム開発/PaperNinja_Resource/PaperNinja_Resource/Particles/Textures/T_FX_Fire.tga)
+[2021.06.02-01.56.09:227][256]0.000037 seconds to analyze Texture2D /Game/Particles/Texture/T_FX_Fire.T_FX_Fire
+
+[2021.06.02-01.56.09:232][256]LogTexture:Display: テクスチャをビルド中: T_FX_Fire (AutoDXT)
+[2021.06.02-01.56.09:625][256]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/magi1/Documents/独学/Unreal Engine 4 で極めるゲーム開発/PaperNinja_Resource/PaperNinja_Resource/Particles/Textures/T_FX_Smoke01.tga)
+[2021.06.02-01.56.09:628][256]0.000023 seconds to analyze Texture2D /Game/Particles/Texture/T_FX_Smoke01.T_FX_Smoke01
+
+[2021.06.02-01.56.09:631][256]LogTexture:Display: テクスチャをビルド中: T_FX_Smoke01 (AutoDXT)
+[2021.06.02-01.56.09:740][256]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/magi1/Documents/独学/Unreal Engine 4 で極めるゲーム開発/PaperNinja_Resource/PaperNinja_Resource/Particles/Textures/T_FX_Star01.tga)
+[2021.06.02-01.56.09:744][256]0.000021 seconds to analyze Texture2D /Game/Particles/Texture/T_FX_Star01.T_FX_Star01
+
+[2021.06.02-01.56.09:746][256]LogTexture:Display: テクスチャをビルド中: T_FX_Star01 (AutoDXT)
+[2021.06.02-01.56.09:775][256]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/magi1/Documents/独学/Unreal Engine 4 で極めるゲーム開発/PaperNinja_Resource/PaperNinja_Resource/Particles/Textures/T_FX_Star02.tga)
+[2021.06.02-01.56.09:783][256]0.000022 seconds to analyze Texture2D /Game/Particles/Texture/T_FX_Star02.T_FX_Star02
+
+[2021.06.02-01.56.09:786][256]LogTexture:Display: テクスチャをビルド中: T_FX_Star02 (AutoDXT)
+[2021.06.02-01.56.09:858][256]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2021.06.02-01.56.09:858][256]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Texture'
+[2021.06.02-01.56.09:859][256]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Texture'
+[2021.06.02-01.56.09:860][256]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Texture'
+[2021.06.02-01.56.09:861][256]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Texture'
+[2021.06.02-01.56.30:026][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Texture/T_FX_Fire" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Texture/T_FX_Fire.uasset" SILENT=true
+[2021.06.02-01.56.31:349][669]LogSavePackage: Save=1317.843384ms
+[2021.06.02-01.56.31:349][669]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/T_FX_FireBE4A25FD4FA12124093D15BCD4924883.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Texture/T_FX_Fire.uasset'
+[2021.06.02-01.56.31:382][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Texture/T_FX_Smoke01" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Texture/T_FX_Smoke01.uasset" SILENT=true
+[2021.06.02-01.56.32:561][669]LogSavePackage: Save=1174.166870ms
+[2021.06.02-01.56.32:561][669]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/T_FX_Smoke01A2B5FE9C47E638ACD80F8B9222A2E8AB.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Texture/T_FX_Smoke01.uasset'
+[2021.06.02-01.56.32:628][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Texture/T_FX_Star01" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Texture/T_FX_Star01.uasset" SILENT=true
+[2021.06.02-01.56.32:717][669]LogSavePackage: Save=83.295998ms
+[2021.06.02-01.56.32:717][669]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/T_FX_Star01B7E0EDE84B6A2EB62D31BDA33CDA5696.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Texture/T_FX_Star01.uasset'
+[2021.06.02-01.56.32:749][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Texture/T_FX_Star02" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Texture/T_FX_Star02.uasset" SILENT=true
+[2021.06.02-01.56.33:363][669]LogSavePackage: Save=608.823303ms
+[2021.06.02-01.56.33:363][669]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/T_FX_Star029446029145C548876627E88B6AF65120.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Texture/T_FX_Star02.uasset'
+[2021.06.02-01.56.48:742][586]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2021.06.02-01.56.53:276][807]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2021.06.02-01.57.05:195][516]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Materials'
+[2021.06.02-01.57.14:098][ 36]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Materials'
+[2021.06.02-01.57.31:333][ 52]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-01.57.31:421][ 52]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2021.06.02-01.57.31:502][ 52]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2021.06.02-01.57.31:504][ 52]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2021.06.02-01.57.31:504][ 52]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2021.06.02-01.57.31:504][ 52]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2021.06.02-01.57.31:510][ 52]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-01.57.31:520][ 52]LogMaterial: 0.000153 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-01.57.33:971][171]MaterialEditorStats: 情報 Base pass shader with only dynamic lighting: 29 instructions
+[2021.06.02-01.57.33:971][171]MaterialEditorStats: 情報 Vertex shader: 31 instructions
+[2021.06.02-01.57.33:972][171]MaterialEditorStats: 情報 Texture samplers: 0/16
+[2021.06.02-02.00.30:331][762]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_ParticleSystem' took 0.020
+[2021.06.02-02.00.30:385][762]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/Materials/M_FX_Star01] ([1] browsable assets)...
+[2021.06.02-02.00.30:429][762]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Particles/Materials/M_FX_Star01.M_FX_Star01]
+[2021.06.02-02.00.30:429][762]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/Materials/M_FX_Star01]
+[2021.06.02-02.00.31:267][762]LogSavePackage: Save=829.400024ms
+[2021.06.02-02.00.31:276][762]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/M_FX_Star01_Auto1C5845891411079560541F3B2CD1273D5.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/Particles/Materials/M_FX_Star01_Auto1.uasset'
+[2021.06.02-02.00.31:296][762]LogFileHelpers: Auto-saving content packages took 0.965
+[2021.06.02-02.03.07:396][274]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.03.07:430][274]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.03.07:441][274]LogMaterial: 0.000155 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.03.11:028][478]MaterialEditorStats: 情報 Base pass shader with only dynamic lighting: 25 instructions
+[2021.06.02-02.03.11:028][478]MaterialEditorStats: 情報 Base pass shader for self shadowed translucency: 61 instructions
+[2021.06.02-02.03.11:028][478]MaterialEditorStats: 情報 Vertex shader: 68 instructions
+[2021.06.02-02.03.11:028][478]MaterialEditorStats: 情報 Texture samplers: 4/16
+[2021.06.02-02.03.11:750][521]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.03.11:759][521]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.03.11:765][521]LogMaterial: 0.000191 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.03.13:234][601]MaterialEditorStats: 情報 Base pass shader without light map: 4 instructions
+[2021.06.02-02.03.13:234][601]MaterialEditorStats: 情報 Vertex shader: 68 instructions
+[2021.06.02-02.03.13:234][601]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.03.24:595][272]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.03.24:608][272]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.03.24:613][272]LogMaterial: 0.000158 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.03.25:897][347]MaterialEditorStats: 情報 Base pass shader without light map: 4 instructions
+[2021.06.02-02.03.25:897][347]MaterialEditorStats: 情報 Vertex shader: 68 instructions
+[2021.06.02-02.03.25:897][347]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.03.51:418][856]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.03.51:424][856]LogMaterial: 0.000225 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.03.51:425][856]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.06.02-02.03.54:138][ 12]MaterialEditorStats: 情報 Base pass shader without light map: 4 instructions
+[2021.06.02-02.03.54:138][ 12]MaterialEditorStats: 情報 Vertex shader: 68 instructions
+[2021.06.02-02.03.54:138][ 12]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.04.18:756][460]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.04.18:762][460]LogMaterial: 0.000224 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.04.18:793][460]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.06.02-02.04.21:588][626]MaterialEditorStats: 情報 Base pass shader without light map: 4 instructions
+[2021.06.02-02.04.21:588][626]MaterialEditorStats: 情報 Vertex shader: 68 instructions
+[2021.06.02-02.04.21:588][626]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.05.12:309][836]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.05.12:314][836]LogMaterial: 0.000159 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.05.13:666][912]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleColor_0, compiling. 
+[2021.06.02-02.05.15:104][998]MaterialEditorStats: 情報 Base pass shader without light map: 4 instructions
+[2021.06.02-02.05.15:104][998]MaterialEditorStats: 情報 Vertex shader: 68 instructions
+[2021.06.02-02.05.15:104][998]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.05.29:566][855]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.05.29:572][855]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.05.29:602][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleColor_0, compiling. 
+[2021.06.02-02.05.30:956][931]MaterialEditorStats: 情報 Base pass shader without light map: 4 instructions
+[2021.06.02-02.05.30:956][931]MaterialEditorStats: 情報 Vertex shader: 68 instructions
+[2021.06.02-02.05.30:956][931]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.05.33:729][ 93]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.05.33:734][ 93]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.05.33:759][ 93]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.06.02-02.05.35:125][174]MaterialEditorStats: 情報 Base pass shader without light map: 4 instructions
+[2021.06.02-02.05.35:125][174]MaterialEditorStats: 情報 Vertex shader: 68 instructions
+[2021.06.02-02.05.35:125][174]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.05.38:337][363]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.05.38:342][363]LogMaterial: 0.000231 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.05.38:371][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleColor_0, compiling. 
+[2021.06.02-02.05.39:696][442]MaterialEditorStats: 情報 Base pass shader without light map: 4 instructions
+[2021.06.02-02.05.39:696][442]MaterialEditorStats: 情報 Vertex shader: 68 instructions
+[2021.06.02-02.05.39:696][442]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.05.52:681][215]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.05.52:687][215]LogMaterial: 0.000182 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.05.54:046][296]MaterialEditorStats: 情報 Base pass shader without light map: 6 instructions
+[2021.06.02-02.05.54:046][296]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.05.54:046][296]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.05.56:079][414]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.05.56:084][414]LogMaterial: 0.000170 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.05.56:112][414]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleColor_0, compiling. 
+[2021.06.02-02.05.57:488][496]MaterialEditorStats: 情報 Base pass shader without light map: 6 instructions
+[2021.06.02-02.05.57:488][496]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.05.57:488][496]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.05.59:058][584]LogMaterialEditor: Saving and Compiling material M_FX_Star01
+[2021.06.02-02.06.02:271][584]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.06.02:289][584]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.06.02:358][584]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.06.02:384][584]LogMaterial: Missing cached shader map for material M_FX_Star01, compiling. 
+[2021.06.02-02.06.02:405][584]LogMaterial: 0.003637 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.06.07:784][584]LogSavePackage: Save=767.708984ms
+[2021.06.02-02.06.07:784][584]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/M_FX_Star019B7635674C4778D6B1B0D4BE4057D7C2.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/M_FX_Star01.uasset'
+[2021.06.02-02.06.07:803][584]MaterialEditorStats: 情報 Base pass shader without light map: 21 instructions
+[2021.06.02-02.06.07:803][584]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.06.07:803][584]MaterialEditorStats: 情報 Texture samplers: 7/16
+[2021.06.02-02.06.19:822][300]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2021.06.02-02.06.19:823][300]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2021.06.02-02.07.09:197][233]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.07.11:181][335]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.07.11:222][335]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2021.06.02-02.07.11:445][335]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2021.06.02-02.07.11:445][335]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2021.06.02-02.07.11:445][335]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2021.06.02-02.07.11:445][335]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2021.06.02-02.07.11:453][335]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.07.11:462][335]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.07.11:489][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleColor_0, compiling. 
+[2021.06.02-02.07.11:495][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.06.02-02.07.14:289][484]LogMaterialEditor: Saving and Compiling material M_FX_FootSmoke
+[2021.06.02-02.07.17:734][484]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.07.17:751][484]LogMaterial: 0.000190 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.07.17:821][484]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.07.17:860][484]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.07.17:890][484]LogMaterial: 0.003018 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.07.23:126][484]LogSavePackage: Save=787.374695ms
+[2021.06.02-02.07.23:126][484]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/M_FX_FootSmokeBCC7423F483581AAD73BEAA82179C1DD.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/M_FX_FootSmoke.uasset'
+[2021.06.02-02.07.23:147][484]MaterialEditorStats: 情報 Base pass shader without light map: 21 instructions
+[2021.06.02-02.07.23:147][484]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.07.23:147][484]MaterialEditorStats: 情報 Texture samplers: 7/16
+[2021.06.02-02.07.25:600][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2021.06.02-02.07.25:600][620]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2021.06.02-02.07.40:760][499]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.07.40:765][499]LogMaterial: 0.000147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.07.40:792][499]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.06.02-02.07.43:644][665]MaterialEditorStats: 情報 Base pass shader without light map: 6 instructions
+[2021.06.02-02.07.43:644][665]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.07.43:644][665]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.07.58:553][  7]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.07.58:560][  7]LogMaterial: 0.000175 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.07.58:671][ 10]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.07.58:679][ 10]LogMaterial: 0.000134 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.08.00:054][ 87]MaterialEditorStats: 情報 Base pass shader without light map: 6 instructions
+[2021.06.02-02.08.00:054][ 87]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.08.00:054][ 87]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.08.00:660][123]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.08.00:665][123]LogMaterial: 0.000168 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.08.02:040][201]MaterialEditorStats: 情報 Base pass shader without light map: 6 instructions
+[2021.06.02-02.08.02:041][201]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.08.02:041][201]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.08.07:574][469]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.08.07:580][469]LogMaterial: 0.000656 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.08.07:583][469]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.08.07:589][469]LogMaterial: 0.000178 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.08.09:134][557]MaterialEditorStats: 情報 Base pass shader without light map: 6 instructions
+[2021.06.02-02.08.09:134][557]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.08.09:134][557]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.08.10:867][657]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.08.10:872][657]LogMaterial: 0.000184 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.08.12:251][735]MaterialEditorStats: 情報 Base pass shader without light map: 6 instructions
+[2021.06.02-02.08.12:251][735]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.08.12:251][735]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.08.14:584][864]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.08.14:589][864]LogMaterial: 0.000173 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.08.16:055][948]MaterialEditorStats: 情報 Base pass shader without light map: 6 instructions
+[2021.06.02-02.08.16:056][948]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.08.16:056][948]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.08.20:114][187]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.08.20:120][187]LogMaterial: 0.000225 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.08.20:151][187]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.06.02-02.08.21:511][263]MaterialEditorStats: 情報 Base pass shader without light map: 6 instructions
+[2021.06.02-02.08.21:511][263]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.08.21:511][263]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.08.22:646][329]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.08.22:652][329]LogMaterial: 0.000177 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.08.23:999][407]MaterialEditorStats: 情報 Base pass shader without light map: 8 instructions
+[2021.06.02-02.08.23:999][407]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.08.23:999][407]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.08.27:169][592]LogMaterialEditor: Saving and Compiling material M_FX_FootSmoke
+[2021.06.02-02.08.30:393][592]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.08.30:410][592]LogMaterial: 0.000206 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.08.30:480][592]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.08.30:506][592]LogMaterial: Missing cached shader map for material M_FX_FootSmoke, compiling. 
+[2021.06.02-02.08.30:527][592]LogMaterial: 0.002596 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.08.36:162][592]LogSavePackage: Save=1020.393311ms
+[2021.06.02-02.08.36:162][592]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/M_FX_FootSmokeA016B22D4E9783A9291F719FA0350668.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/M_FX_FootSmoke.uasset'
+[2021.06.02-02.08.36:183][592]MaterialEditorStats: 情報 Base pass shader without light map: 24 instructions
+[2021.06.02-02.08.36:183][592]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.08.36:183][592]MaterialEditorStats: 情報 Texture samplers: 7/16
+[2021.06.02-02.09.49:454][486]LogMaterial: Missing cached shader map for material M_FX_Fire, compiling. 
+[2021.06.02-02.09.51:180][572]LogMaterial: Missing cached shader map for material M_FX_Fire, compiling. 
+[2021.06.02-02.09.51:218][572]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2021.06.02-02.09.51:474][572]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2021.06.02-02.09.51:474][572]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2021.06.02-02.09.51:474][572]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2021.06.02-02.09.51:474][572]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2021.06.02-02.09.51:485][572]LogMaterial: Missing cached shader map for material M_FX_Fire, compiling. 
+[2021.06.02-02.09.51:491][572]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.09.51:521][572]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleColor_0, compiling. 
+[2021.06.02-02.09.51:525][572]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.06.02-02.09.54:351][712]MaterialEditorStats: 情報 Base pass shader without light map: 6 instructions
+[2021.06.02-02.09.54:351][712]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.09.54:351][712]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.10.20:871][811]LogMaterial: Missing cached shader map for material M_FX_Fire, compiling. 
+[2021.06.02-02.10.20:877][811]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.10.20:906][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.06.02-02.10.23:870][969]MaterialEditorStats: 情報 Base pass shader without light map: 6 instructions
+[2021.06.02-02.10.23:870][969]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.10.23:870][969]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.10.26:306][993]LogMaterialEditor: Saving and Compiling material M_FX_Fire
+[2021.06.02-02.10.29:542][993]LogMaterial: Missing cached shader map for material M_FX_Fire, compiling. 
+[2021.06.02-02.10.29:560][993]LogMaterial: 0.000219 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.10.29:633][993]LogMaterial: Missing cached shader map for material M_FX_Fire, compiling. 
+[2021.06.02-02.10.29:653][993]LogMaterial: Missing cached shader map for material M_FX_Fire, compiling. 
+[2021.06.02-02.10.29:675][993]LogMaterial: 0.002792 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.10.34:216][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Materials/M_FX_Fire" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/M_FX_Fire.uasset" SILENT=true
+[2021.06.02-02.10.34:908][993]LogSavePackage: Save=686.182922ms
+[2021.06.02-02.10.34:908][993]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/M_FX_FireABDD9C894D3F937EF57A099399EC99CD.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/M_FX_Fire.uasset'
+[2021.06.02-02.10.34:933][993]MaterialEditorStats: 情報 Base pass shader without light map: 21 instructions
+[2021.06.02-02.10.34:933][993]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.10.34:933][993]MaterialEditorStats: 情報 Texture samplers: 7/16
+[2021.06.02-02.11.27:920][270]LogMaterial: Missing cached shader map for material M_FX_Star02, compiling. 
+[2021.06.02-02.11.29:455][351]LogMaterial: Missing cached shader map for material M_FX_Star02, compiling. 
+[2021.06.02-02.11.29:498][351]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2021.06.02-02.11.29:593][351]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2021.06.02-02.11.29:593][351]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2021.06.02-02.11.29:593][351]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2021.06.02-02.11.29:593][351]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2021.06.02-02.11.29:608][351]LogMaterial: Missing cached shader map for material M_FX_Star02, compiling. 
+[2021.06.02-02.11.29:621][351]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.11.29:651][351]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleColor_0, compiling. 
+[2021.06.02-02.11.29:656][351]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.06.02-02.11.32:692][516]MaterialEditorStats: 情報 Base pass shader without light map: 6 instructions
+[2021.06.02-02.11.32:692][516]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.11.32:693][516]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.11.34:672][614]LogMaterial: Missing cached shader map for material M_FX_Star02, compiling. 
+[2021.06.02-02.11.34:677][614]LogMaterial: 0.000209 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.11.34:709][614]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.06.02-02.11.36:070][694]MaterialEditorStats: 情報 Base pass shader without light map: 6 instructions
+[2021.06.02-02.11.36:070][694]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.11.36:070][694]MaterialEditorStats: 情報 Texture samplers: 3/16
+[2021.06.02-02.11.36:435][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2021.06.02-02.11.36:435][716]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2021.06.02-02.11.38:325][828]LogMaterialEditor: Saving and Compiling material M_FX_Star02
+[2021.06.02-02.11.41:567][828]LogMaterial: Missing cached shader map for material M_FX_Star02, compiling. 
+[2021.06.02-02.11.41:585][828]LogMaterial: 0.000263 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.11.41:655][828]LogMaterial: Missing cached shader map for material M_FX_Star02, compiling. 
+[2021.06.02-02.11.41:674][828]LogMaterial: Missing cached shader map for material M_FX_Star02, compiling. 
+[2021.06.02-02.11.41:695][828]LogMaterial: 0.002018 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.02-02.11.47:038][828]LogSavePackage: Save=851.023987ms
+[2021.06.02-02.11.47:038][828]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/M_FX_Star022529E4554A69F4A1EEECD7A8FA60E28C.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/M_FX_Star02.uasset'
+[2021.06.02-02.11.47:062][828]MaterialEditorStats: 情報 Base pass shader without light map: 21 instructions
+[2021.06.02-02.11.47:062][828]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.02-02.11.47:062][828]MaterialEditorStats: 情報 Texture samplers: 7/16
+[2021.06.02-02.11.50:475][ 24]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2021.06.02-02.11.51:448][ 82]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Texture'
+[2021.06.02-02.11.52:172][124]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2021.06.02-02.12.23:178][766]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2021.06.02-02.12.39:341][720]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0066 seconds. Added 2 classes and 2 folders.
+[2021.06.02-02.12.39:436][720]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2021.06.02-02.12.39:436][720]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2021.06.02-02.17.45:220][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015CCD907100
+[2021.06.02-02.17.45:220][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015CD8AEB6A0
+[2021.06.02-02.17.45:220][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015CCA535E40
+[2021.06.02-02.17.45:236][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C846094E0
+[2021.06.02-02.17.45:322][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_Goalltem" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Goalltem.uasset" SILENT=true
+[2021.06.02-02.17.45:372][ 38]LogSavePackage: Save=44.358501ms
+[2021.06.02-02.17.45:372][ 38]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_GoalltemB350DFBF46DE7B3E4FAC569EE6646209.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Goalltem.uasset'
+[2021.06.02-02.18.17:260][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_Goalltem" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Goalltem.uasset" SILENT=true
+[2021.06.02-02.18.17:515][937]LogSavePackage: Save=50.672798ms
+[2021.06.02-02.18.17:515][937]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_GoalltemDA6A48954317A5BCEBC030BF78C66F1E.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Goalltem.uasset'
+[2021.06.02-02.19.17:034][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_Goalltem" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Goalltem.uasset" SILENT=true
+[2021.06.02-02.19.17:280][ 51]LogSavePackage: Save=51.523701ms
+[2021.06.02-02.19.17:280][ 51]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_Goalltem41709BA74330F6DE75C1D39DCE6752FB.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Goalltem.uasset'
+[2021.06.02-02.20.22:576][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_Goalltem" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Goalltem.uasset" SILENT=true
+[2021.06.02-02.20.22:823][436]LogSavePackage: Save=53.291500ms
+[2021.06.02-02.20.22:823][436]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_GoalltemF5E6433D4138119C884A18B28BB87F84.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Goalltem.uasset'
+[2021.06.02-02.21.15:478][ 23]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_ParticleSystem' took 0.023
+[2021.06.02-02.21.15:528][ 23]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/PS_Goalltem] ([1] browsable assets)...
+[2021.06.02-02.21.15:560][ 23]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/PS_Goalltem.PS_Goalltem]
+[2021.06.02-02.21.15:560][ 23]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/PS_Goalltem]
+[2021.06.02-02.21.15:989][ 23]LogSavePackage: Save=225.346603ms
+[2021.06.02-02.21.15:992][ 23]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_Goalltem_Auto20BDBB80147567D0C2F538CB8715E1714.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/Particles/PS_Goalltem_Auto2.uasset'
+[2021.06.02-02.21.16:012][ 23]LogFileHelpers: Auto-saving content packages took 0.534
+[2021.06.02-02.21.38:302][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_Goalltem" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Goalltem.uasset" SILENT=true
+[2021.06.02-02.21.38:548][709]LogSavePackage: Save=52.285999ms
+[2021.06.02-02.21.38:548][709]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_Goalltem13402E7F416F68D1CCD6BBA8653D90C9.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Goalltem.uasset'
+[2021.06.02-02.21.53:145][534]LogEditorViewport: Clicking on Actor (LMB): Emitter (PS_Goalltem)
+[2021.06.02-02.24.06:097][353]LogSavePackage: Save=340.814209ms
+[2021.06.02-02.24.06:097][353]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_ParticleSystem65B83B184C48262F7B2F6A8B774C7E88.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_ParticleSystem.umap'
+[2021.06.02-02.24.06:203][353]LogFileHelpers: Saving map 'Test_ParticleSystem' took 1.118
+[2021.06.02-02.24.49:514][919]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2021.06.02-02.24.49:514][919]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2021.06.02-02.27.41:767][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_Pickup_coin" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Pickup_coin.uasset" SILENT=true
+[2021.06.02-02.27.41:819][903]LogSavePackage: Save=45.812302ms
+[2021.06.02-02.27.41:819][903]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_Pickup_coin1C4F999E46442CF10D10F084208C9484.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Pickup_coin.uasset'
+[2021.06.02-02.28.24:550][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_Pickup_coin" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Pickup_coin.uasset" SILENT=true
+[2021.06.02-02.28.24:806][461]LogSavePackage: Save=53.771801ms
+[2021.06.02-02.28.24:807][461]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_Pickup_coin839E2EB4492DB280E0B89AA9B817E26F.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Pickup_coin.uasset'
+[2021.06.02-02.30.28:324][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_Pickup_coin" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Pickup_coin.uasset" SILENT=true
+[2021.06.02-02.30.28:575][364]LogSavePackage: Save=50.703499ms
+[2021.06.02-02.30.28:575][364]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_Pickup_coin448F6C804F667B87400C6A877556ABE5.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Pickup_coin.uasset'
+[2021.06.02-02.31.11:195][610]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.06.02-02.31.11:195][610]LogPlayLevel: [PIE] Compiling Test_ParticleSystem before PIE...
+[2021.06.02-02.31.11:331][610]LogPlayLevel: PIE:  Blueprint regeneration took 136 ms (1 blueprints)
+[2021.06.02-02.31.11:334][610]PIE: New page: PIEセッション: Test_ParticleSystem (2021/06/02 20:31:11)
+[2021.06.02-02.31.11:357][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022369s)
+[2021.06.02-02.31.11:358][610]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2021.06.02-02.31.11:358][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_ParticleSystem.Test_ParticleSystem to /Game/Maps/Test/UEDPIE_0_Test_ParticleSystem.Test_ParticleSystem (0.023559s)
+[2021.06.02-02.31.11:698][610]LogWorld: Game class is 'PNGameMode_C'
+[2021.06.02-02.31.11:703][610]LogAIModule: Creating AISystem for world Test_ParticleSystem
+[2021.06.02-02.31.11:718][610]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_ParticleSystem.Test_ParticleSystem up for play (max tick rate 60) at 2021.06.02-11.31.11
+[2021.06.02-02.31.11:732][610]LogWorld: Bringing up level for play took: 0.026778
+[2021.06.02-02.31.11:803][610]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_ParticleSystem 0.952のPIE開始時間
+[2021.06.02-02.31.11:853][610]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:127915).
+[2021.06.02-02.31.12:011][616]LogBlueprintUserMessages: 0
+[2021.06.02-02.31.12:516][644]LogBlueprintUserMessages: 0
+[2021.06.02-02.31.13:017][674]LogBlueprintUserMessages: 0
+[2021.06.02-02.31.13:517][704]LogBlueprintUserMessages: 0
+[2021.06.02-02.31.14:018][734]LogBlueprintUserMessages: 0
+[2021.06.02-02.31.14:547][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C846AC0E0
+[2021.06.02-02.33.06:562][924]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.02-02.34.01:354][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_Pickup_coin" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Pickup_coin.uasset" SILENT=true
+[2021.06.02-02.34.01:610][739]LogSavePackage: Save=51.845501ms
+[2021.06.02-02.34.01:610][739]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_Pickup_coin34C876D945B40F05DF2CD1B423C81FAD.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Pickup_coin.uasset'
+[2021.06.02-02.34.08:516][ 97]LogSavePackage: Save=338.939514ms
+[2021.06.02-02.34.08:516][ 97]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_ParticleSystem_Auto3B326885844B102CEA31324BD2200AC46.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/Maps/Test/Test_ParticleSystem_Auto3.umap'
+[2021.06.02-02.34.08:539][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_ParticleSystem' took 0.662
+[2021.06.02-02.34.08:539][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.662
+[2021.06.02-02.36.35:423][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_Pickup_coin" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Pickup_coin.uasset" SILENT=true
+[2021.06.02-02.36.35:672][371]LogSavePackage: Save=50.055000ms
+[2021.06.02-02.36.35:672][371]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_Pickup_coin78A336D54F17A927A148A996510C85A1.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Pickup_coin.uasset'
+[2021.06.02-02.37.45:685][226]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2021.06.02-02.37.45:685][226]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2021.06.02-02.41.50:192][331]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.02-02.44.25:359][597]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_ParticleSystem' took 0.023
+[2021.06.02-02.44.25:410][597]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/PS_PlayerDeath] ([1] browsable assets)...
+[2021.06.02-02.44.25:433][597]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/PS_PlayerDeath.PS_PlayerDeath]
+[2021.06.02-02.44.25:433][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/PS_PlayerDeath]
+[2021.06.02-02.44.25:605][597]LogSavePackage: Save=158.131393ms
+[2021.06.02-02.44.25:606][597]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_PlayerDeath_Auto49D46DD35491602E51309A88CF65F38B5.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/Particles/PS_PlayerDeath_Auto4.uasset'
+[2021.06.02-02.44.25:628][597]LogFileHelpers: Auto-saving content packages took 0.269
+[2021.06.02-02.53.41:093][631]LogSavePackage: Save=335.402588ms
+[2021.06.02-02.53.41:093][631]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_ParticleSystem6B07963643DBC486FDB8EDBFDE8458D2.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_ParticleSystem.umap'
+[2021.06.02-02.53.44:642][787]LogSavePackage: Save=353.543213ms
+[2021.06.02-02.53.44:642][787]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_ParticleSystem09848C144F01560EB34D99AD7C781834.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_ParticleSystem.umap'
+[2021.06.02-02.53.47:045][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_PlayerDeath" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_PlayerDeath.uasset" SILENT=true
+[2021.06.02-02.53.47:105][852]LogSavePackage: Save=53.848499ms
+[2021.06.02-02.53.47:105][852]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_PlayerDeath346F1E8E477D08B4C7BDC69C9A25B2E3.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_PlayerDeath.uasset'
+[2021.06.02-02.53.49:238][965]BlueprintLog: New page: PIE以前の自動再コンパイル
+[2021.06.02-02.53.49:239][965]LogPlayLevel: [PIE] Compiling Test_ParticleSystem before PIE...
+[2021.06.02-02.53.49:364][965]LogPlayLevel: PIE:  Blueprint regeneration took 126 ms (1 blueprints)
+[2021.06.02-02.53.49:365][965]PIE: New page: PIEセッション: Test_ParticleSystem (2021/06/02 20:53:49)
+[2021.06.02-02.53.49:388][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022722s)
+[2021.06.02-02.53.49:389][965]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2021.06.02-02.53.49:390][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_ParticleSystem.Test_ParticleSystem to /Game/Maps/Test/UEDPIE_0_Test_ParticleSystem.Test_ParticleSystem (0.023919s)
+[2021.06.02-02.53.49:470][965]LogWorld: Game class is 'PNGameMode_C'
+[2021.06.02-02.53.49:476][965]LogAIModule: Creating AISystem for world Test_ParticleSystem
+[2021.06.02-02.53.49:495][965]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_ParticleSystem.Test_ParticleSystem up for play (max tick rate 60) at 2021.06.02-11.53.49
+[2021.06.02-02.53.49:499][965]LogWorld: Bringing up level for play took: 0.021990
+[2021.06.02-02.53.49:553][965]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_ParticleSystem 0.702のPIE開始時間
+[2021.06.02-02.53.49:742][971]LogBlueprintUserMessages: 0
+[2021.06.02-02.53.50:248][999]LogBlueprintUserMessages: 0
+[2021.06.02-02.53.50:757][ 29]LogBlueprintUserMessages: 0
+[2021.06.02-02.53.51:244][ 58]LogBlueprintUserMessages: 0
+[2021.06.02-02.53.51:946][ 89]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015CB4229D00
+[2021.06.02-02.53.53:264][159]MapCheck: New page: マップをチェック
+[2021.06.02-02.53.53:298][159]Cmd: MAP REBUILD ALLVISIBLE
+[2021.06.02-02.53.53:298][159]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.06.02-02.53.53:410][159]LightingResults: New page: ライティングのビルド - 2021/06/02 20:53:53
+[2021.06.02-02.54.02:357][159]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.06.02-02.54.02:359][159]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.06.02-02.54.02:359][159]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.06.02-02.54.02:359][159]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.06.02-02.54.02:359][159]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.06.02-02.54.02:359][159]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.06.02-02.54.02:588][159]LogEditorBuildUtils: Build time 0:00:09
+[2021.06.02-02.54.06:777][173]Job is a success!
+[2021.06.02-02.54.07:314][174]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2021.06.02-02.54.07:314][174]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2021.06.02-02.54.07:314][174]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2021.06.02-02.54.07:314][174]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2021.06.02-02.54.07:314][174]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2021.06.02-02.54.07:314][174]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2021.06.02-02.54.07:368][174]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap0_1 (AutoDXT)
+[2021.06.02-02.54.07:388][174]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_1_2 (DXT1)
+[2021.06.02-02.54.07:389][174]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap1_2 (AutoDXT)
+[2021.06.02-02.54.07:390][174]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_0_1 (DXT1)
+[2021.06.02-02.54.07:427][174]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_0 (BGRA8)
+[2021.06.02-02.54.07:431][174]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_3 (BGRA8)
+[2021.06.02-02.54.07:479][174]Lightmass on DESKTOP-QG331CQ: 3.06 sec total, 237 ms importing, 5 ms setup, 744 ms photons, 1.91 sec processing, 0 ms extra exporting [3/3 mappings]. Threads: 20.4 sec total, 1.43 sec processing.
+[2021.06.02-02.54.07:548][174]LogStaticLightingSystem: Illumination: 13.7 sec (74 ms encoding lightmaps)
+[2021.06.02-02.54.07:548][174]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.06.02-02.54.07:548][174]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.06.02-02.54.08:376][175]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.06.02-02.54.08:376][175]MapCheck: New page: Test_ParticleSystem - 2021/06/02 20:54:08
+[2021.06.02-02.54.08:895][175]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 519.056ミリ秒かかりました。
+[2021.06.02-02.55.23:878][881]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2021.06.02-02.55.23:878][881]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2021.06.02-02.55.25:809][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_FootSmoke" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_FootSmoke.uasset" SILENT=true
+[2021.06.02-02.55.25:863][973]LogSavePackage: Save=48.876598ms
+[2021.06.02-02.55.25:863][973]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_FootSmoke56857C28411E48B36CEE4A93F03B88AF.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_FootSmoke.uasset'
+[2021.06.02-03.03.51:489][ 93]LogSavePackage: Save=375.325989ms
+[2021.06.02-03.03.51:489][ 93]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_ParticleSystem_Auto5B8936A334FE69E90527195BD7E3B7433.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/Maps/Test/Test_ParticleSystem_Auto5.umap'
+[2021.06.02-03.03.51:512][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_ParticleSystem' took 0.700
+[2021.06.02-03.03.51:512][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.700
+[2021.06.02-03.03.51:563][ 93]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/PS_FootSmoke] ([1] browsable assets)...
+[2021.06.02-03.03.51:583][ 93]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/PS_FootSmoke.PS_FootSmoke]
+[2021.06.02-03.03.51:583][ 93]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/PS_FootSmoke]
+[2021.06.02-03.03.51:992][ 93]LogSavePackage: Save=196.293396ms
+[2021.06.02-03.03.51:995][ 93]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_FootSmoke_Auto5D6CC767949A51235356BA58D17077145.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/Particles/PS_FootSmoke_Auto5.uasset'
+[2021.06.02-03.03.52:017][ 93]LogFileHelpers: Auto-saving content packages took 0.504
+[2021.06.02-03.05.38:370][452]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.02-03.10.19:609][ 21]LogEditorTransaction: Undo カーブを編集
+[2021.06.02-03.10.30:016][622]LogEditorTransaction: Undo カーブを編集
+[2021.06.02-03.10.41:916][313]LogEditorTransaction: Undo カーブを編集
+[2021.06.02-03.10.46:619][573]LogEditorTransaction: Undo カーブを編集
+[2021.06.02-03.10.48:644][675]LogEditorTransaction: Undo カーブを編集
+[2021.06.02-03.11.20:633][584]LogEditorTransaction: Undo カーブを編集
+[2021.06.02-03.11.38:256][621]LogEditorTransaction: Undo カーブを編集
+[2021.06.02-03.13.52:666][243]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_ParticleSystem' took 0.022
+[2021.06.02-03.13.52:721][243]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/PS_FootSmoke] ([1] browsable assets)...
+[2021.06.02-03.13.52:747][243]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/PS_FootSmoke.PS_FootSmoke]
+[2021.06.02-03.13.52:747][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/PS_FootSmoke]
+[2021.06.02-03.13.53:147][243]LogSavePackage: Save=182.953293ms
+[2021.06.02-03.13.53:149][243]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_FootSmoke_Auto6C442918545E302EBBB6D4DB1900E9CE3.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/Particles/PS_FootSmoke_Auto6.uasset'
+[2021.06.02-03.13.53:169][243]LogFileHelpers: Auto-saving content packages took 0.503
+[2021.06.02-03.16.10:311][680]LogUnrealMath: Expression Error : No value recognized
+[2021.06.02-03.16.10:311][680]LogUnrealMath: Expression Error : Error in expression
+[2021.06.02-03.16.20:229][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_FootSmoke" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_FootSmoke.uasset" SILENT=true
+[2021.06.02-03.16.20:487][269]LogSavePackage: Save=56.217899ms
+[2021.06.02-03.16.20:487][269]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_FootSmokeFE678D894B17D38FDFCE0E8381C82058.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_FootSmoke.uasset'
+[2021.06.02-03.16.25:626][575]LogCascade: Quitting Cascade. FXSystem=0x0000015C944656C0
+[2021.06.02-03.16.26:776][631]LogCascade: Quitting Cascade. FXSystem=0x0000015C844BF060
+[2021.06.02-03.16.27:936][687]LogCascade: Quitting Cascade. FXSystem=0x0000015CD8D57A60
+[2021.06.02-03.16.29:229][752]LogCascade: Quitting Cascade. FXSystem=0x0000015C85A31080
+[2021.06.02-03.19.30:752][963]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2021.06.02-03.19.52:227][236]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2021.06.02-03.19.52:227][236]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2021.06.02-03.19.54:346][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_Fire" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Fire.uasset" SILENT=true
+[2021.06.02-03.19.54:397][338]LogSavePackage: Save=44.818901ms
+[2021.06.02-03.19.54:397][338]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_FireF85C786B4008BC4934C5C1A7DF4F7381.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Fire.uasset'
+[2021.06.02-03.23.56:938][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015CD8D57A60
+[2021.06.02-03.23.56:939][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C844BF060
+[2021.06.02-03.23.56:939][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C85A31080
+[2021.06.02-03.23.56:948][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C944656C0
+[2021.06.02-03.23.56:948][748]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_ParticleSystem' took 0.027
+[2021.06.02-03.23.57:009][748]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/PS_Fire] ([1] browsable assets)...
+[2021.06.02-03.23.57:032][748]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/PS_Fire.PS_Fire]
+[2021.06.02-03.23.57:033][748]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/PS_Fire]
+[2021.06.02-03.23.57:394][748]LogSavePackage: Save=152.654007ms
+[2021.06.02-03.23.57:395][748]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_Fire_Auto7698B29514E6E0D01150FEDB536FF3A8F.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/Particles/PS_Fire_Auto7.uasset'
+[2021.06.02-03.23.57:413][748]LogFileHelpers: Auto-saving content packages took 0.466
+[2021.06.02-03.30.37:871][487]LogCascade: Non-seeded module ParticleModuleSubUVMovie
+[2021.06.02-03.33.58:441][558]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_ParticleSystem' took 0.044
+[2021.06.02-03.33.58:489][558]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/PS_Fire] ([1] browsable assets)...
+[2021.06.02-03.33.58:521][558]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/PS_Fire.PS_Fire]
+[2021.06.02-03.33.58:521][558]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/PS_Fire]
+[2021.06.02-03.33.58:938][558]LogSavePackage: Save=203.909393ms
+[2021.06.02-03.33.58:939][558]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_Fire_Auto8280D30CB4AD7111DA5EE1F9C038D03D5.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/Particles/PS_Fire_Auto8.uasset'
+[2021.06.02-03.33.58:956][558]LogFileHelpers: Auto-saving content packages took 0.515
+[2021.06.02-04.13.39:893][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/PS_Fire" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Fire.uasset" SILENT=true
+[2021.06.02-04.13.40:187][437]LogSavePackage: Save=48.138599ms
+[2021.06.02-04.13.40:187][437]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PS_Fire32994B22424F2552D189D99EAA1CC03B.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/PS_Fire.uasset'
+[2021.06.02-04.13.44:445][496]LogSavePackage: Save=367.915009ms
+[2021.06.02-04.13.44:445][496]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_ParticleSystemF0B61D0E4A8F9A05DA19479D8BE6EA96.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_ParticleSystem.umap'
+[2021.06.02-04.13.44:563][496]LogFileHelpers: Saving map 'Test_ParticleSystem' took 1.217
+[2021.06.02-04.13.44:864][496]LogCascade: Quitting Cascade. FXSystem=0x0000015D2392F240
+[2021.06.02-04.13.45:756][497]Cmd: QUIT_EDITOR
+[2021.06.02-04.13.46:250][497]LogExit: Preparing to exit.
+[2021.06.02-04.13.46:595][497]LogExit: Editor shut down
+[2021.06.02-04.13.46:598][497]LogExit: Transaction tracking system shut down
+[2021.06.02-04.13.46:601][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C94593240
+[2021.06.02-04.13.46:601][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C94217420
+[2021.06.02-04.13.46:603][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C83712200
+[2021.06.02-04.13.46:604][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015CACBA2C00
+[2021.06.02-04.13.46:902][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015D2392F240
+[2021.06.02-04.13.46:902][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C8391C860
+[2021.06.02-04.13.46:902][497]LogExit: Object subsystem successfully closed.
+[2021.06.02-04.13.47:099][497]LogModuleManager: Shutting down and abandoning module DistCurveEditor (181)
+[2021.06.02-04.13.47:099][497]LogModuleManager: Shutting down and abandoning module Cascade (180)
+[2021.06.02-04.13.47:099][497]LogModuleManager: Shutting down and abandoning module MaterialEditor (179)
+[2021.06.02-04.13.47:099][497]LogModuleManager: Shutting down and abandoning module CrashTracker (178)
+[2021.06.02-04.13.47:099][497]LogModuleManager: Shutting down and abandoning module SuperSearch (177)
+[2021.06.02-04.13.47:099][497]LogModuleManager: Shutting down and abandoning module WorldBrowser (176)
+[2021.06.02-04.13.47:099][497]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2021.06.02-04.13.47:099][497]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2021.06.02-04.13.47:099][497]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2021.06.02-04.13.47:099][497]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2021.06.02-04.13.47:099][497]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2021.06.02-04.13.47:099][497]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2021.06.02-04.13.47:100][497]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2021.06.02-04.13.47:100][497]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2021.06.02-04.13.47:100][497]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2021.06.02-04.13.47:100][497]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2021.06.02-04.13.47:100][497]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2021.06.02-04.13.47:100][497]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2021.06.02-04.13.47:100][497]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2021.06.02-04.13.47:100][497]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2021.06.02-04.13.47:100][497]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2021.06.02-04.13.47:100][497]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2021.06.02-04.13.47:100][497]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2021.06.02-04.13.47:100][497]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2021.06.02-04.13.47:101][497]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2021.06.02-04.13.47:101][497]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2021.06.02-04.13.47:101][497]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2021.06.02-04.13.47:101][497]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2021.06.02-04.13.47:101][497]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2021.06.02-04.13.47:101][497]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2021.06.02-04.13.47:101][497]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2021.06.02-04.13.47:101][497]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2021.06.02-04.13.47:101][497]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2021.06.02-04.13.47:101][497]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2021.06.02-04.13.47:101][497]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2021.06.02-04.13.47:101][497]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2021.06.02-04.13.47:456][497]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2021.06.02-04.13.47:456][497]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2021.06.02-04.13.47:456][497]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2021.06.02-04.13.47:457][497]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2021.06.02-04.13.47:457][497]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2021.06.02-04.13.47:457][497]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2021.06.02-04.13.47:457][497]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2021.06.02-04.13.47:457][497]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2021.06.02-04.13.47:458][497]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2021.06.02-04.13.47:458][497]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2021.06.02-04.13.47:458][497]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2021.06.02-04.13.47:458][497]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2021.06.02-04.13.47:458][497]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2021.06.02-04.13.47:458][497]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2021.06.02-04.13.47:458][497]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2021.06.02-04.13.47:458][497]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2021.06.02-04.13.47:458][497]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2021.06.02-04.13.47:458][497]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2021.06.02-04.13.47:459][497]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2021.06.02-04.13.47:559][497]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2021.06.02-04.13.47:559][497]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2021.06.02-04.13.47:559][497]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2021.06.02-04.13.47:563][497]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2021.06.02-04.13.47:564][497]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2021.06.02-04.13.47:564][497]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2021.06.02-04.13.47:786][497]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2021.06.02-04.13.47:786][497]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2021.06.02-04.13.47:786][497]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2021.06.02-04.13.47:786][497]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2021.06.02-04.13.47:786][497]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2021.06.02-04.13.47:786][497]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2021.06.02-04.13.47:787][497]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2021.06.02-04.13.47:787][497]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2021.06.02-04.13.47:787][497]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2021.06.02-04.13.47:787][497]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2021.06.02-04.13.47:787][497]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2021.06.02-04.13.47:787][497]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2021.06.02-04.13.47:787][497]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2021.06.02-04.13.47:789][497]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2021.06.02-04.13.47:789][497]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2021.06.02-04.13.47:789][497]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2021.06.02-04.13.47:789][497]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2021.06.02-04.13.47:789][497]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2021.06.02-04.13.47:789][497]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2021.06.02-04.13.47:789][497]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2021.06.02-04.13.47:789][497]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2021.06.02-04.13.47:789][497]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2021.06.02-04.13.47:789][497]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2021.06.02-04.13.47:789][497]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2021.06.02-04.13.47:792][497]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2021.06.02-04.13.47:792][497]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2021.06.02-04.13.47:792][497]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2021.06.02-04.13.47:893][497]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2021.06.02-04.13.47:893][497]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2021.06.02-04.13.47:898][497]LogModuleManager: Shutting down and abandoning module Media (76)
+[2021.06.02-04.13.47:898][497]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2021.06.02-04.13.47:901][497]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2021.06.02-04.13.47:901][497]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2021.06.02-04.13.47:901][497]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2021.06.02-04.13.47:901][497]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2021.06.02-04.13.47:901][497]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2021.06.02-04.13.47:901][497]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2021.06.02-04.13.47:901][497]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2021.06.02-04.13.47:901][497]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2021.06.02-04.13.47:901][497]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2021.06.02-04.13.47:901][497]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2021.06.02-04.13.47:902][497]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2021.06.02-04.13.47:902][497]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2021.06.02-04.13.47:902][497]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2021.06.02-04.13.47:919][497]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2021.06.02-04.13.47:919][497]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2021.06.02-04.13.47:919][497]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2021.06.02-04.13.47:919][497]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2021.06.02-04.13.47:919][497]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2021.06.02-04.13.47:920][497]LogModuleManager: Shutting down and abandoning module Core (55)
+[2021.06.02-04.13.47:920][497]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2021.06.02-04.13.47:920][497]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2021.06.02-04.13.47:920][497]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2021.06.02-04.13.47:920][497]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2021.06.02-04.13.47:984][497]LogDerivedDataCache: Shutdown
+[2021.06.02-04.13.47:984][497]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2021.06.02-04.13.47:984][497]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2021.06.02-04.13.47:984][497]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2021.06.02-04.13.47:984][497]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2021.06.02-04.13.47:985][497]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2021.06.02-04.13.47:986][497]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2021.06.02-04.13.47:987][497]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2021.06.02-04.13.47:987][497]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2021.06.02-04.13.48:004][497]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2021.06.02-04.13.48:004][497]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2021.06.02-04.13.48:004][497]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2021.06.02-04.13.48:004][497]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2021.06.02-04.13.48:004][497]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2021.06.02-04.13.48:004][497]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2021.06.02-04.13.48:004][497]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2021.06.02-04.13.48:004][497]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2021.06.02-04.13.48:004][497]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2021.06.02-04.13.48:007][497]LogExit: Exiting.
+[2021.06.02-04.13.48:076][497]Log file closed, 06/02/21 13:13:48
