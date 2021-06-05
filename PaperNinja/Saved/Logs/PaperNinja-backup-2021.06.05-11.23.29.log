@@ -1,0 +1,445 @@
+﻿Log file open, 06/05/21 10:52:31
+LogInit:Display: Running engine for game: PaperNinja
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2021.06.05-01.52.31:502][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2021.06.05-01.52.31:580][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2021.06.05-01.52.31:597][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2021.06.05-01.52.31:604][  0]LogInit: Object subsystem initialized
+[2021.06.05-01.52.31:606][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2021.06.05-01.52.31:606][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.06.05-01.52.31:606][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2021.06.05-01.52.31:606][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.06.05-01.52.31:606][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2021.06.05-01.52.31:606][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2021.06.05-01.52.31:606][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.05-01.52.31:606][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.06.05-01.52.31:613][  0]LogInit: Computer: DESKTOP-QG331CQ
+[2021.06.05-01.52.31:613][  0]LogInit: User: magi1
+[2021.06.05-01.52.31:613][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.06.05-01.52.31:613][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.06.05-01.52.31:613][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2021.06.05-01.52.31:613][  0]LogMemory: Platform Memory Stats for Windows
+[2021.06.05-01.52.31:613][  0]LogMemory: Process Physical Memory: 49.91 MB used, 49.91 MB peak
+[2021.06.05-01.52.31:613][  0]LogMemory: Process Virtual Memory: 26.82 MB used, 26.82 MB peak
+[2021.06.05-01.52.31:613][  0]LogMemory: Physical Memory: 7184.11 MB used, 16239.85 MB total
+[2021.06.05-01.52.31:613][  0]LogMemory: Virtual Memory: 4432.94 MB used, 134217728.00 MB total
+[2021.06.05-01.52.31:759][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce RTX 2080 (Feature Level 11_0)
+[2021.06.05-01.52.31:759][  0]LogD3D11RHI: Adapter has 8010MB of dedicated video memory, 0MB of dedicated system memory, and 8119MB of shared system memory, 2 output[s]
+[2021.06.05-01.52.31:788][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) UHD Graphics 630 (Feature Level 11_0)
+[2021.06.05-01.52.31:788][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8119MB of shared system memory, 0 output[s]
+[2021.06.05-01.52.31:790][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2021.06.05-01.52.31:790][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8119MB of shared system memory, 0 output[s]
+[2021.06.05-01.52.31:790][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2021.06.05-01.52.31:796][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.06.05-01.52.31:883][  0]LogD3D11RHI: Async texture creation enabled
+[2021.06.05-01.52.31:947][  0]LogTextLocalizationManager: The requested culture ('ja_JP') has no localization data; parent culture's ('ja') localization data will be used.
+[2021.06.05-01.52.31:995][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (-29098895) String: (現行レベルをディスクに保存)
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Engine/ja/Engine.locres) Hash: (-1280300587) String: (選択データをvlogファイルに保存)
+[2021.06.05-01.52.31:996][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (-630476809) String: ({0} にインポート...)
+Resource: (C:/Program Files/Epic Games/UE_4.7/Engine/Content/Localization/Editor/ja/Editor.locres) Hash: (1271782899) String: (このフォルダへファイルからアセットをインポート)
+[2021.06.05-01.52.32:057][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2021.06.05-01.52.33:983][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.06.05-01.52.34:461][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.06.05-01.52.34:521][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2021.06.05-01.52.34:544][  0]LogDerivedDataCache: Loaded boot cache 0.02s 39MB C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2021.06.05-01.52.34:544][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2021.06.05-01.52.34:544][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.06.05-01.52.34:544][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.06.05-01.52.34:634][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.06.05-01.52.34:646][  0]LogDerivedDataCache: Using Local data cache path C:/Users/magi1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.06.05-01.52.34:861][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2021.06.05-01.52.34:861][  0]LogMeshUtilities: No automatic mesh merging module available
+[2021.06.05-01.52.35:154][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.06.05-01.52.35:238][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2021.06.05-01.52.35:931][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.06.05-01.52.36:148][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.06.05-01.52.36:148][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.06.05-01.52.36:148][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.06.05-01.52.36:148][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2021.06.05-01.52.36:149][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2021.06.05-01.52.36:159][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.06.05-01.52.36:350][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2021.06.05-01.52.36:350][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2021.06.05-01.52.36:419][  0]LogEngine: Initializing Engine...
+[2021.06.05-01.52.38:593][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.06.05-01.52.38:645][  0]LogInit: FAudioDevice initialized.
+[2021.06.05-01.52.38:684][  0]LogAIModule: Creating AISystem for world NewWorld
+[2021.06.05-01.52.38:700][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/magi1/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2021.06.05-01.52.38:703][  0]LogInit: Texture streaming: Enabled
+[2021.06.05-01.52.38:779][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2021.06.05-01.52.38:779][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2021.06.05-01.52.38:779][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2021.06.05-01.52.38:779][  0]LogAnalytics: SetUserId 144e59504b07e7078f7f9fbff0f199ea|e89bcdc3dddd40638ff112a71cef8e67|badf8662-73b2-480e-8b08-9b9fdfc993be
+[2021.06.05-01.52.38:780][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2021.06.05-01.52.38:818][  0]LogInit: Transaction tracking system initialized
+[2021.06.05-01.52.39:024][  0]BlueprintLog: New page: エディタの読み込み
+[2021.06.05-01.52.39:067][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2021.06.05-01.52.39:067][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2021.06.05-01.52.39:583][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.06.05-01.52.39:874][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.06.05-01.52.40:179][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2021.06.05-01.52.40:179][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2021.06.05-01.52.40:183][  0]LogConsoleResponse:Display: 
+[2021.06.05-01.52.40:299][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2021.06.05-01.52.40:462][  0]SourceControl: 情報 ソースコントロールは無効です
+[2021.06.05-01.52.40:463][  0]Cmd: MAP LOAD FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.05-01.52.40:463][  0]LightingResults: New page: ライティングのビルド
+[2021.06.05-01.52.40:476][  0]MapCheck: New page: マップをチェック
+[2021.06.05-01.52.40:476][  0]LightingResults: New page: <何も選択されていません>
+[2021.06.05-01.52.40:481][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012B0BAE0EA0
+[2021.06.05-01.52.41:229][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.05-01.52.41:238][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.06.05-01.52.41:239][  0]Cmd: MAP CHECKDEP
+[2021.06.05-01.52.41:239][  0]MapCheck: New page: Minimal_Default - 2021/06/05 19:52:41
+[2021.06.05-01.52.41:336][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 96.878ミリ秒かかりました。
+[2021.06.05-01.52.41:336][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.874
+[2021.06.05-01.52.41:467][  0]LogCollectionManager: Loaded 0 collections in 0.001750 seconds
+[2021.06.05-01.52.41:475][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 1696 classes and 261 folders.
+[2021.06.05-01.52.41:514][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2021.06.05-01.52.41:536][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0027 seconds. Added 1 classes and 3 folders.
+[2021.06.05-01.52.41:602][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2021.06.05-01.52.41:603][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2021.06.05-01.52.41:610][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2021.06.05-01.52.41:639][  0]LogLoad: Full Startup: 13.07 seconds (BP compile: 0.07 seconds)
+[2021.06.05-01.52.42:049][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2021.06.05-01.52.42:149][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2021.06.05-01.52.42:253][  0]LogRenderer:Warning: Reallocating scene render targets to support 1200x576 (Frame:5).
+[2021.06.05-01.52.42:997][  3]LogAssetRegistry: Asset discovery search completed in 3.9412 seconds
+[2021.06.05-01.52.47:456][ 25]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Texture'
+[2021.06.05-01.53.09:303][991]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Materials'
+[2021.06.05-01.53.10:707][ 75]LogLinker:Warning: ファイル '/Game/Particles/Textures/T_FX_FireBall_01' が見つかりません
+[2021.06.05-01.53.10:707][ 75]LogLinker:Warning: ../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/M_FX_FireBall.uasset のロード中にアセット '/Game/Particles/Textures/T_FX_FireBall_01'  のファイルが見つかりません
+[2021.06.05-01.53.10:707][ 75]LoadErrors:Error: エラー /Game/Particles/Materials/M_FX_FireBall : アセットのファイルが見つかりません /Game/Particles/Textures/T_FX_FireBall_01
+[2021.06.05-01.53.10:708][ 75]LogLinker:Warning: ファイル '/Game/Particles/Textures/T_FX_FireBall_01' が見つかりません
+[2021.06.05-01.53.10:708][ 75]LogLinker:Warning: ../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/M_FX_FireBall.uasset のロード中にアセット '/Game/Particles/Textures/T_FX_FireBall_01'  のファイルが見つかりません
+[2021.06.05-01.53.10:708][ 75]LogLinker:Warning: ファイル '/Game/Particles/Textures/T_FX_FireBall_01' が見つかりません
+[2021.06.05-01.53.10:709][ 75]LoadErrors: 情報 ロードに失敗しました /Game/Particles/Textures/T_FX_FireBall_01.T_FX_FireBall_01 参照元 MaterialExpressionTextureSampleParameter2D_0
+[2021.06.05-01.53.10:709][ 75]LogLinker:Warning: NULL のロード中にアセット '/Game/Particles/Textures/T_FX_FireBall_01'  のファイルが見つかりません
+[2021.06.05-01.53.10:710][ 75]LogMaterial: Missing cached shader map for material M_FX_FireBall, compiling. 
+[2021.06.05-01.53.10:710][ 75]LogMaterial:Warning: Failed to compile Material /Game/Particles/Materials/M_FX_FireBall.M_FX_FireBall for platform PCD3D_SM5, Default Material will be used in game.
+[2021.06.05-01.53.10:710][ 75]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2021.06.05-01.53.10:761][ 75]LogMaterial: Missing cached shader map for material M_FX_FireBall, compiling. 
+[2021.06.05-01.53.10:763][ 75]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_FX_FireBall for platform PCD3D_SM5, Default Material will be used in game.
+[2021.06.05-01.53.10:763][ 75]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2021.06.05-01.53.10:777][ 75]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2021.06.05-01.53.10:838][ 75]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2021.06.05-01.53.10:838][ 75]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2021.06.05-01.53.10:838][ 75]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2021.06.05-01.53.10:838][ 75]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2021.06.05-01.53.10:843][ 75]LogMaterial: Missing cached shader map for material M_FX_FireBall, compiling. 
+[2021.06.05-01.53.10:843][ 75]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_FX_FireBall for platform PCD3D_SM5, Default Material will be used in game.
+[2021.06.05-01.53.10:843][ 75]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2021.06.05-01.53.10:843][ 75]LogMaterial: 0.000156 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.05-01.53.10:866][ 75]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_2, compiling. 
+[2021.06.05-01.53.10:867][ 75]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2021.06.05-01.53.10:871][ 75]MaterialEditorStats:Error: エラー [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2021.06.05-01.53.34:794][ 57]LogMaterial: Missing cached shader map for material M_FX_FireBall, compiling. 
+[2021.06.05-01.53.34:809][ 57]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.05-01.53.34:834][ 57]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2021.06.05-01.53.36:283][141]MaterialEditorStats: 情報 Base pass shader with only dynamic lighting: 40 instructions
+[2021.06.05-01.53.36:283][141]MaterialEditorStats: 情報 Base pass shader for self shadowed translucency: 76 instructions
+[2021.06.05-01.53.36:283][141]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.05-01.53.36:283][141]MaterialEditorStats: 情報 Texture samplers: 6/16
+[2021.06.05-01.53.37:198][196]LogMaterialEditor: Applying material M_FX_FireBall
+[2021.06.05-01.53.38:381][196]LogMaterial: Missing cached shader map for material M_FX_FireBall, compiling. 
+[2021.06.05-01.53.38:396][196]LogMaterial: 0.000158 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.05-01.53.38:446][196]LogMaterial: Missing cached shader map for material M_FX_FireBall, compiling. 
+[2021.06.05-01.53.38:473][196]LogMaterial: Missing cached shader map for material M_FX_FireBall, compiling. 
+[2021.06.05-01.53.38:494][196]LogMaterial: 0.004130 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.05-01.53.38:989][226]LogMaterialEditor: Saving and Compiling material M_FX_FireBall
+[2021.06.05-01.53.40:758][226]LogMaterial: Missing cached shader map for material M_FX_FireBall, compiling. 
+[2021.06.05-01.53.40:779][226]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.05-01.53.40:821][226]LogMaterial: Missing cached shader map for material M_FX_FireBall, compiling. 
+[2021.06.05-01.53.40:853][226]LogMaterial: Missing cached shader map for material M_FX_FireBall, compiling. 
+[2021.06.05-01.53.40:879][226]LogMaterial: 0.003601 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2021.06.05-01.53.45:400][226]LogSavePackage: Save=333.024414ms
+[2021.06.05-01.53.45:400][226]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/M_FX_FireBallF291139D4F1F61EA6CA321A1AB6B9AC2.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/M_FX_FireBall.uasset'
+[2021.06.05-01.53.45:412][226]MaterialEditorStats: 情報 Base pass shader with only dynamic lighting: 60 instructions
+[2021.06.05-01.53.45:412][226]MaterialEditorStats: 情報 Base pass shader for self shadowed translucency: 96 instructions
+[2021.06.05-01.53.45:412][226]MaterialEditorStats: 情報 Vertex shader: 70 instructions
+[2021.06.05-01.53.45:412][226]MaterialEditorStats: 情報 Texture samplers: 7/16
+[2021.06.05-01.53.50:307][517]LogLinker:Warning: ファイル '/Game/Particles/Textures/T_FX_FireBall_02' が見つかりません
+[2021.06.05-01.53.50:307][517]LogLinker:Warning: ../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/MI_FX_FireBall02.uasset のロード中にアセット '/Game/Particles/Textures/T_FX_FireBall_02'  のファイルが見つかりません
+[2021.06.05-01.53.50:307][517]LoadErrors:Error: エラー /Game/Particles/Materials/MI_FX_FireBall02 : アセットのファイルが見つかりません /Game/Particles/Textures/T_FX_FireBall_02
+[2021.06.05-01.53.50:308][517]LogLinker:Warning: ファイル '/Game/Particles/Textures/T_FX_FireBall_02' が見つかりません
+[2021.06.05-01.53.50:308][517]LogLinker:Warning: ../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/MI_FX_FireBall02.uasset のロード中にアセット '/Game/Particles/Textures/T_FX_FireBall_02'  のファイルが見つかりません
+[2021.06.05-01.53.50:308][517]LogLinker:Warning: ファイル '/Game/Particles/Textures/T_FX_FireBall_02' が見つかりません
+[2021.06.05-01.53.50:308][517]LoadErrors: 情報 ロードに失敗しました /Game/Particles/Textures/T_FX_FireBall_02.T_FX_FireBall_02 参照元 MI_FX_FireBall02
+[2021.06.05-01.53.50:309][517]LogLinker:Warning: NULL のロード中にアセット '/Game/Particles/Textures/T_FX_FireBall_02'  のファイルが見つかりません
+[2021.06.05-01.53.50:360][517]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2021.06.05-01.53.50:392][517]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2021.06.05-01.53.50:392][517]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2021.06.05-01.53.50:428][517]LogRenderer:Warning: Reallocating scene render targets to support 1392x928 (Frame:1679).
+[2021.06.05-01.54.08:731][218]LogSavePackage: Save=346.056702ms
+[2021.06.05-01.54.08:731][218]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/MI_FX_FireBall021F2FEE96444E2A07E0ED0CA0F7EBB10C.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/MI_FX_FireBall02.uasset'
+[2021.06.05-01.54.12:189][418]LogLinker:Warning: ファイル '/Game/Particles/Textures/T_FX_FireBall_04' が見つかりません
+[2021.06.05-01.54.12:189][418]LogLinker:Warning: ../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/MI_FX_FireBall04.uasset のロード中にアセット '/Game/Particles/Textures/T_FX_FireBall_04'  のファイルが見つかりません
+[2021.06.05-01.54.12:189][418]LoadErrors:Error: エラー /Game/Particles/Materials/MI_FX_FireBall04 : アセットのファイルが見つかりません /Game/Particles/Textures/T_FX_FireBall_04
+[2021.06.05-01.54.12:190][418]LogLinker:Warning: ファイル '/Game/Particles/Textures/T_FX_FireBall_04' が見つかりません
+[2021.06.05-01.54.12:190][418]LogLinker:Warning: ../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/MI_FX_FireBall04.uasset のロード中にアセット '/Game/Particles/Textures/T_FX_FireBall_04'  のファイルが見つかりません
+[2021.06.05-01.54.12:190][418]LogLinker:Warning: ファイル '/Game/Particles/Textures/T_FX_FireBall_04' が見つかりません
+[2021.06.05-01.54.12:190][418]LoadErrors: 情報 ロードに失敗しました /Game/Particles/Textures/T_FX_FireBall_04.T_FX_FireBall_04 参照元 MI_FX_FireBall04
+[2021.06.05-01.54.12:190][418]LogLinker:Warning: NULL のロード中にアセット '/Game/Particles/Textures/T_FX_FireBall_04'  のファイルが見つかりません
+[2021.06.05-01.54.12:241][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2021.06.05-01.54.12:274][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2021.06.05-01.54.12:274][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2021.06.05-01.54.27:094][ 62]LogSavePackage: Save=339.891693ms
+[2021.06.05-01.54.27:094][ 62]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/MI_FX_FireBall04996DCBF84931952BF026DAA5A68D35D9.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/MI_FX_FireBall04.uasset'
+[2021.06.05-01.54.28:750][159]LogLinker:Warning: ファイル '/Game/Particles/Textures/T_FX_FireBall_05' が見つかりません
+[2021.06.05-01.54.28:750][159]LogLinker:Warning: ../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/MI_FX_FireBall05.uasset のロード中にアセット '/Game/Particles/Textures/T_FX_FireBall_05'  のファイルが見つかりません
+[2021.06.05-01.54.28:750][159]LoadErrors:Error: エラー /Game/Particles/Materials/MI_FX_FireBall05 : アセットのファイルが見つかりません /Game/Particles/Textures/T_FX_FireBall_05
+[2021.06.05-01.54.28:750][159]LogLinker:Warning: ファイル '/Game/Particles/Textures/T_FX_FireBall_05' が見つかりません
+[2021.06.05-01.54.28:750][159]LogLinker:Warning: ../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/MI_FX_FireBall05.uasset のロード中にアセット '/Game/Particles/Textures/T_FX_FireBall_05'  のファイルが見つかりません
+[2021.06.05-01.54.28:751][159]LogLinker:Warning: ファイル '/Game/Particles/Textures/T_FX_FireBall_05' が見つかりません
+[2021.06.05-01.54.28:751][159]LoadErrors: 情報 ロードに失敗しました /Game/Particles/Textures/T_FX_FireBall_05.T_FX_FireBall_05 参照元 MI_FX_FireBall05
+[2021.06.05-01.54.28:751][159]LogLinker:Warning: NULL のロード中にアセット '/Game/Particles/Textures/T_FX_FireBall_05'  のファイルが見つかりません
+[2021.06.05-01.54.28:800][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2021.06.05-01.54.28:832][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2021.06.05-01.54.28:832][159]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2021.06.05-01.54.45:522][802]LogSavePackage: Save=351.313599ms
+[2021.06.05-01.54.45:522][802]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/MI_FX_FireBall055D2F907E4ED4974C6BCC4C962082EEEF.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/MI_FX_FireBall05.uasset'
+[2021.06.05-01.54.49:967][993]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2021.06.05-01.54.51:015][ 55]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2021.06.05-01.54.51:665][ 94]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2021.06.05-01.54.52:987][169]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0024 seconds. Added 2 classes and 2 folders.
+[2021.06.05-01.54.53:003][169]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2021.06.05-01.54.53:003][169]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2021.06.05-01.54.57:776][436]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2021.06.05-01.55.02:690][693]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Materials'
+[2021.06.05-01.56.01:466][ 70]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-01.56.01:507][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012B339DE200
+[2021.06.05-01.56.01:507][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012B3A55A340
+[2021.06.05-01.56.01:507][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012B1781C900
+[2021.06.05-01.56.01:515][ 70]BlueprintEditorCompileResults: 情報 [0212.95] PNProj_Fireball のコンパイルに成功しました！  [ 49 ミリ秒]
+[2021.06.05-01.56.42:957][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNProj_Fireball" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset" SILENT=true
+[2021.06.05-01.56.43:070][210]LogSavePackage: Save=14.909200ms
+[2021.06.05-01.56.43:070][210]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNProj_Fireball6F0404C44CAAAD8CCF9F8B93A7E2AB49.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset'
+[2021.06.05-01.56.54:768][909]LogEditorTransaction: Undo 新規シーンルートを作成
+[2021.06.05-01.57.17:528][798]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-01.57.17:569][798]BlueprintEditorCompileResults: 情報 [0289.00] PNProj_Fireball のコンパイルに成功しました！  [ 40 ミリ秒]
+[2021.06.05-01.58.44:985][799]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-01.58.45:036][799]BlueprintEditorCompileResults: 情報 [0376.47] PNProj_Fireball のコンパイルに成功しました！  [ 50 ミリ秒]
+[2021.06.05-01.58.45:546][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNProj_Fireball" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset" SILENT=true
+[2021.06.05-01.58.45:666][827]LogSavePackage: Save=24.706900ms
+[2021.06.05-01.58.45:666][827]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNProj_Fireball5788564D4F469AAF0B9C9D9852BDC808.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset'
+[2021.06.05-01.58.57:676][539]LogSavePackage: Save=4.140900ms
+[2021.06.05-01.58.57:676][539]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/MI_FX_FireBall05B764A9B0464A630638833CB38E57BC5A.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Particles/Materials/MI_FX_FireBall05.uasset'
+[2021.06.05-01.59.00:370][693]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters'
+[2021.06.05-01.59.00:990][730]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2021.06.05-01.59.02:774][837]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Test'
+[2021.06.05-01.59.24:311][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012B14FF67A0
+[2021.06.05-01.59.24:316][123]Cmd: MAP LOAD FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Movement_Projectile.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.05-01.59.24:316][123]LightingResults: New page: ライティングのビルド
+[2021.06.05-01.59.24:343][123]LoadErrors: New page: マップをロード中: Test_Movement_Projectile.umap
+[2021.06.05-01.59.24:344][123]MapCheck: New page: マップをチェック
+[2021.06.05-01.59.24:344][123]LightingResults: New page: <何も選択されていません>
+[2021.06.05-01.59.24:354][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012B078307C0
+[2021.06.05-01.59.24:382][123]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.05-01.59.24:385][123]LogAIModule: Creating AISystem for world Test_Movement_Projectile
+[2021.06.05-01.59.24:428][123]Cmd: MAP CHECKDEP
+[2021.06.05-01.59.24:428][123]MapCheck: New page: Test_Movement_Projectile - 2021/06/05 19:59:24
+[2021.06.05-01.59.24:540][123]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 111.925ミリ秒かかりました。
+[2021.06.05-01.59.24:541][123]LogFileHelpers: Loading map 'Test_Movement_Projectile' took 0.227
+[2021.06.05-01.59.35:038][752]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2021.06.05-01.59.36:069][813]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2021.06.05-01.59.36:771][854]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2021.06.05-02.00.09:147][779]LogSavePackage: Save=26.115200ms
+[2021.06.05-02.00.09:147][779]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Movement_ProjectileC8BFE9FF4D5D3EDE21A958B7EEB343A2.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Movement_Projectile.umap'
+[2021.06.05-02.00.09:999][823]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2021.06.05-02.00.09:999][823]PIE: New page: PIEセッション: Test_Movement_Projectile (2021/06/05 20:00:09)
+[2021.06.05-02.00.10:000][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000921s)
+[2021.06.05-02.00.10:000][823]LogPlayLevel: PIE: World Init took: (0.000400s)
+[2021.06.05-02.00.10:000][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Movement_Projectile.Test_Movement_Projectile to /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile.Test_Movement_Projectile (0.001433s)
+[2021.06.05-02.00.11:386][823]LogWorld: Game class is 'PNGameMode_C'
+[2021.06.05-02.00.11:388][823]LogAIModule: Creating AISystem for world Test_Movement_Projectile
+[2021.06.05-02.00.11:391][823]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile.Test_Movement_Projectile up for play (max tick rate 60) at 2021.06.05-11.00.11
+[2021.06.05-02.00.11:391][823]LogWorld: Bringing up level for play took: 0.002649
+[2021.06.05-02.00.11:408][823]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile 0.898のPIE開始時間
+[2021.06.05-02.00.11:427][823]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	PNAnimBP_Ninja_C /Engine/Transient.CharacterMesh0:PNAnimBP_Ninja_C_1
+	Function /Game/Animations/PNAnimBP_Ninja.PNAnimBP_Ninja_C:ExecuteUbergraph_PNAnimBP_Ninja:02BB
+[2021.06.05-02.00.11:427][823]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsPNPlayer_Pawn'
+	PNAnimBP_Ninja_C /Engine/Transient.CharacterMesh0:PNAnimBP_Ninja_C_1
+	Function /Game/Animations/PNAnimBP_Ninja.PNAnimBP_Ninja_C:ExecuteUbergraph_PNAnimBP_Ninja:03B5
+[2021.06.05-02.00.11:427][823]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	PNAnimBP_Ninja_C /Engine/Transient.CharacterMesh0:PNAnimBP_Ninja_C_1
+	Function /Game/Animations/PNAnimBP_Ninja.PNAnimBP_Ninja_C:ExecuteUbergraph_PNAnimBP_Ninja:02BB
+[2021.06.05-02.00.11:427][823]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsPNPlayer_Pawn'
+	PNAnimBP_Ninja_C /Engine/Transient.CharacterMesh0:PNAnimBP_Ninja_C_1
+	Function /Game/Animations/PNAnimBP_Ninja.PNAnimBP_Ninja_C:ExecuteUbergraph_PNAnimBP_Ninja:03B5
+[2021.06.05-02.00.25:995][692]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.06.05-02.00.26:015][692]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012B74DF4860
+[2021.06.05-02.00.32:583][ 77]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-02.00.32:641][ 77]BlueprintEditorCompileResults: 情報 [0484.07] PNProj_Fireball のコンパイルに成功しました！  [ 57 ミリ秒]
+[2021.06.05-02.00.34:192][166]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2021.06.05-02.00.34:192][166]PIE: New page: PIEセッション: Test_Movement_Projectile (2021/06/05 20:00:34)
+[2021.06.05-02.00.34:193][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001000s)
+[2021.06.05-02.00.34:194][166]LogPlayLevel: PIE: World Init took: (0.000430s)
+[2021.06.05-02.00.34:194][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Movement_Projectile.Test_Movement_Projectile to /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile.Test_Movement_Projectile (0.001536s)
+[2021.06.05-02.00.34:237][166]LogWorld: Game class is 'PNGameMode_C'
+[2021.06.05-02.00.34:239][166]LogAIModule: Creating AISystem for world Test_Movement_Projectile
+[2021.06.05-02.00.34:242][166]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile.Test_Movement_Projectile up for play (max tick rate 60) at 2021.06.05-11.00.34
+[2021.06.05-02.00.34:243][166]LogWorld: Bringing up level for play took: 0.003139
+[2021.06.05-02.00.34:264][166]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile -0.247のPIE開始時間
+[2021.06.05-02.00.37:751][373]LogBlueprintUserMessages: Died!
+[2021.06.05-02.00.39:478][472]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012B18561580
+[2021.06.05-02.00.57:094][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNProj_Fireball" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset" SILENT=true
+[2021.06.05-02.00.57:214][521]LogSavePackage: Save=24.860901ms
+[2021.06.05-02.00.57:214][521]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNProj_Fireball111B32AD4E31989D507DAC831C17A710.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset'
+[2021.06.05-02.04.40:420][118]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-02.04.40:486][118]BlueprintEditorCompileResults: 情報 [0731.92] PNProj_Fireball のコンパイルに成功しました！  [ 65 ミリ秒]
+[2021.06.05-02.04.41:278][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNProj_Fireball" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset" SILENT=true
+[2021.06.05-02.04.41:401][163]LogSavePackage: Save=26.119600ms
+[2021.06.05-02.04.41:401][163]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNProj_FireballF1DB097743ABD91FDAC143BA2A820A1B.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset'
+[2021.06.05-02.04.42:908][250]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2021.06.05-02.04.42:908][250]PIE: New page: PIEセッション: Test_Movement_Projectile (2021/06/05 20:04:42)
+[2021.06.05-02.04.42:909][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001116s)
+[2021.06.05-02.04.42:910][250]LogPlayLevel: PIE: World Init took: (0.000405s)
+[2021.06.05-02.04.42:910][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Movement_Projectile.Test_Movement_Projectile to /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile.Test_Movement_Projectile (0.001642s)
+[2021.06.05-02.04.42:959][250]LogWorld: Game class is 'PNGameMode_C'
+[2021.06.05-02.04.42:962][250]LogAIModule: Creating AISystem for world Test_Movement_Projectile
+[2021.06.05-02.04.42:965][250]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile.Test_Movement_Projectile up for play (max tick rate 60) at 2021.06.05-11.04.42
+[2021.06.05-02.04.42:965][250]LogWorld: Bringing up level for play took: 0.002837
+[2021.06.05-02.04.42:988][250]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile 0.478のPIE開始時間
+[2021.06.05-02.04.44:156][318]LogBlueprintUserMessages: Died!
+[2021.06.05-02.04.46:664][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012B1576B600
+[2021.06.05-02.05.10:685][895]LogCascade: Quitting Cascade. FXSystem=0x0000012B3384DD00
+[2021.06.05-02.05.22:760][612]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	PNAnimBP_Ninja_C /Engine/Transient.CharacterMesh0:PNAnimBP_Ninja_C_4
+	Function /Game/Animations/PNAnimBP_Ninja.PNAnimBP_Ninja_C:ExecuteUbergraph_PNAnimBP_Ninja:02BB
+[2021.06.05-02.05.22:760][612]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsPNPlayer_Pawn'
+	PNAnimBP_Ninja_C /Engine/Transient.CharacterMesh0:PNAnimBP_Ninja_C_4
+	Function /Game/Animations/PNAnimBP_Ninja.PNAnimBP_Ninja_C:ExecuteUbergraph_PNAnimBP_Ninja:03B5
+[2021.06.05-02.05.22:760][612]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	PNAnimBP_Ninja_C /Engine/Transient.CharacterMesh0:PNAnimBP_Ninja_C_4
+	Function /Game/Animations/PNAnimBP_Ninja.PNAnimBP_Ninja_C:ExecuteUbergraph_PNAnimBP_Ninja:02BB
+[2021.06.05-02.05.22:760][612]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsPNPlayer_Pawn'
+	PNAnimBP_Ninja_C /Engine/Transient.CharacterMesh0:PNAnimBP_Ninja_C_4
+	Function /Game/Animations/PNAnimBP_Ninja.PNAnimBP_Ninja_C:ExecuteUbergraph_PNAnimBP_Ninja:03B5
+[2021.06.05-02.05.44:259][889]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-02.05.44:299][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2021.06.05-02.05.44:309][889]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012B3384DD00
+[2021.06.05-02.05.44:316][889]BlueprintEditorCompileResults: 情報 [0795.75] PNProj_Fireball のコンパイルに成功しました！  [ 56 ミリ秒]
+[2021.06.05-02.05.46:407][ 11]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2021.06.05-02.05.46:407][ 11]PIE: New page: PIEセッション: Test_Movement_Projectile (2021/06/05 20:05:46)
+[2021.06.05-02.05.46:409][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000938s)
+[2021.06.05-02.05.46:409][ 11]LogPlayLevel: PIE: World Init took: (0.000459s)
+[2021.06.05-02.05.46:409][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Movement_Projectile.Test_Movement_Projectile to /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile.Test_Movement_Projectile (0.001549s)
+[2021.06.05-02.05.46:454][ 11]LogWorld: Game class is 'PNGameMode_C'
+[2021.06.05-02.05.46:457][ 11]LogAIModule: Creating AISystem for world Test_Movement_Projectile
+[2021.06.05-02.05.46:460][ 11]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile.Test_Movement_Projectile up for play (max tick rate 60) at 2021.06.05-11.05.46
+[2021.06.05-02.05.46:461][ 11]LogWorld: Bringing up level for play took: 0.003117
+[2021.06.05-02.05.46:483][ 11]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile -0.027のPIE開始時間
+[2021.06.05-02.05.47:849][ 91]LogBlueprintUserMessages: Died!
+[2021.06.05-02.05.50:359][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012B17726840
+[2021.06.05-02.05.56:657][603]LogSavePackage: Save=27.582199ms
+[2021.06.05-02.05.56:658][603]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Movement_Projectile2A6DCEC04A68F034F8B799947EDF2C53.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Maps/Test/Test_Movement_Projectile.umap'
+[2021.06.05-02.08.34:126][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNProj_Fireball" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset" SILENT=true
+[2021.06.05-02.08.34:248][429]LogSavePackage: Save=26.728500ms
+[2021.06.05-02.08.34:248][429]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNProj_FireballF90199BB43860C17F09C0E9CAD509EDA.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset'
+[2021.06.05-02.10.27:040][911]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-02.10.27:102][911]BlueprintEditorCompileResults: 情報 [1078.54] PNProj_Fireball のコンパイルに成功しました！  [ 61 ミリ秒]
+[2021.06.05-02.10.27:595][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNProj_Fireball" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset" SILENT=true
+[2021.06.05-02.10.27:720][938]LogSavePackage: Save=26.050900ms
+[2021.06.05-02.10.27:720][938]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNProj_Fireball234F8B6E467DC12C2762DAACF3D5A626.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset'
+[2021.06.05-02.11.08:726][800]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-02.11.08:782][800]BlueprintEditorCompileResults: 情報 [1120.22] PNProj_Fireball のコンパイルに成功しました！  [ 56 ミリ秒]
+[2021.06.05-02.11.09:470][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNProj_Fireball" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset" SILENT=true
+[2021.06.05-02.11.09:592][838]LogSavePackage: Save=26.278999ms
+[2021.06.05-02.11.09:592][838]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNProj_FireballF417F1B34EABD8E171ACBB80AF04AB10.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset'
+[2021.06.05-02.11.15:775][188]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2021.06.05-02.11.15:776][188]PIE: New page: PIEセッション: Test_Movement_Projectile (2021/06/05 20:11:15)
+[2021.06.05-02.11.15:777][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000985s)
+[2021.06.05-02.11.15:777][188]LogPlayLevel: PIE: World Init took: (0.000415s)
+[2021.06.05-02.11.15:777][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_Movement_Projectile.Test_Movement_Projectile to /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile.Test_Movement_Projectile (0.001508s)
+[2021.06.05-02.11.15:825][188]LogWorld: Game class is 'PNGameMode_C'
+[2021.06.05-02.11.15:827][188]LogAIModule: Creating AISystem for world Test_Movement_Projectile
+[2021.06.05-02.11.15:830][188]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile.Test_Movement_Projectile up for play (max tick rate 60) at 2021.06.05-11.11.15
+[2021.06.05-02.11.15:831][188]LogWorld: Bringing up level for play took: 0.003158
+[2021.06.05-02.11.15:853][188]PIE: 情報 /Game/Maps/Test/UEDPIE_0_Test_Movement_Projectile -0.658のPIE開始時間
+[2021.06.05-02.11.17:230][269]LogBlueprintUserMessages: Died!
+[2021.06.05-02.11.20:519][462]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012B07275580
+[2021.06.05-02.14.21:981][326]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-02.14.22:047][326]BlueprintEditorCompileResults: 情報 [1313.48] PNProj_Fireball のコンパイルに成功しました！  [ 65 ミリ秒]
+[2021.06.05-02.14.23:031][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNProj_Fireball" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset" SILENT=true
+[2021.06.05-02.14.23:154][382]LogSavePackage: Save=27.294800ms
+[2021.06.05-02.14.23:154][382]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNProj_FireballDE2FBE6448842C2B94BBB5930406B405.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset'
+[2021.06.05-02.15.21:142][843]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-02.15.21:207][843]BlueprintEditorCompileResults: 情報 [1372.64] PNProj_Fireball のコンパイルに成功しました！  [ 65 ミリ秒]
+[2021.06.05-02.15.41:563][ 44]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-02.15.41:621][ 44]BlueprintEditorCompileResults: 情報 [1393.05] PNProj_Fireball のコンパイルに成功しました！  [ 57 ミリ秒]
+[2021.06.05-02.16.04:652][376]LogSavePackage: Save=27.259600ms
+[2021.06.05-02.16.04:652][376]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Test_Movement_Projectile_Auto1BD0609184BD2BBD6C8D2A4B9975E615B.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/Maps/Test/Test_Movement_Projectile_Auto1.umap'
+[2021.06.05-02.16.04:663][376]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_Movement_Projectile' took 0.192
+[2021.06.05-02.16.04:663][376]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.192
+[2021.06.05-02.16.04:703][376]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PNProj_Fireball] ([1] browsable assets)...
+[2021.06.05-02.16.04:703][376]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PNProj_Fireball]
+[2021.06.05-02.16.04:915][376]LogSavePackage: Save=106.744698ms
+[2021.06.05-02.16.04:916][376]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNProj_Fireball_Auto1A297B41742C93853BA37A180A79BE0EC.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/Autosaves/Game/Blueprints/PNProj_Fireball_Auto1.uasset'
+[2021.06.05-02.16.04:926][376]LogFileHelpers: Auto-saving content packages took 0.262
+[2021.06.05-02.16.22:762][427]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-02.16.22:822][427]BlueprintEditorCompileResults: 情報 [1434.26] PNProj_Fireball のコンパイルに成功しました！  [ 59 ミリ秒]
+[2021.06.05-02.17.05:185][920]LogEditorTransaction: Undo ノードを追加
+[2021.06.05-02.17.20:767][826]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-02.17.20:833][826]BlueprintEditorCompileResults: 情報 [1492.27] PNProj_Fireball のコンパイルに成功しました！  [ 65 ミリ秒]
+[2021.06.05-02.17.21:580][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNProj_Fireball" FILE="../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset" SILENT=true
+[2021.06.05-02.17.21:717][868]LogSavePackage: Save=40.277100ms
+[2021.06.05-02.17.21:717][868]LogSavePackage: Moving '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Saved/PNProj_FireballD3BCBD124A876292F9FA64A7E189FDC4.tmp' to '../../../../../../Users/magi1/Documents/PaperNinja_FirstTime/PaperNinja/Content/Blueprints/PNProj_Fireball.uasset'
+[2021.06.05-02.20.47:794][199]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-02.20.47:868][199]BlueprintEditorCompileResults: 情報 [1699.30] PNProj_Fireball のコンパイルに成功しました！  [ 74 ミリ秒]
+[2021.06.05-02.22.28:717][208]BlueprintLog: New page: PNProj_Fireball をコンパイル
+[2021.06.05-02.22.28:784][208]BlueprintEditorCompileResults: 情報 [1800.22] PNProj_Fireball のコンパイルに成功しました！  [ 66 ミリ秒]
+[2021.06.05-02.23.03:910][305]LogWindows:Error: Windows GetLastError: この操作を正しく終了しました。 (0)
+[2021.06.05-02.23.03:911][305]LogCrashTracker: 
+
+
+[2021.06.05-02.23.11:317][305]LogCrashTracker: 
+
+
+[2021.06.05-02.23.11:317][305]LogWindows: === Critical error: ===
+Assertion failed: !bIsChangingText [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\Slate\Private\Widgets\Input\SEditableText.cpp] [Line: 556] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ff931e64b89) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() (0x00007ff8dcd68074) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformoutputdevices.cpp:95]
+UE4Editor-Core.dll!FOutputDevice::Logf__VA() (0x00007ff8dcbe7878) + 159 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:144]
+UE4Editor-Core.dll!FDebug::AssertFailed() (0x00007ff8dcbc8b17) + 62 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:224]
+UE4Editor-Slate.dll!SEditableText::StartChangingText() (0x00007ff8dc4b70da) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\input\seditabletext.cpp:560]
+UE4Editor-Slate.dll!FTextEditHelper::OnKeyChar() (0x00007ff8dc3db49d) + 32 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\text\textedithelper.cpp:86]
+UE4Editor-Slate.dll!SEditableText::OnKeyChar() (0x00007ff8dc49ad23) + 77 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\input\seditabletext.cpp:1622]
+UE4Editor-Slate.dll!<lambda_f4267d5369f6530713340915266300fb>::operator()() (0x00007ff8dc2bde22) + 38 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3504]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FCharacterEvent,<lambda_f4267d5369f6530713340915266300fb> >() (0x00007ff8dc276c9d) + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:202]
+UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_f4267d5369f6530713340915266300fb>,FCharacterEvent>() (0x00007ff8dc278ace) + 34 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:184]
+UE4Editor-Slate.dll!FSlateApplication::ProcessKeyCharEvent() (0x00007ff8dc323a74) + 150 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3505]
+UE4Editor-Slate.dll!FSlateApplication::OnKeyChar() (0x00007ff8dc313633) + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3485]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() (0x00007ff8dccc3008) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1149]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() (0x00007ff8dccb5d2e) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1669]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() (0x00007ff8dccc4d50) + 41 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:742]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() (0x00007ff8dccb3192) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:604]
+USER32.dll!UnknownFunction (0x00007ff93271e858) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ff93271e299) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() (0x00007ff8dcd63ec6) + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:774]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff6f01e00a9) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launchengineloop.cpp:2233]
+UE4Editor.exe!GuardedMain() (0x00007ff6f01d267c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff6f01d26ea) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff6f01e2219) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff6f01e3159) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ff932667034) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ff9340e2651) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ff9340e2651) + 0 bytes [UnknownFile:0]
+
+
+[2021.06.05-02.23.11:404][305]LogExit: Executing StaticShutdownAfterError
+[2021.06.05-02.23.11:407][305]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.06.05-02.23.11:407][305]Log file closed, 06/05/21 11:23:11
